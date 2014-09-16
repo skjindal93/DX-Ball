@@ -1,0 +1,43 @@
+ command line:
+   ./ballt_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  1516
+WARNING:Simulator:29 - at 0 ns: Warning: No entity is bound for inst ballt/UUT
+   of Component ball1
+
+Tue Apr 16 00:30:16 2013
+
+Total Line Count : 60
+
+ Elaboration time : 0.015625 sec.
+
+ Estimate current memory usage : 116.568 Meg. 
+
+ Total Signals          : 8
+ Total Nets             : 43
+ Total Signal Drivers   : 4
+ Total Blocks           : 9
+ Total Primitive Blocks : 1
+ Total Processes        : 2
+ Total Traceable Variables  : 0
+ Total Scalar Nets and Variables : 43
+ntrace select -o on -n /ballt/x 
+ntrace select -o on -n /ballt/y 
+ntrace select -o on -n /ballt/ad 
+ntrace select -o on -n /ballt/padup 
+ntrace select -o on -n /ballt/padwn 
+ntrace select -o on -n /ballt/nthitup 
+ntrace select -o on -n /ballt/nthitdwn 
+ntrace select -o on -n /ballt/breset 
+ntrace start 
+isimrun 1000 ns 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+
+ Simulation time 0.046875 sec.
+
+ Estimate current memory usage : 124.957 Meg. 
+
+Tue Apr 16 00:30:47 2013
+

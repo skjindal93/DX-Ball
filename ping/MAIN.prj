@@ -1,0 +1,6 @@
+verilog work "VIDEO_RAM.v"
+verilog work "VIDEO_OUT.v"
+verilog work "SVGA_TIMING_GENERATION.v"
+verilog work "COLOR_BARS.v"
+verilog work "CLOCK_GEN.v"
+verilog work "MAIN.v"

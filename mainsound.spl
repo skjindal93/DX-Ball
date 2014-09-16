@@ -1,0 +1,13 @@
+[Inputs]
+SYSTEM_CLOCK
+ac97_bit_clock
+ac97_sdata_in
+=sound[1:0]=
+[Outputs]
+ac97_sdata_out
+ac97_synch
+audio_reset_b
+[BiDir]
+[ATTRIBUTES]
+VeriModel mainsound
+

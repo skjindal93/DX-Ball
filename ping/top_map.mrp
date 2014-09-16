@@ -1,0 +1,237 @@
+Release 9.2i Map J.36
+Xilinx Mapping Report File for Design 'top'
+
+Design Information
+------------------
+Command Line   : C:\Xilinx92i\bin\nt\map.exe -ise
+C:/Users/pallav/Desktop/ping/ping.ise -intstyle ise -p xc2vp30-ff896-6 -cm area
+-pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf 
+Target Device  : xc2vp30
+Target Package : ff896
+Target Speed   : -6
+Mapper Version : virtex2p -- $Revision: 1.36 $
+Mapped Date    : Sun Apr 24 12:41:34 2011
+
+Design Summary
+--------------
+Number of errors:      0
+Number of warnings:    8
+Logic Utilization:
+  Total Number Slice Registers:       148 out of  27,392    1%
+    Number used as Flip Flops:                   120
+    Number used as Latches:                       28
+  Number of 4 input LUTs:           1,141 out of  27,392    4%
+Logic Distribution:
+  Number of occupied Slices:          643 out of  13,696    4%
+  Number of Slices containing only related logic:     643 out of     643  100%
+  Number of Slices containing unrelated logic:          0 out of     643    0%
+        *See NOTES below for an explanation of the effects of unrelated logic
+Total Number of 4 input LUTs:          1,209 out of  27,392    4%
+  Number used as logic:             1,141
+  Number used as a route-thru:         67
+  Number used as Shift registers:       1
+
+  Number of bonded IOBs:               37 out of     556    6%
+    IOB Flip Flops:                    28
+    IOB Dual-Data Rate Flops:           1
+  Number of PPC405s:                   0 out of       2    0%
+  Number of Block RAMs:                 3 out of     136    2%
+  Number of MULT18X18s:                 2 out of     136    1%
+  Number of GCLKs:                      4 out of      16   25%
+  Number of DCMs:                       1 out of       8   12%
+  Number of GTs:                        0 out of       8    0%
+  Number of GT10s:                      0 out of       0    0%
+
+Total equivalent gate count for design:  221,498
+Additional JTAG gate count for IOBs:  1,776
+Peak Memory Usage:  234 MB
+Total REAL time to MAP completion:  5 secs 
+Total CPU time to MAP completion:   5 secs 
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Table of Contents
+-----------------
+Section 1 - Errors
+Section 2 - Warnings
+Section 3 - Informational
+Section 4 - Removed Logic Summary
+Section 5 - Removed Logic
+Section 6 - IOB Properties
+Section 7 - RPMs
+Section 8 - Guide Report
+Section 9 - Area Group and Partition Summary
+Section 10 - Modular Design Summary
+Section 11 - Timing Report
+Section 12 - Configuration String Information
+Section 13 - Control Set Information
+
+Section 1 - Errors
+------------------
+
+Section 2 - Warnings
+--------------------
+WARNING:LIT:243 - Logical network speed has no load.
+WARNING:LIT:175 - Clock buffer is designated to drive clock loads. BUFGMUX
+   symbol "physical_group_XLXN_38/XLXI_22/CLOCK_GEN/PIXEL_CLOCK_BUF" (output
+   signal=XLXN_38) has a mix of clock and non-clock loads. Some of the non-clock
+   loads are (maximum of 5 listed):
+   Pin I0 of XLXI_14/cd1/counter1/counterout_and00001
+   Pin I0 of XLXI_14/cd1/counter1/counterout_1__and00011
+   Pin I1 of XLXI_14/cd1/counter1/counterout_0__and00001
+   Pin I0 of XLXI_14/cd1/counter1/counterout_2__and00001
+   Pin I0 of XLXI_14/cd1/counter1/counterout_2__and00011
+WARNING:PhysDesignRules:372 - Gated clock. Clock net XLXI_14/cr<1> is sourced by
+   a combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net XLXI_14/cr<5> is sourced by
+   a combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net XLXI_14/cr<4> is sourced by
+   a combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net XLXI_14/cr<2> is sourced by
+   a combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net XLXI_14/cr<6> is sourced by
+   a combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net XLXI_14/cr<3> is sourced by
+   a combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+
+Section 3 - Informational
+-------------------------
+INFO:MapLib:562 - No environment variables are currently set.
+INFO:MapLib:863 - The following Virtex BUFG(s) is/are being retargeted to
+   Virtex2 BUFGMUX(s) with input tied to I0 and Select pin tied to constant 0:
+   BUFG symbol "XLXI_22/CLOCK_GEN/PIXEL_CLOCK_BUF" (output signal=XLXN_38),
+   BUFG symbol "XLXI_22/CLOCK_GEN/SYS_CLOCK_BUF" (output
+   signal=XLXI_22/CLOCK_GEN/system_clock_buffered),
+   BUFG symbol "XLXI_4/ad_BUFG" (output signal=XLXI_4/ad),
+   BUFG symbol "XLXI_4/clkslow2_BUFG" (output signal=XLXI_4/clkslow2)
+INFO:LIT:244 - All of the single ended outputs in this design are using slew
+   rate limited output drivers. The delay on speed critical single ended outputs
+   can be dramatically reduced by designating them as fast outputs in the
+   schematic.
+INFO:PhysDesignRules:772 - To achieve optimal frequency synthesis performance
+   with the CLKFX and CLKFX180 outputs of the DCM comp
+   XLXI_22/CLOCK_GEN/SYSTEM_DCM/XLXI_22/CLOCK_GEN/SYSTEM_DCM, consult the device
+   Interactive Data Sheet.
+
+Section 4 - Removed Logic Summary
+---------------------------------
+   3 block(s) optimized away
+
+Section 5 - Removed Logic
+-------------------------
+
+Optimized Block(s):
+TYPE 		BLOCK
+GND 		XST_GND
+VCC 		XST_VCC
+
+To enable printing of redundant blocks removed and signals merged, set the
+detailed map report option and rerun map.
+
+Section 6 - IOB Properties
+--------------------------
+
++------------------------------------------------------------------------------------------------------------------------+
+| IOB Name                           | Type    | Direction | IO Standard | Drive    | Slew | Reg (s)  | Resistor | IOB   |
+|                                    |         |           |             | Strength | Rate |          |          | Delay |
++------------------------------------------------------------------------------------------------------------------------+
+| SYSTEM_CLOCK                       | IOB     | INPUT     | LVCMOS25    |          |      |          |          |       |
+| VGA_COMP_SYNCH                     | IOB     | OUTPUT    | LVTTL       | 12       | SLOW | OFF1     |          |       |
+| VGA_HSYNCH                         | IOB     | OUTPUT    | LVTTL       | 12       | SLOW | OFF1     |          |       |
+| VGA_OUT_BLANK_Z                    | IOB     | OUTPUT    | LVTTL       | 12       | SLOW | OFF1     |          |       |
+| VGA_OUT_BLUE<0>                    | IOB     | OUTPUT    | LVTTL       | 8        | SLOW | OFF1     |          |       |
+| VGA_OUT_BLUE<1>                    | IOB     | OUTPUT    | LVTTL       | 8        | SLOW | OFF1     |          |       |
+| VGA_OUT_BLUE<2>                    | IOB     | OUTPUT    | LVTTL       | 8        | SLOW | OFF1     |          |       |
+| VGA_OUT_BLUE<3>                    | IOB     | OUTPUT    | LVTTL       | 8        | SLOW | OFF1     |          |       |
+| VGA_OUT_BLUE<4>                    | IOB     | OUTPUT    | LVTTL       | 8        | SLOW | OFF1     |          |       |
+| VGA_OUT_BLUE<5>                    | IOB     | OUTPUT    | LVTTL       | 8        | SLOW | OFF1     |          |       |
+| VGA_OUT_BLUE<6>                    | IOB     | OUTPUT    | LVTTL       | 8        | SLOW | OFF1     |          |       |
+| VGA_OUT_BLUE<7>                    | IOB     | OUTPUT    | LVTTL       | 8        | SLOW | OFF1     |          |       |
+| VGA_OUT_GREEN<0>                   | IOB     | OUTPUT    | LVTTL       | 8        | SLOW | OFF1     |          |       |
+| VGA_OUT_GREEN<1>                   | IOB     | OUTPUT    | LVTTL       | 8        | SLOW | OFF1     |          |       |
+| VGA_OUT_GREEN<2>                   | IOB     | OUTPUT    | LVTTL       | 8        | SLOW | OFF1     |          |       |
+| VGA_OUT_GREEN<3>                   | IOB     | OUTPUT    | LVTTL       | 8        | SLOW | OFF1     |          |       |
+| VGA_OUT_GREEN<4>                   | IOB     | OUTPUT    | LVTTL       | 8        | SLOW | OFF1     |          |       |
+| VGA_OUT_GREEN<5>                   | IOB     | OUTPUT    | LVTTL       | 8        | SLOW | OFF1     |          |       |
+| VGA_OUT_GREEN<6>                   | IOB     | OUTPUT    | LVTTL       | 8        | SLOW | OFF1     |          |       |
+| VGA_OUT_GREEN<7>                   | IOB     | OUTPUT    | LVTTL       | 8        | SLOW | OFF1     |          |       |
+| VGA_OUT_PIXEL_CLOCK                | IOB     | OUTPUT    | LVTTL       | 12       | SLOW | OUTDDR   |          |       |
+| VGA_OUT_RED<0>                     | IOB     | OUTPUT    | LVTTL       | 8        | SLOW | OFF1     |          |       |
+| VGA_OUT_RED<1>                     | IOB     | OUTPUT    | LVTTL       | 8        | SLOW | OFF1     |          |       |
+| VGA_OUT_RED<2>                     | IOB     | OUTPUT    | LVTTL       | 8        | SLOW | OFF1     |          |       |
+| VGA_OUT_RED<3>                     | IOB     | OUTPUT    | LVTTL       | 8        | SLOW | OFF1     |          |       |
+| VGA_OUT_RED<4>                     | IOB     | OUTPUT    | LVTTL       | 8        | SLOW | OFF1     |          |       |
+| VGA_OUT_RED<5>                     | IOB     | OUTPUT    | LVTTL       | 8        | SLOW | OFF1     |          |       |
+| VGA_OUT_RED<6>                     | IOB     | OUTPUT    | LVTTL       | 8        | SLOW | OFF1     |          |       |
+| VGA_OUT_RED<7>                     | IOB     | OUTPUT    | LVTTL       | 8        | SLOW | OFF1     |          |       |
+| VGA_VSYNCH                         | IOB     | OUTPUT    | LVTTL       | 12       | SLOW | OFF1     |          |       |
+| clk10                              | IOB     | OUTPUT    | LVCMOS25    | 12       | SLOW |          |          |       |
+| led                                | IOB     | INPUT     | LVCMOS25    |          |      |          |          |       |
+| leu                                | IOB     | INPUT     | LVCMOS25    |          |      |          |          |       |
+| reset                              | IOB     | INPUT     | LVCMOS25    |          |      |          |          |       |
+| rid                                | IOB     | INPUT     | LVCMOS25    |          |      |          |          |       |
+| riu                                | IOB     | INPUT     | LVCMOS25    |          |      |          |          |       |
+| start                              | IOB     | INPUT     | LVCMOS25    |          |      |          |          |       |
++------------------------------------------------------------------------------------------------------------------------+
+
+Section 7 - RPMs
+----------------
+
+Section 8 - Guide Report
+------------------------
+Guide not run on this design.
+
+Section 9 - Area Group and Partition Summary
+--------------------------------------------
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Area Group Information
+----------------------
+
+  No area groups were found in this design.
+
+----------------------
+
+Section 10 - Modular Design Summary
+-----------------------------------
+Modular Design not used for this design.
+
+Section 11 - Timing Report
+--------------------------
+This design was not run using timing mode.
+
+Section 12 - Configuration String Details
+-----------------------------------------
+Use the "-detail" map option to print out Configuration Strings
+
+Section 13 - Control Set Information
+------------------------------------
+No control set information for this architecture.

@@ -1,0 +1,45 @@
+Release 9.2i ngdbuild J.36
+Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx92i\bin\nt\ngdbuild.exe -ise
+C:/cHOTU/pingnew5/pingnew/ping.ise -intstyle ise -dd _ngo -nt timestamp -uc
+top.ucf -p xc2vp30-ff896-6 top.ngc top.ngd
+
+Reading NGO file "C:/cHOTU/pingnew5/pingnew/top.ngc" ...
+
+Applying constraints in "top.ucf" to the design...
+
+Checking timing specifications ...
+INFO:XdmHelpers:851 - TNM "SYSTEM_CLOCK", used in period specification
+   "TS_SYSTEM_CLOCK", was traced into DCM instance
+   "XLXI_22/CLOCK_GEN/SYSTEM_DCM". The following new TNM groups and period
+   specifications were generated at the DCM output(s):
+   CLKFX: TS_XLXI_22_CLOCK_GEN_pixel_clock_unbuffered=PERIOD
+XLXI_22_CLOCK_GEN_pixel_clock_unbuffered TS_SYSTEM_CLOCK/0.25 HIGH 50%
+Checking Partitions ...
+Checking expanded design ...
+WARNING:NgdBuild:486 - Attribute "DRIVE" is not allowed on symbol "kb_clk" of
+   type "IPAD".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "SLEW" is not allowed on symbol "kb_clk" of
+   type "IPAD".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "DRIVE" is not allowed on symbol "kb_data" of
+   type "IPAD".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "SLEW" is not allowed on symbol "kb_data" of
+   type "IPAD".  This attribute will be ignored.
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   4
+
+Total memory usage is 84648 kilobytes
+
+Writing NGD file "top.ngd" ...
+
+Writing NGDBUILD log file "top.bld"...

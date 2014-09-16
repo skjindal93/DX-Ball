@@ -1,0 +1,767 @@
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+sch2vhdl -intstyle ise -family virtex2p -flat -suppress -w "Z:/Desktop/pingnew/top.sch" top.vhf
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+sch2vhdl -intstyle ise -family virtex2p -flat -suppress -w "Z:/Desktop/pingnew/top.sch" top.vhf
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+sch2vhdl -intstyle ise -family virtex2p -flat -suppress -w "Z:/Desktop/pingnew/top.sch" top.vhf
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+sch2vhdl -intstyle ise -family virtex2p -flat -suppress -w "Z:/Desktop/pingnew/top.sch" top.vhf
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "Z:/Desktop/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "Z:/Desktop/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "Z:/Desktop/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "Z:/Desktop/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "Z:/Desktop/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "Z:/Desktop/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "Z:/Desktop/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "Z:/Desktop/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "Z:/Desktop/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "Z:/Desktop/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "Z:/Desktop/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "Z:/Desktop/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "Z:/Desktop/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "Z:/Desktop/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "Z:/Desktop/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "Z:/Desktop/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "Z:/Desktop/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "Z:/Desktop/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "Z:/Desktop/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "Z:/Desktop/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "Z:/Desktop/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "Z:/Desktop/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "Z:/Desktop/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "Z:/Desktop/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "Z:/Desktop/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "Z:/Desktop/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "Z:/Desktop/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "Z:/Desktop/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "Z:/Desktop/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "Z:/Desktop/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+sch2vhdl -intstyle ise -family virtex2p -flat -suppress -w "Z:/Desktop/pingnew/top.sch" top.vhf
+sch2vhdl -intstyle ise -family virtex2p -flat -suppress -w "Z:/Desktop/pingnew/top.sch" top.vhf
+sch2vhdl -intstyle ise -family virtex2p -flat -suppress -w "Z:/Desktop/pingnew/top.sch" top.vhf
+sch2vhdl -intstyle ise -family virtex2p -flat -suppress -w "Z:/Desktop/pingnew/top.sch" top.vhf
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+sch2vhdl -intstyle ise -family virtex2p -flat -suppress -w "Z:/Desktop/pingnew/top.sch" top.vhf
+sch2vhdl -intstyle ise -family virtex2p -flat -suppress -w "Z:/Desktop/pingnew/top.sch" top.vhf
+sch2vhdl -intstyle ise -family virtex2p -flat -suppress -w "Z:/Desktop/pingnew/top.sch" top.vhf
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "Z:/Desktop/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+par -ise "Z:/Desktop/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "Z:/Desktop/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "Z:/Desktop/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "Z:/Desktop/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+sch2vhdl -intstyle ise -family virtex2p -flat -suppress -w "C:/pingnew/top.sch" top.vhf
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "C:/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "C:/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "C:/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "C:/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "C:/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "C:/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "C:/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "C:/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "C:/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "C:/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "C:/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "C:/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "C:/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "C:/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "C:/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+sch2vhdl -intstyle ise -family virtex2p -flat -suppress -w "C:/pingnew/top.sch" top.vhf
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "C:/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "C:/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "C:/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "C:/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "C:/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "C:/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "C:/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "C:/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "C:/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "C:/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "C:/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "C:/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "C:/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "C:/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "C:/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+ngdbuild -ise "C:/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+sch2vhdl -intstyle ise -family virtex2p -flat -suppress -w "C:/pingnew/top.sch" top.vhf
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+sch2vhdl -intstyle ise -family virtex2p -flat -suppress -w "C:/pingnew/top.sch" top.vhf
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "C:/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "C:/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "C:/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+ngdbuild -ise "C:/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "C:/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "C:/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+ngdbuild -ise "C:/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "C:/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "C:/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "C:/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "C:/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+ngdbuild -ise "C:/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "C:/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "C:/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "C:/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "C:/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+bitgen -ise "C:/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "C:/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "C:/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "C:/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "C:/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "C:/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "C:/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "C:/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "C:/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "C:/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "C:/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+bitgen -ise "C:/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+sch2vhdl -intstyle ise -family virtex2p -flat -suppress -w "C:/pingnew/top.sch" top.vhf
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "C:/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "C:/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "C:/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "C:/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "C:/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "C:/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "C:/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "C:/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "C:/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "C:/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+sch2vhdl -intstyle ise -family virtex2p -flat -suppress -w "C:/pingnew/top.sch" top.vhf
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "C:/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+sch2vhdl -intstyle ise -family virtex2p -flat -suppress -w "C:/pingnew/top.sch" top.vhf
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+sch2vhdl -intstyle ise -family virtex2p -flat -suppress -w "C:/pingnew/top.sch" top.vhf
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+sch2vhdl -intstyle ise -family virtex2p -flat -suppress -w "C:/pingnew/top.sch" top.vhf
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+sch2vhdl -intstyle ise -family virtex2p -flat -suppress -w "C:/pingnew/top.sch" top.vhf
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+sch2vhdl -intstyle ise -family virtex2p -flat -suppress -w "C:/pingnew/top.sch" top.vhf
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "C:/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+sch2vhdl -intstyle ise -family virtex2p -flat -suppress -w "C:/pingnew/top.sch" top.vhf
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+sch2vhdl -intstyle ise -family virtex2p -flat -suppress -w "C:/pingnew/top.sch" top.vhf
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+sch2vhdl -intstyle ise -family virtex2p -flat -suppress -w "C:/pingnew/top.sch" top.vhf
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+sch2vhdl -intstyle ise -family virtex2p -flat -suppress -w "C:/pingnew/top.sch" top.vhf
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "C:/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "C:/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+sch2vhdl -intstyle ise -family virtex2p -flat -suppress -w "C:/pingnew/top.sch" top.vhf
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "C:/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+sch2vhdl -intstyle ise -family virtex2p -flat -suppress -w "C:/pingnew/top.sch" top.vhf
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "C:/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+sch2vhdl -intstyle ise -family virtex2p -flat -suppress -w "C:/pingnew/top.sch" top.vhf
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+sch2vhdl -intstyle ise -family virtex2p -flat -suppress -w "C:/pingnew/top.sch" top.vhf
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "C:/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+sch2vhdl -intstyle ise -family virtex2p -flat -suppress -w "C:/pingnew/top.sch" top.vhf
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "C:/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "C:/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "C:/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "C:/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "C:/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "C:/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "C:/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "C:/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "C:/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "C:/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+sch2vhdl -intstyle ise -family virtex2p -flat -suppress -w "C:/pingnew/top.sch" top.vhf
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "C:/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "C:/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "C:/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+par -ise "C:/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+sch2vhdl -intstyle ise -family virtex2p -flat -suppress -w "C:/pingnew/top.sch" top.vhf
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+sch2vhdl -intstyle ise -family virtex2p -flat -suppress -w "C:/pingnew/top.sch" top.vhf
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "C:/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "C:/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "C:/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "C:/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "C:/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+sch2vhdl -intstyle ise -family virtex2p -flat -suppress -w "C:/pingnew/top.sch" top.vhf
+sch2vhdl -intstyle ise -family virtex2p -flat -suppress -w "C:/pingnew/top.sch" top.vhf
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+sch2vhdl -intstyle ise -family virtex2p -flat -suppress -w "C:/pingnew/top.sch" top.vhf
+sch2vhdl -intstyle ise -family virtex2p -flat -suppress -w "C:/pingnew/top.sch" top.vhf
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+sch2vhdl -intstyle ise -family virtex2p -flat -suppress -w "C:/pingnew/top.sch" top.vhf
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "C:/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "C:/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "C:/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "C:/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "C:/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+sch2vhdl -intstyle ise -family virtex2p -flat -suppress -w "C:/pingnew/top.sch" top.vhf
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+sch2vhdl -intstyle ise -family virtex2p -flat -suppress -w "C:/pingnew/top.sch" top.vhf
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "C:/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+sch2vhdl -intstyle ise -family virtex2p -flat -suppress -w "C:/Documents and Settings/Administrator/Desktop/pingnew3/pingnew/top.sch" top.vhf
+xst -ise "C:/Documents and Settings/Administrator/Desktop/pingnew3/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "C:/Documents and Settings/Administrator/Desktop/pingnew3/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "C:/Documents and Settings/Administrator/Desktop/pingnew3/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "C:/Documents and Settings/Administrator/Desktop/pingnew3/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+sch2vhdl -intstyle ise -family virtex2p -flat -suppress -w "C:/Documents and Settings/Administrator/Desktop/pingnew3/pingnew/top.sch" top.vhf
+xst -ise "C:/Documents and Settings/Administrator/Desktop/pingnew3/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "C:/Documents and Settings/Administrator/Desktop/pingnew3/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "C:/Documents and Settings/Administrator/Desktop/pingnew3/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "C:/Documents and Settings/Administrator/Desktop/pingnew3/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+ngdbuild -ise "C:/Documents and Settings/Administrator/Desktop/pingnew3/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "C:/Documents and Settings/Administrator/Desktop/pingnew3/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "C:/Documents and Settings/Administrator/Desktop/pingnew3/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+ngdbuild -ise "C:/Documents and Settings/Administrator/Desktop/pingnew3/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "C:/Documents and Settings/Administrator/Desktop/pingnew3/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "C:/Documents and Settings/Administrator/Desktop/pingnew3/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "C:/Documents and Settings/Administrator/Desktop/pingnew3/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "C:/Documents and Settings/Administrator/Desktop/pingnew3/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+ngdbuild -ise "C:/Documents and Settings/Administrator/Desktop/pingnew3/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+ngdbuild -ise "C:/Documents and Settings/Administrator/Desktop/pingnew3/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "C:/Documents and Settings/Administrator/Desktop/pingnew3/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "C:/Documents and Settings/Administrator/Desktop/pingnew3/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "C:/Documents and Settings/Administrator/Desktop/pingnew3/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "C:/Documents and Settings/Administrator/Desktop/pingnew3/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "C:/Documents and Settings/Administrator/Desktop/pingnew3/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "C:/Documents and Settings/Administrator/Desktop/pingnew3/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "C:/Documents and Settings/Administrator/Desktop/pingnew3/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "C:/Documents and Settings/Administrator/Desktop/pingnew3/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "C:/Documents and Settings/Administrator/Desktop/pingnew3/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "C:/Documents and Settings/Administrator/Desktop/pingnew3/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "C:/Documents and Settings/Administrator/Desktop/pingnew3/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "C:/Documents and Settings/Administrator/Desktop/pingnew3/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "C:/Documents and Settings/Administrator/Desktop/pingnew3/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "C:/Documents and Settings/Administrator/Desktop/pingnew3/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "C:/Documents and Settings/Administrator/Desktop/pingnew3/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "C:/Documents and Settings/Administrator/Desktop/pingnew3/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "C:/Documents and Settings/Administrator/Desktop/pingnew3/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "C:/Documents and Settings/Administrator/Desktop/pingnew3/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "C:/Documents and Settings/Administrator/Desktop/pingnew4/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "C:/Documents and Settings/Administrator/Desktop/pingnew4/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "C:/Documents and Settings/Administrator/Desktop/pingnew4/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "C:/Documents and Settings/Administrator/Desktop/pingnew4/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+ngdbuild -ise "C:/Documents and Settings/Administrator/Desktop/pingnew4/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "C:/Documents and Settings/Administrator/Desktop/pingnew4/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "C:/Documents and Settings/Administrator/Desktop/pingnew4/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "C:/Documents and Settings/Administrator/Desktop/pingnew4/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "C:/Documents and Settings/Administrator/Desktop/pingnew4/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "C:/Documents and Settings/Administrator/Desktop/pingnew4/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "C:/Documents and Settings/Administrator/Desktop/pingnew4/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "C:/Documents and Settings/Administrator/Desktop/pingnew4/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "C:/Documents and Settings/Administrator/Desktop/pingnew4/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "C:/Documents and Settings/Administrator/Desktop/pingnew4/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "C:/Documents and Settings/Administrator/Desktop/pingnew4/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+xst -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+ngdbuild -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "C:/Documents and Settings/Administrator/Desktop/pingnew5/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "C:/pingnew5/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "C:/pingnew5/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "C:/pingnew5/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "C:/pingnew5/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "C:/pingnew5/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "C:/pingnew5/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "C:/pingnew5/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "C:/pingnew5/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "C:/pingnew5/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+sch2vhdl -intstyle ise -family virtex2p -flat -suppress -w "C:/pingnew5/pingnew/top.sch" top.vhf
+xst -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "C:/pingnew5/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "C:/pingnew5/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "C:/pingnew5/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "C:/pingnew5/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "C:/pingnew5/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+ngdbuild -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "C:/pingnew5/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "C:/pingnew5/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "C:/pingnew5/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "C:/pingnew5/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "C:/pingnew5/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+xst -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "C:/pingnew5/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "C:/pingnew5/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+sch2vhdl -intstyle ise -family virtex2p -flat -suppress -w "E:/Bhalo/pingnew5/pingnew/top.sch" top.vhf
+xst -ise "E:/Bhalo/pingnew5/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "E:/Bhalo/pingnew5/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "E:/Bhalo/pingnew5/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "E:/Bhalo/pingnew5/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "E:/Bhalo/pingnew5/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "E:/Bhalo/pingnew5/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "C:/cHOTU/pingnew5/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+sch2vhdl -intstyle ise -family virtex2p -flat -suppress -w "C:/cHOTU/pingnew5/pingnew/top.sch" top.vhf
+xst -ise "C:/cHOTU/pingnew5/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "C:/cHOTU/pingnew5/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "C:/cHOTU/pingnew5/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "C:/cHOTU/pingnew5/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "C:/cHOTU/pingnew5/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "C:/cHOTU/pingnew5/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "C:/cHOTU/pingnew5/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "C:/cHOTU/pingnew5/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "C:/cHOTU/pingnew5/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "C:/cHOTU/pingnew5/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "C:/cHOTU/pingnew5/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "C:/cHOTU/pingnew5/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "C:/cHOTU/pingnew5/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "C:/cHOTU/pingnew5/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "C:/cHOTU/pingnew5/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "C:/cHOTU/pingnew5/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "C:/cHOTU/pingnew5/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "C:/cHOTU/pingnew5/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+xst -ise "C:/cHOTU/pingnew5/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "C:/cHOTU/pingnew5/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "C:/cHOTU/pingnew5/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "C:/cHOTU/pingnew5/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "C:/cHOTU/pingnew5/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "C:/cHOTU/pingnew5/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd
+sch2vhdl -intstyle ise -family virtex2p -flat -suppress -w "C:/cHOTU/pingnew5/pingnew/top.sch" top.vhf
+xst -ise "C:/cHOTU/pingnew5/pingnew/ping.ise" -intstyle ise -ifn top.xst -ofn top.syr
+ngdbuild -ise "C:/cHOTU/pingnew5/pingnew/ping.ise" -intstyle ise -dd _ngo -nt timestamp -uc "top.ucf" -p xc2vp30-ff896-6 "top.ngc" top.ngd
+map -ise "C:/cHOTU/pingnew5/pingnew/ping.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o top_map.ncd top.ngd top.pcf
+par -ise "C:/cHOTU/pingnew5/pingnew/ping.ise" -w -intstyle ise -ol std -t 1 top_map.ncd top.ncd top.pcf
+trce -ise "C:/cHOTU/pingnew5/pingnew/ping.ise" -intstyle ise -e 3 -s 6 -xml top top.ncd -o top.twr top.pcf -ucf top.ucf
+bitgen -ise "C:/cHOTU/pingnew5/pingnew/ping.ise" -intstyle ise -f top.ut top.ncd

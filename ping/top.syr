@@ -1,0 +1,1564 @@
+Release 9.2i - xst J.36
+Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to ./xst/projnav.tmp
+CPU : 0.00 / 0.20 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Parameter xsthdpdir set to ./xst
+CPU : 0.00 / 0.20 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Reading design: top.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+     9.1) Device utilization summary
+     9.2) Partition Resource Summary
+     9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "top.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "top"
+Output Format                      : NGC
+Target Device                      : xc2vp30-6-ff896
+
+---- Source Options
+Top Module Name                    : top
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Convert Tristates To Logic         : Yes
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Library Search Order               : top.lso
+Keep Hierarchy                     : NO
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/pallav/Desktop/ping/mod10.vhd" in Library work.
+Architecture behavioral of Entity modten is up to date.
+Compiling vhdl file "C:/Users/pallav/Desktop/ping/clkdivide.vhd" in Library work.
+Architecture behavioral of Entity clkdivide is up to date.
+Compiling vhdl file "C:/Users/pallav/Desktop/ping/clk10hz.vhd" in Library work.
+Architecture behavioral of Entity clk10hz is up to date.
+Compiling vhdl file "C:/Users/pallav/Desktop/ping/ball1.vhd" in Library work.
+Architecture behavioral of Entity ball1 is up to date.
+Compiling vhdl file "C:/Users/pallav/Desktop/ping/debounce.vhd" in Library work.
+Architecture behavioral of Entity debounce is up to date.
+Compiling vhdl file "C:/Users/pallav/Desktop/ping/maincc.vhd" in Library work.
+Architecture behavioral of Entity mainc is up to date.
+Compiling vhdl file "C:/Users/pallav/Desktop/ping/top.vhf" in Library work.
+Architecture behavioral of Entity top is up to date.
+Compiling verilog file "VIDEO_RAM.v" in library work
+Compiling verilog file "VIDEO_OUT.v" in library work
+Module <VIDEO_RAM> compiled
+Compiling verilog file "SVGA_TIMING_GENERATION.v" in library work
+Compiling verilog include file "SVGA_DEFINES.v"
+Module <VIDEO_OUT> compiled
+Compiling verilog file "COLOR_BARS.v" in library work
+Module <SVGA_TIMING_GENERATION> compiled
+Compiling verilog file "CLOCK_GEN.v" in library work
+Compiling verilog include file "SVGA_DEFINES.v"
+Module <COLOR_BARS> compiled
+Compiling verilog file "MAIN.v" in library work
+Module <CLOCK_GEN> compiled
+Module <MAIN> compiled
+No errors in compilation
+Analysis of file <"top.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <top> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <mainc> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <clk10hz> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for module <MAIN> in library <work>.
+
+Analyzing hierarchy for entity <ball1> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <debounce> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <clkdivide> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for module <CLOCK_GEN> in library <work>.
+
+Analyzing hierarchy for module <SVGA_TIMING_GENERATION> in library <work>.
+
+Analyzing hierarchy for module <COLOR_BARS> in library <work>.
+
+Analyzing hierarchy for module <VIDEO_OUT> in library <work>.
+
+Analyzing hierarchy for entity <clk10hz> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <modten> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for module <VIDEO_RAM> in library <work>.
+
+Analyzing hierarchy for entity <clkdivide> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <clkdivide> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <clkdivide> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <clkdivide> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <clkdivide> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <clkdivide> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <clkdivide> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <modten> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <top> in library <work> (Architecture <behavioral>).
+WARNING:Xst:753 - "C:/Users/pallav/Desktop/ping/top.vhf" line 102: Unconnected output port 'score' of component 'mainc'.
+WARNING:Xst:753 - "C:/Users/pallav/Desktop/ping/top.vhf" line 102: Unconnected output port 'togscore' of component 'mainc'.
+Entity <top> analyzed. Unit <top> generated.
+
+Analyzing Entity <mainc> in library <work> (Architecture <behavioral>).
+Entity <mainc> analyzed. Unit <mainc> generated.
+
+Analyzing Entity <ball1> in library <work> (Architecture <behavioral>).
+Entity <ball1> analyzed. Unit <ball1> generated.
+
+Analyzing Entity <debounce> in library <work> (Architecture <behavioral>).
+WARNING:Xst:819 - "C:/Users/pallav/Desktop/ping/debounce.vhd" line 54: The following signals are missing in the process sensitivity list:
+   count, start.
+Entity <debounce> analyzed. Unit <debounce> generated.
+
+Analyzing Entity <clkdivide> in library <work> (Architecture <behavioral>).
+Entity <clkdivide> analyzed. Unit <clkdivide> generated.
+
+Analyzing Entity <modten> in library <work> (Architecture <behavioral>).
+WARNING:Xst:819 - "C:/Users/pallav/Desktop/ping/mod10.vhd" line 20: The following signals are missing in the process sensitivity list:
+   counterout.
+Entity <modten> analyzed. Unit <modten> generated.
+
+Analyzing Entity <clk10hz> in library <work> (Architecture <behavioral>).
+Entity <clk10hz> analyzed. Unit <clk10hz> generated.
+
+Analyzing module <MAIN> in library <work>.
+Module <MAIN> is correct for synthesis.
+ 
+Analyzing module <CLOCK_GEN> in library <work>.
+Module <CLOCK_GEN> is correct for synthesis.
+ 
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <SYSTEM_CLOCK_BUF> in unit <CLOCK_GEN>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <SYSTEM_CLOCK_BUF> in unit <CLOCK_GEN>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <SYSTEM_CLOCK_BUF> in unit <CLOCK_GEN>.
+    Set user-defined property "CLKDV_DIVIDE =  4.0000000000000000" for instance <SYSTEM_DCM> in unit <CLOCK_GEN>.
+    Set user-defined property "CLKFX_DIVIDE =  8" for instance <SYSTEM_DCM> in unit <CLOCK_GEN>.
+    Set user-defined property "CLKFX_MULTIPLY =  2" for instance <SYSTEM_DCM> in unit <CLOCK_GEN>.
+    Set user-defined property "CLKIN_DIVIDE_BY_2 =  FALSE" for instance <SYSTEM_DCM> in unit <CLOCK_GEN>.
+    Set user-defined property "CLKIN_PERIOD =  10.0000000000000000" for instance <SYSTEM_DCM> in unit <CLOCK_GEN>.
+    Set user-defined property "CLKOUT_PHASE_SHIFT =  NONE" for instance <SYSTEM_DCM> in unit <CLOCK_GEN>.
+    Set user-defined property "CLK_FEEDBACK =  1X" for instance <SYSTEM_DCM> in unit <CLOCK_GEN>.
+    Set user-defined property "DESKEW_ADJUST =  SYSTEM_SYNCHRONOUS" for instance <SYSTEM_DCM> in unit <CLOCK_GEN>.
+    Set user-defined property "DFS_FREQUENCY_MODE =  LOW" for instance <SYSTEM_DCM> in unit <CLOCK_GEN>.
+    Set user-defined property "DLL_FREQUENCY_MODE =  LOW" for instance <SYSTEM_DCM> in unit <CLOCK_GEN>.
+    Set user-defined property "DSS_MODE =  NONE" for instance <SYSTEM_DCM> in unit <CLOCK_GEN>.
+    Set user-defined property "DUTY_CYCLE_CORRECTION =  TRUE" for instance <SYSTEM_DCM> in unit <CLOCK_GEN>.
+    Set user-defined property "FACTORY_JF =  C080" for instance <SYSTEM_DCM> in unit <CLOCK_GEN>.
+    Set user-defined property "PHASE_SHIFT =  0" for instance <SYSTEM_DCM> in unit <CLOCK_GEN>.
+    Set user-defined property "STARTUP_WAIT =  FALSE" for instance <SYSTEM_DCM> in unit <CLOCK_GEN>.
+    Set user-defined property "INIT =  000F" for instance <RESET_SYSTEM_DCM> in unit <CLOCK_GEN>.
+Analyzing module <SVGA_TIMING_GENERATION> in library <work>.
+Module <SVGA_TIMING_GENERATION> is correct for synthesis.
+ 
+Analyzing module <COLOR_BARS> in library <work>.
+Module <COLOR_BARS> is correct for synthesis.
+ 
+Analyzing module <VIDEO_RAM> in library <work>.
+Module <VIDEO_RAM> is correct for synthesis.
+ 
+Analyzing module <VIDEO_OUT> in library <work>.
+Module <VIDEO_OUT> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <ball1>.
+    Related source file is "C:/Users/pallav/Desktop/ping/ball1.vhd".
+WARNING:Xst:653 - Signal <len> is used but never assigned. Tied to value 00000000000000000000000000110000.
+WARNING:Xst:653 - Signal <br> is used but never assigned. Tied to value 00000000000000000000000000001010.
+WARNING:Xst:653 - Signal <radius> is used but never assigned. Tied to value 00000000000000000000000000001010.
+WARNING:Xst:2734 - Property "use_dsp48" is not applicable for this technology.
+WARNING:Xst:2734 - Property "use_dsp48" is not applicable for this technology.
+WARNING:Xst:2734 - Property "use_dsp48" is not applicable for this technology.
+WARNING:Xst:2734 - Property "use_dsp48" is not applicable for this technology.
+WARNING:Xst:2734 - Property "use_dsp48" is not applicable for this technology.
+WARNING:Xst:2734 - Property "use_dsp48" is not applicable for this technology.
+WARNING:Xst:2734 - Property "use_dsp48" is not applicable for this technology.
+WARNING:Xst:2734 - Property "use_dsp48" is not applicable for this technology.
+WARNING:Xst:2734 - Property "use_dsp48" is not applicable for this technology.
+WARNING:Xst:2734 - Property "use_dsp48" is not applicable for this technology.
+WARNING:Xst:2734 - Property "use_dsp48" is not applicable for this technology.
+WARNING:Xst:2734 - Property "use_dsp48" is not applicable for this technology.
+WARNING:Xst:2734 - Property "use_dsp48" is not applicable for this technology.
+WARNING:Xst:2734 - Property "use_dsp48" is not applicable for this technology.
+WARNING:Xst:2734 - Property "use_dsp48" is not applicable for this technology.
+    Found 1-bit register for signal <nthitdwn>.
+    Found 1-bit register for signal <nthitup>.
+    Found 14-bit adder for signal <ballx$add0000> created at line 171.
+    Found 11-bit subtractor for signal <ballx$addsub0000> created at line 73.
+    Found 10-bit adder carry out for signal <ballx$addsub0002> created at line 82.
+    Found 13-bit addsub for signal <ballx$share0000> created at line 135.
+    Found 12-bit addsub for signal <ballx$share0001> created at line 103.
+    Found 14-bit subtractor for signal <ballx$sub0000> created at line 179.
+    Found 10-bit register for signal <ballx1>.
+    Found 13-bit adder for signal <bally$add0001> created at line 180.
+    Found 32-bit adder for signal <bally$add0002> created at line 111.
+    Found 10-bit subtractor for signal <bally$addsub0001> created at line 83.
+    Found 32-bit adder for signal <bally$addsub0002> created at line 79.
+    Found 10-bit adder carry out for signal <bally$addsub0003> created at line 115.
+    Found 9-bit adder carry out for signal <bally$addsub0004> created at line 72.
+    Found 32-bit comparator equal for signal <bally$cmp_eq0000> created at line 71.
+    Found 32-bit comparator equal for signal <bally$cmp_eq0001> created at line 79.
+    Found 32-bit comparator equal for signal <bally$cmp_eq0003> created at line 143.
+    Found 32-bit comparator equal for signal <bally$cmp_eq0004> created at line 103.
+    Found 32-bit comparator equal for signal <bally$cmp_eq0005> created at line 111.
+    Found 32-bit comparator equal for signal <bally$cmp_eq0007> created at line 176.
+    Found 32-bit comparator greater for signal <bally$cmp_gt0000> created at line 81.
+    Found 32-bit comparator greater for signal <bally$cmp_gt0001> created at line 145.
+    Found 32-bit comparator greater for signal <bally$cmp_gt0002> created at line 113.
+    Found 32-bit comparator greater for signal <bally$cmp_gt0003> created at line 178.
+    Found 10-bit comparator less for signal <bally$cmp_lt0000> created at line 81.
+    Found 12-bit comparator less for signal <bally$cmp_lt0001> created at line 145.
+    Found 11-bit comparator less for signal <bally$cmp_lt0002> created at line 113.
+    Found 13-bit comparator less for signal <bally$cmp_lt0003> created at line 178.
+    Found 12-bit addsub for signal <bally$share0000> created at line 135.
+    Found 11-bit subtractor for signal <bally$sub0000> created at line 104.
+    Found 13-bit subtractor for signal <bally$sub0001> created at line 170.
+    Found 32-bit subtractor for signal <bally$sub0002> created at line 79.
+    Found 32-bit adder for signal <bally$sub0003> created at line 71.
+    Found 32-bit subtractor for signal <bally$sub0004> created at line 81.
+    Found 32-bit subtractor for signal <bally$sub0005> created at line 145.
+    Found 32-bit subtractor for signal <bally$sub0006> created at line 113.
+    Found 32-bit subtractor for signal <bally$sub0007> created at line 178.
+    Found 9-bit register for signal <bally1>.
+    Found 1-bit register for signal <leftright>.
+    Found 32-bit comparator equal for signal <nthitdwn$cmp_eq0000> created at line 143.
+    Found 32-bit comparator equal for signal <nthitdwn$cmp_eq0001> created at line 79.
+    Found 12-bit comparator greatequal for signal <nthitdwn$cmp_ge0000> created at line 145.
+    Found 10-bit comparator greatequal for signal <nthitdwn$cmp_ge0001> created at line 81.
+    Found 32-bit comparator lessequal for signal <nthitdwn$cmp_le0000> created at line 145.
+    Found 32-bit comparator lessequal for signal <nthitdwn$cmp_le0001> created at line 81.
+    Found 32-bit comparator not equal for signal <nthitdwn$cmp_ne0001> created at line 71.
+    Found 32-bit comparator equal for signal <nthitup$cmp_eq0000> created at line 176.
+    Found 32-bit comparator equal for signal <nthitup$cmp_eq0001> created at line 111.
+    Found 13-bit comparator greatequal for signal <nthitup$cmp_ge0000> created at line 178.
+    Found 11-bit comparator greatequal for signal <nthitup$cmp_ge0001> created at line 113.
+    Found 32-bit comparator lessequal for signal <nthitup$cmp_le0000> created at line 178.
+    Found 32-bit comparator lessequal for signal <nthitup$cmp_le0001> created at line 113.
+    Found 32-bit comparator not equal for signal <nthitup$cmp_ne0001> created at line 103.
+    Found 1-bit register for signal <updwn>.
+    Found 32-bit comparator equal for signal <updwn$cmp_eq0002> created at line 103.
+    Found 32-bit comparator equal for signal <updwn$cmp_eq0003> created at line 71.
+    Found 32-bit comparator not equal for signal <updwn$cmp_ne0000> created at line 176.
+    Found 32-bit comparator not equal for signal <updwn$cmp_ne0001> created at line 143.
+    Found 32-bit comparator not equal for signal <updwn$cmp_ne0002> created at line 111.
+    Found 32-bit comparator not equal for signal <updwn$cmp_ne0003> created at line 79.
+    Summary:
+	inferred  23 D-type flip-flop(s).
+	inferred  21 Adder/Subtractor(s).
+	inferred  34 Comparator(s).
+Unit <ball1> synthesized.
+
+
+Synthesizing Unit <modten>.
+    Related source file is "C:/Users/pallav/Desktop/ping/mod10.vhd".
+WARNING:Xst:737 - Found 4-bit latch for signal <counterout>.
+WARNING:Xst:2734 - Property "use_dsp48" is not applicable for this technology.
+    Found 4-bit adder for signal <counterout$addsub0000> created at line 23.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+Unit <modten> synthesized.
+
+
+Synthesizing Unit <SVGA_TIMING_GENERATION>.
+    Related source file is "SVGA_TIMING_GENERATION.v".
+    Found 10-bit up counter for signal <line_count>.
+    Found 1-bit register for signal <h_synch_delay>.
+    Found 11-bit up counter for signal <pixel_count>.
+    Found 1-bit register for signal <v_synch_delay>.
+    Found 1-bit register for signal <comp_synch>.
+    Found 1-bit register for signal <blank>.
+    Found 1-bit xor2 for signal <comp_synch$xor0000> created at line 216.
+    Found 1-bit register for signal <h_blank>.
+    Found 1-bit register for signal <h_c_synch>.
+    Found 1-bit register for signal <h_synch>.
+    Found 1-bit register for signal <h_synch_delay0>.
+    Found 1-bit register for signal <v_blank>.
+    Found 1-bit register for signal <v_c_synch>.
+    Found 1-bit register for signal <v_synch>.
+    Found 1-bit register for signal <v_synch_delay0>.
+    Summary:
+	inferred   2 Counter(s).
+	inferred  12 D-type flip-flop(s).
+Unit <SVGA_TIMING_GENERATION> synthesized.
+
+
+Synthesizing Unit <VIDEO_RAM>.
+    Related source file is "VIDEO_RAM.v".
+WARNING:Xst:646 - Signal <read_addra> is assigned but never used.
+    Found 2048x8-bit dual-port RAM <Mram_ram> for signal <ram>.
+    Found 11-bit register for signal <read_addrb>.
+    Summary:
+	inferred   1 RAM(s).
+	inferred  11 D-type flip-flop(s).
+Unit <VIDEO_RAM> synthesized.
+
+
+Synthesizing Unit <clkdivide>.
+    Related source file is "C:/Users/pallav/Desktop/ping/clkdivide.vhd".
+Unit <clkdivide> synthesized.
+
+
+Synthesizing Unit <CLOCK_GEN>.
+    Related source file is "CLOCK_GEN.v".
+Unit <CLOCK_GEN> synthesized.
+
+
+Synthesizing Unit <COLOR_BARS>.
+    Related source file is "COLOR_BARS.v".
+WARNING:Xst:646 - Signal <r> is assigned but never used.
+    Found finite state machine <FSM_0> for signal <blue_direction>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 11                                             |
+    | Inputs             | 4                                              |
+    | Outputs            | 4                                              |
+    | Clock              | pixel_clock (rising_edge)                      |
+    | Clock enable       | blue_direction$not0000 (positive)              |
+    | Reset              | reset (positive)                               |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 00                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+WARNING:Xst:2734 - Property "use_dsp48" is not applicable for this technology.
+WARNING:Xst:2734 - Property "use_dsp48" is not applicable for this technology.
+WARNING:Xst:2734 - Property "use_dsp48" is not applicable for this technology.
+WARNING:Xst:2734 - Property "use_dsp48" is not applicable for this technology.
+WARNING:Xst:2734 - Property "use_dsp48" is not applicable for this technology.
+WARNING:Xst:2734 - Property "use_dsp48" is not applicable for this technology.
+WARNING:Xst:2734 - Property "use_dsp48" is not applicable for this technology.
+WARNING:Xst:2734 - Property "use_dsp48" is not applicable for this technology.
+    Found 27-bit adder for signal <$add0001> created at line 188.
+    Found 12x12-bit multiplier for signal <$mult0000> created at line 188.
+    Found 13-bit subtractor for signal <$sub0001> created at line 188.
+    Found 10-bit adder carry out for signal <add0000$addsub0000> created at line 188.
+    Found 13-bit subtractor for signal <add0001$addsub0000> created at line 188.
+    Found 13x13-bit multiplier for signal <add0001$mult0000> created at line 188.
+    Found 8-bit register for signal <blue_factor>.
+    Found 11-bit adder for signal <blue_factor$addsub0000> created at line 195.
+    Found 11-bit adder for signal <blue_factor$addsub0001> created at line 201.
+    Found 11-bit comparator less for signal <blue_factor$cmp_lt0000> created at line 195.
+    Found 11-bit comparator less for signal <blue_factor$cmp_lt0001> created at line 201.
+    Found 8-bit up counter for signal <blue_rainbow>.
+    Found 8-bit subtractor for signal <blue_rainbow$addsub0000> created at line 171.
+    Found 2-bit register for signal <green_direction>.
+    Found 8-bit register for signal <green_factor>.
+    Found 8-bit up counter for signal <green_rainbow>.
+    Found 8-bit subtractor for signal <green_rainbow$addsub0000> created at line 154.
+    Found 10-bit up counter for signal <line_count>.
+    Found 12-bit subtractor for signal <mult0000$addsub0000> created at line 188.
+    Found 11-bit up counter for signal <pixel_count>.
+    Found 2-bit register for signal <red_direction>.
+    Found 8-bit register for signal <red_factor>.
+    Found 11-bit adder for signal <red_factor$add0001> created at line 195.
+    Found 11-bit adder for signal <red_factor$add0003> created at line 201.
+    Found 10-bit adder carry out for signal <red_factor$addsub0000> created at line 195.
+    Found 10-bit adder carry out for signal <red_factor$addsub0001> created at line 201.
+    Found 11-bit comparator greater for signal <red_factor$cmp_gt0000> created at line 195.
+    Found 10-bit comparator greater for signal <red_factor$cmp_gt0001> created at line 195.
+    Found 11-bit comparator greater for signal <red_factor$cmp_gt0002> created at line 201.
+    Found 11-bit comparator greater for signal <red_factor$cmp_gt0003> created at line 201.
+    Found 10-bit comparator greater for signal <red_factor$cmp_gt0004> created at line 207.
+    Found 11-bit comparator greater for signal <red_factor$cmp_gt0005> created at line 207.
+    Found 10-bit comparator greater for signal <red_factor$cmp_gt0006> created at line 213.
+    Found 11-bit comparator greater for signal <red_factor$cmp_gt0007> created at line 219.
+    Found 10-bit comparator greater for signal <red_factor$cmp_gt0008> created at line 219.
+    Found 28-bit comparator less for signal <red_factor$cmp_lt0000> created at line 188.
+    Found 11-bit comparator less for signal <red_factor$cmp_lt0001> created at line 195.
+    Found 10-bit comparator less for signal <red_factor$cmp_lt0002> created at line 195.
+    Found 11-bit comparator less for signal <red_factor$cmp_lt0003> created at line 201.
+    Found 10-bit comparator less for signal <red_factor$cmp_lt0004> created at line 201.
+    Found 10-bit comparator less for signal <red_factor$cmp_lt0005> created at line 207.
+    Found 11-bit comparator less for signal <red_factor$cmp_lt0006> created at line 207.
+    Found 10-bit comparator less for signal <red_factor$cmp_lt0007> created at line 213.
+    Found 11-bit comparator less for signal <red_factor$cmp_lt0008> created at line 219.
+    Found 10-bit comparator less for signal <red_factor$cmp_lt0009> created at line 219.
+    Found 8-bit up counter for signal <red_rainbow>.
+    Found 8-bit subtractor for signal <red_rainbow$addsub0000> created at line 137.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   5 Counter(s).
+	inferred  28 D-type flip-flop(s).
+	inferred  14 Adder/Subtractor(s).
+	inferred   2 Multiplier(s).
+	inferred  21 Comparator(s).
+Unit <COLOR_BARS> synthesized.
+
+
+Synthesizing Unit <VIDEO_OUT>.
+    Related source file is "VIDEO_OUT.v".
+WARNING:Xst:647 - Input <comp_synch> is never used.
+    Found 8-bit register for signal <VGA_OUT_GREEN>.
+    Found 8-bit register for signal <VGA_OUT_RED>.
+    Found 1-bit register for signal <VGA_VSYNCH>.
+    Found 1-bit register for signal <VGA_COMP_SYNCH>.
+    Found 1-bit register for signal <VGA_HSYNCH>.
+    Found 8-bit register for signal <VGA_OUT_BLUE>.
+    Found 1-bit register for signal <VGA_OUT_BLANK_Z>.
+    Summary:
+	inferred  28 D-type flip-flop(s).
+Unit <VIDEO_OUT> synthesized.
+
+
+Synthesizing Unit <clk10hz>.
+    Related source file is "C:/Users/pallav/Desktop/ping/clk10hz.vhd".
+WARNING:Xst:1780 - Signal <cr<7>> is never used or assigned.
+WARNING:Xst:1780 - Signal <cr<0>> is never used or assigned.
+Unit <clk10hz> synthesized.
+
+
+Synthesizing Unit <MAIN>.
+    Related source file is "MAIN.v".
+WARNING:Xst:646 - Signal <system_clock_buffered> is assigned but never used.
+Unit <MAIN> synthesized.
+
+
+Synthesizing Unit <debounce>.
+    Related source file is "C:/Users/pallav/Desktop/ping/debounce.vhd".
+WARNING:Xst:1780 - Signal <clk5hz> is never used or assigned.
+    Found 1-bit register for signal <outp>.
+    Found 3-bit up counter for signal <count>.
+    Found 1-bit register for signal <start>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   2 D-type flip-flop(s).
+Unit <debounce> synthesized.
+
+
+Synthesizing Unit <mainc>.
+    Related source file is "C:/Users/pallav/Desktop/ping/maincc.vhd".
+WARNING:Xst:647 - Input <speed> is never used.
+WARNING:Xst:1305 - Output <togscore> is never assigned. Tied to value 00.
+WARNING:Xst:1305 - Output <score> is never assigned. Tied to value 00000000.
+WARNING:Xst:653 - Signal <len> is used but never assigned. Tied to value 00000000000000000000000000110000.
+WARNING:Xst:646 - Signal <leu> is assigned but never used.
+WARNING:Xst:646 - Signal <clkslow1> is assigned but never used.
+WARNING:Xst:1780 - Signal <cr<7:1>> is never used or assigned.
+WARNING:Xst:646 - Signal <cr<0>> is assigned but never used.
+WARNING:Xst:646 - Signal <nthitdwn> is assigned but never used.
+WARNING:Xst:653 - Signal <len0> is used but never assigned. Tied to value 00000000000000000000000000110000.
+WARNING:Xst:1780 - Signal <x> is never used or assigned.
+WARNING:Xst:1780 - Signal <y> is never used or assigned.
+WARNING:Xst:646 - Signal <nthitup> is assigned but never used.
+WARNING:Xst:646 - Signal <rid> is assigned but never used.
+WARNING:Xst:646 - Signal <clkpad> is assigned but never used.
+WARNING:Xst:646 - Signal <riu> is assigned but never used.
+WARNING:Xst:646 - Signal <led> is assigned but never used.
+WARNING:Xst:2734 - Property "use_dsp48" is not applicable for this technology.
+    Found 1-bit register for signal <clkslow2>.
+    Found 21-bit up counter for signal <count>.
+    Found 10-bit updown counter for signal <padup>.
+    Found 32-bit adder for signal <padup$addsub0000> created at line 137.
+    Found 10-bit comparator greater for signal <padup$cmp_gt0000> created at line 136.
+    Found 32-bit comparator less for signal <padup$cmp_lt0000> created at line 137.
+    Found 10-bit updown counter for signal <padwn>.
+    Found 32-bit adder for signal <padwn$addsub0000> created at line 127.
+    Found 10-bit comparator greater for signal <padwn$cmp_gt0000> created at line 126.
+    Found 32-bit comparator less for signal <padwn$cmp_lt0000> created at line 127.
+    Summary:
+	inferred   3 Counter(s).
+	inferred   1 D-type flip-flop(s).
+	inferred   2 Adder/Subtractor(s).
+	inferred   4 Comparator(s).
+Unit <mainc> synthesized.
+
+
+Synthesizing Unit <top>.
+    Related source file is "C:/Users/pallav/Desktop/ping/top.vhf".
+WARNING:Xst:646 - Signal <XLXN_13> is assigned but never used.
+WARNING:Xst:646 - Signal <XLXN_14> is assigned but never used.
+WARNING:Xst:646 - Signal <XLXN_15> is assigned but never used.
+WARNING:Xst:646 - Signal <XLXN_16> is assigned but never used.
+Unit <top> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 3
+ 2048x8-bit dual-port RAM                              : 3
+# Multipliers                                          : 2
+ 12x12-bit multiplier                                  : 1
+ 13x13-bit multiplier                                  : 1
+# Adders/Subtractors                                   : 91
+ 10-bit adder carry out                                : 5
+ 10-bit subtractor                                     : 1
+ 11-bit adder                                          : 4
+ 11-bit subtractor                                     : 2
+ 12-bit addsub                                         : 2
+ 12-bit subtractor                                     : 1
+ 13-bit adder                                          : 1
+ 13-bit addsub                                         : 1
+ 13-bit subtractor                                     : 3
+ 14-bit adder                                          : 1
+ 14-bit subtractor                                     : 1
+ 27-bit adder                                          : 1
+ 32-bit adder                                          : 5
+ 32-bit subtractor                                     : 5
+ 4-bit adder                                           : 54
+ 8-bit subtractor                                      : 3
+ 9-bit adder carry out                                 : 1
+# Counters                                             : 14
+ 10-bit up counter                                     : 2
+ 10-bit updown counter                                 : 2
+ 11-bit up counter                                     : 2
+ 21-bit up counter                                     : 1
+ 3-bit up counter                                      : 4
+ 8-bit up counter                                      : 3
+# Registers                                            : 42
+ 1-bit register                                        : 29
+ 10-bit register                                       : 1
+ 11-bit register                                       : 3
+ 2-bit register                                        : 2
+ 8-bit register                                        : 6
+ 9-bit register                                        : 1
+# Latches                                              : 54
+ 4-bit latch                                           : 54
+# Comparators                                          : 59
+ 10-bit comparator greatequal                          : 1
+ 10-bit comparator greater                             : 6
+ 10-bit comparator less                                : 6
+ 11-bit comparator greatequal                          : 1
+ 11-bit comparator greater                             : 5
+ 11-bit comparator less                                : 7
+ 12-bit comparator greatequal                          : 1
+ 12-bit comparator less                                : 1
+ 13-bit comparator greatequal                          : 1
+ 13-bit comparator less                                : 1
+ 28-bit comparator less                                : 1
+ 32-bit comparator equal                               : 12
+ 32-bit comparator greater                             : 4
+ 32-bit comparator less                                : 2
+ 32-bit comparator lessequal                           : 4
+ 32-bit comparator not equal                           : 6
+# Xors                                                 : 1
+ 1-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <XLXI_22/COLOR_BARS/blue_direction> on signal <blue_direction[1:2]> with sequential encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 00
+ 01    | 01
+ 10    | 10
+-------------------
+Loading device for application Rf_Device from file '2vp30.nph' in environment C:\Xilinx92i.
+INFO:Xst:2691 - Unit <VIDEO_RAM> : The RAM <Mram_ram> will be implemented as a BLOCK RAM, absorbing the following register(s): <read_addrb>.
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 2048-word x 8-bit                   |          |
+    |     mode           | write-first                         |          |
+    |     clkA           | connected to signal <clka>          | rise     |
+    |     weA            | connected to signal <wea>           | high     |
+    |     addrA          | connected to signal <addra>         |          |
+    |     diA            | connected to signal <dia>           |          |
+    -----------------------------------------------------------------------
+    | optimisation       | speed                               |          |
+    -----------------------------------------------------------------------
+    | Port B                                                              |
+    |     aspect ratio   | 2048-word x 8-bit                   |          |
+    |     mode           | write-first                         |          |
+    |     clkB           | connected to signal <clkb>          | rise     |
+    |     addrB          | connected to signal <addrb>         |          |
+    |     doB            | connected to signal <dob>           |          |
+    -----------------------------------------------------------------------
+    | optimisation       | speed                               |          |
+    -----------------------------------------------------------------------
+WARNING:Xst:1710 - FF/Latch  <blue_factor_0> (without init value) has a constant value of 0 in block <COLOR_BARS>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <blue_factor_1> (without init value) has a constant value of 0 in block <COLOR_BARS>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <blue_factor_2> (without init value) has a constant value of 0 in block <COLOR_BARS>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <blue_factor_3> (without init value) has a constant value of 0 in block <COLOR_BARS>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <blue_factor_5> (without init value) has a constant value of 0 in block <COLOR_BARS>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <blue_factor_6> (without init value) has a constant value of 0 in block <COLOR_BARS>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <blue_factor_7> (without init value) has a constant value of 0 in block <COLOR_BARS>.
+INFO:Xst:2261 - The FF/Latch <green_factor_0> in Unit <COLOR_BARS> is equivalent to the following 7 FFs/Latches, which will be removed : <green_factor_1> <green_factor_2> <green_factor_3> <green_factor_4> <green_factor_5> <green_factor_6> <green_factor_7> 
+INFO:Xst:2261 - The FF/Latch <red_factor_0> in Unit <COLOR_BARS> is equivalent to the following 7 FFs/Latches, which will be removed : <red_factor_1> <red_factor_2> <red_factor_3> <red_factor_4> <red_factor_5> <red_factor_6> <red_factor_7> 
+WARNING:Xst:2677 - Node <nthitdwn> of sequential type is unconnected in block <b0>.
+WARNING:Xst:2677 - Node <nthitup> of sequential type is unconnected in block <b0>.
+WARNING:Xst:2677 - Node <outp> of sequential type is unconnected in block <d0>.
+WARNING:Xst:2677 - Node <outp> of sequential type is unconnected in block <d1>.
+WARNING:Xst:2677 - Node <outp> of sequential type is unconnected in block <d2>.
+WARNING:Xst:2677 - Node <outp> of sequential type is unconnected in block <d3>.
+WARNING:Xst:2677 - Node <h_c_synch> of sequential type is unconnected in block <SVGA_TIMING_GENERATION>.
+WARNING:Xst:2677 - Node <v_c_synch> of sequential type is unconnected in block <SVGA_TIMING_GENERATION>.
+WARNING:Xst:2677 - Node <comp_synch> of sequential type is unconnected in block <SVGA_TIMING_GENERATION>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 3
+ 2048x8-bit dual-port block RAM                        : 3
+# Multipliers                                          : 2
+ 12x12-bit multiplier                                  : 1
+ 13x13-bit multiplier                                  : 1
+# Adders/Subtractors                                   : 88
+ 10-bit adder                                          : 1
+ 10-bit adder carry out                                : 5
+ 10-bit subtractor                                     : 2
+ 11-bit adder                                          : 4
+ 11-bit subtractor                                     : 2
+ 12-bit addsub                                         : 2
+ 12-bit subtractor                                     : 1
+ 13-bit addsub                                         : 1
+ 13-bit subtractor                                     : 2
+ 27-bit adder                                          : 1
+ 32-bit adder                                          : 5
+ 32-bit subtractor                                     : 5
+ 4-bit adder                                           : 54
+ 9-bit adder                                           : 1
+ 9-bit adder carry out                                 : 1
+ 9-bit subtractor                                      : 1
+# Counters                                             : 11
+ 10-bit up counter                                     : 2
+ 10-bit updown counter                                 : 2
+ 11-bit up counter                                     : 2
+ 21-bit up counter                                     : 1
+ 3-bit up counter                                      : 4
+# Registers                                            : 75
+ Flip-Flops                                            : 75
+# Latches                                              : 54
+ 4-bit latch                                           : 54
+# Comparators                                          : 59
+ 10-bit comparator greatequal                          : 1
+ 10-bit comparator greater                             : 6
+ 10-bit comparator less                                : 6
+ 11-bit comparator greatequal                          : 1
+ 11-bit comparator greater                             : 5
+ 11-bit comparator less                                : 7
+ 12-bit comparator greatequal                          : 1
+ 12-bit comparator less                                : 1
+ 13-bit comparator greatequal                          : 1
+ 13-bit comparator less                                : 1
+ 28-bit comparator less                                : 1
+ 32-bit comparator equal                               : 12
+ 32-bit comparator greater                             : 4
+ 32-bit comparator less                                : 2
+ 32-bit comparator lessequal                           : 4
+ 32-bit comparator not equal                           : 6
+# Xors                                                 : 1
+ 1-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:2677 - Node <daf/counter1/counterout_0> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <daf/counter1/counterout_1> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <daf/counter1/counterout_2> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <daf/counter1/counterout_3> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <clpd/cd1/counter1/counterout_3> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <clpd/cd1/counter1/counterout_2> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <clpd/cd1/counter1/counterout_1> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <clpd/cd1/counter1/counterout_0> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <clpd/cd2/counter1/counterout_3> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <clpd/cd2/counter1/counterout_2> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <clpd/cd2/counter1/counterout_1> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <clpd/cd2/counter1/counterout_0> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <clpd/cd3/counter1/counterout_3> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <clpd/cd3/counter1/counterout_2> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <clpd/cd3/counter1/counterout_1> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <clpd/cd3/counter1/counterout_0> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <clpd/cd4/counter1/counterout_3> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <clpd/cd4/counter1/counterout_2> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <clpd/cd4/counter1/counterout_1> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <clpd/cd4/counter1/counterout_0> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <clpd/cd5/counter1/counterout_3> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <clpd/cd5/counter1/counterout_2> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <clpd/cd5/counter1/counterout_1> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <clpd/cd5/counter1/counterout_0> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <clpd/cd6/counter1/counterout_3> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <clpd/cd6/counter1/counterout_2> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <clpd/cd6/counter1/counterout_1> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <clpd/cd6/counter1/counterout_0> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <clpd/cd7/counter1/counterout_3> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <clpd/cd7/counter1/counterout_2> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <clpd/cd7/counter1/counterout_1> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <clpd/cd7/counter1/counterout_0> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <cls/cd1/counter1/counterout_3> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <cls/cd1/counter1/counterout_2> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <cls/cd1/counter1/counterout_1> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <cls/cd1/counter1/counterout_0> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <cls/cd2/counter1/counterout_3> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <cls/cd2/counter1/counterout_2> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <cls/cd2/counter1/counterout_1> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <cls/cd2/counter1/counterout_0> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <cls/cd3/counter1/counterout_3> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <cls/cd3/counter1/counterout_2> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <cls/cd3/counter1/counterout_1> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <cls/cd3/counter1/counterout_0> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <cls/cd4/counter1/counterout_3> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <cls/cd4/counter1/counterout_2> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <cls/cd4/counter1/counterout_1> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <cls/cd4/counter1/counterout_0> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <cls/cd5/counter1/counterout_3> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <cls/cd5/counter1/counterout_2> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <cls/cd5/counter1/counterout_1> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <cls/cd5/counter1/counterout_0> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <cls/cd6/counter1/counterout_3> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <cls/cd6/counter1/counterout_2> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <cls/cd6/counter1/counterout_1> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <cls/cd6/counter1/counterout_0> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <cls/cd7/counter1/counterout_3> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <cls/cd7/counter1/counterout_2> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <cls/cd7/counter1/counterout_1> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <cls/cd7/counter1/counterout_0> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d3/cls/cd7/counter1/counterout_0> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d3/cls/cd7/counter1/counterout_1> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d3/cls/cd7/counter1/counterout_2> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d3/cls/cd7/counter1/counterout_3> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d3/cls/cd6/counter1/counterout_0> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d3/cls/cd6/counter1/counterout_1> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d3/cls/cd6/counter1/counterout_2> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d3/cls/cd6/counter1/counterout_3> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d3/cls/cd5/counter1/counterout_0> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d3/cls/cd5/counter1/counterout_1> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d3/cls/cd5/counter1/counterout_2> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d3/cls/cd5/counter1/counterout_3> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d3/cls/cd4/counter1/counterout_0> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d3/cls/cd4/counter1/counterout_1> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d3/cls/cd4/counter1/counterout_2> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d3/cls/cd4/counter1/counterout_3> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d3/cls/cd3/counter1/counterout_0> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d3/cls/cd3/counter1/counterout_1> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d3/cls/cd3/counter1/counterout_2> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d3/cls/cd3/counter1/counterout_3> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d3/cls/cd2/counter1/counterout_0> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d3/cls/cd2/counter1/counterout_1> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d3/cls/cd2/counter1/counterout_2> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d3/cls/cd2/counter1/counterout_3> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d3/cls/cd1/counter1/counterout_0> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d3/cls/cd1/counter1/counterout_1> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d3/cls/cd1/counter1/counterout_2> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d3/cls/cd1/counter1/counterout_3> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d3/cd/counter1/counterout_3> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d3/cd/counter1/counterout_2> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d3/cd/counter1/counterout_1> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d3/cd/counter1/counterout_0> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d3/outp> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d3/start> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d2/cls/cd7/counter1/counterout_0> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d2/cls/cd7/counter1/counterout_1> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d2/cls/cd7/counter1/counterout_2> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d2/cls/cd7/counter1/counterout_3> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d2/cls/cd6/counter1/counterout_0> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d2/cls/cd6/counter1/counterout_1> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d2/cls/cd6/counter1/counterout_2> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d2/cls/cd6/counter1/counterout_3> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d2/cls/cd5/counter1/counterout_0> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d2/cls/cd5/counter1/counterout_1> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d2/cls/cd5/counter1/counterout_2> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d2/cls/cd5/counter1/counterout_3> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d2/cls/cd4/counter1/counterout_0> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d2/cls/cd4/counter1/counterout_1> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d2/cls/cd4/counter1/counterout_2> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d2/cls/cd4/counter1/counterout_3> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d2/cls/cd3/counter1/counterout_0> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d2/cls/cd3/counter1/counterout_1> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d2/cls/cd3/counter1/counterout_2> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d2/cls/cd3/counter1/counterout_3> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d2/cls/cd2/counter1/counterout_0> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d2/cls/cd2/counter1/counterout_1> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d2/cls/cd2/counter1/counterout_2> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d2/cls/cd2/counter1/counterout_3> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d2/cls/cd1/counter1/counterout_0> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d2/cls/cd1/counter1/counterout_1> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d2/cls/cd1/counter1/counterout_2> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d2/cls/cd1/counter1/counterout_3> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d2/cd/counter1/counterout_3> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d2/cd/counter1/counterout_2> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d2/cd/counter1/counterout_1> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d2/cd/counter1/counterout_0> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d2/outp> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d2/start> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d1/cls/cd7/counter1/counterout_0> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d1/cls/cd7/counter1/counterout_1> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d1/cls/cd7/counter1/counterout_2> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d1/cls/cd7/counter1/counterout_3> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d1/cls/cd6/counter1/counterout_0> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d1/cls/cd6/counter1/counterout_1> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d1/cls/cd6/counter1/counterout_2> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d1/cls/cd6/counter1/counterout_3> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d1/cls/cd5/counter1/counterout_0> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d1/cls/cd5/counter1/counterout_1> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d1/cls/cd5/counter1/counterout_2> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d1/cls/cd5/counter1/counterout_3> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d1/cls/cd4/counter1/counterout_0> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d1/cls/cd4/counter1/counterout_1> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d1/cls/cd4/counter1/counterout_2> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d1/cls/cd4/counter1/counterout_3> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d1/cls/cd3/counter1/counterout_0> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d1/cls/cd3/counter1/counterout_1> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d1/cls/cd3/counter1/counterout_2> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d1/cls/cd3/counter1/counterout_3> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d1/cls/cd2/counter1/counterout_0> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d1/cls/cd2/counter1/counterout_1> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d1/cls/cd2/counter1/counterout_2> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d1/cls/cd2/counter1/counterout_3> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d1/cls/cd1/counter1/counterout_0> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d1/cls/cd1/counter1/counterout_1> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d1/cls/cd1/counter1/counterout_2> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d1/cls/cd1/counter1/counterout_3> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d1/cd/counter1/counterout_3> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d1/cd/counter1/counterout_2> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d1/cd/counter1/counterout_1> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d1/cd/counter1/counterout_0> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d1/outp> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d1/start> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d0/cls/cd7/counter1/counterout_0> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d0/cls/cd7/counter1/counterout_1> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d0/cls/cd7/counter1/counterout_2> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d0/cls/cd7/counter1/counterout_3> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d0/cls/cd6/counter1/counterout_0> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d0/cls/cd6/counter1/counterout_1> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d0/cls/cd6/counter1/counterout_2> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d0/cls/cd6/counter1/counterout_3> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d0/cls/cd5/counter1/counterout_0> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d0/cls/cd5/counter1/counterout_1> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d0/cls/cd5/counter1/counterout_2> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d0/cls/cd5/counter1/counterout_3> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d0/cls/cd4/counter1/counterout_0> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d0/cls/cd4/counter1/counterout_1> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d0/cls/cd4/counter1/counterout_2> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d0/cls/cd4/counter1/counterout_3> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d0/cls/cd3/counter1/counterout_0> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d0/cls/cd3/counter1/counterout_1> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d0/cls/cd3/counter1/counterout_2> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d0/cls/cd3/counter1/counterout_3> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d0/cls/cd2/counter1/counterout_0> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d0/cls/cd2/counter1/counterout_1> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d0/cls/cd2/counter1/counterout_2> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d0/cls/cd2/counter1/counterout_3> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d0/cls/cd1/counter1/counterout_0> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d0/cls/cd1/counter1/counterout_1> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d0/cls/cd1/counter1/counterout_2> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d0/cls/cd1/counter1/counterout_3> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d0/cd/counter1/counterout_3> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d0/cd/counter1/counterout_2> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d0/cd/counter1/counterout_1> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d0/cd/counter1/counterout_0> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d0/outp> of sequential type is unconnected in block <mainc>.
+WARNING:Xst:2677 - Node <d0/start> of sequential type is unconnected in block <mainc>.
+
+Optimizing unit <top> ...
+
+Optimizing unit <ball1> ...
+
+Optimizing unit <SVGA_TIMING_GENERATION> ...
+
+Optimizing unit <VIDEO_OUT> ...
+
+Optimizing unit <COLOR_BARS> ...
+
+Optimizing unit <mainc> ...
+WARNING:Xst:2677 - Node <XLXI_22/SVGA_TIMING_GENERATION/comp_synch> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <XLXI_22/SVGA_TIMING_GENERATION/v_c_synch> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <XLXI_22/SVGA_TIMING_GENERATION/h_c_synch> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <XLXI_4/b0/nthitdwn> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <XLXI_4/b0/nthitup> of sequential type is unconnected in block <top>.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block top, actual ratio is 4.
+FlipFlop XLXI_4/b0/ballx1_0 has been replicated 1 time(s)
+FlipFlop XLXI_4/b0/ballx1_4 has been replicated 1 time(s)
+FlipFlop XLXI_4/b0/ballx1_5 has been replicated 1 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 148
+ Flip-Flops                                            : 148
+
+=========================================================================
+
+=========================================================================
+*                          Partition Report                             *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : top.ngr
+Top Level Output File Name         : top
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 38
+
+Cell Usage :
+# BELS                             : 1759
+#      GND                         : 1
+#      INV                         : 30
+#      LUT1                        : 67
+#      LUT2                        : 207
+#      LUT2_D                      : 11
+#      LUT2_L                      : 6
+#      LUT3                        : 136
+#      LUT3_D                      : 15
+#      LUT3_L                      : 6
+#      LUT4                        : 582
+#      LUT4_D                      : 87
+#      LUT4_L                      : 68
+#      MULT_AND                    : 4
+#      MUXCY                       : 345
+#      MUXF5                       : 31
+#      VCC                         : 1
+#      XORCY                       : 162
+# FlipFlops/Latches                : 177
+#      FD                          : 4
+#      FDC                         : 45
+#      FDCE                        : 10
+#      FDE                         : 20
+#      FDP                         : 3
+#      FDR                         : 36
+#      FDRE                        : 12
+#      FDRS                        : 2
+#      FDS                         : 16
+#      LDCPE                       : 28
+#      OFDDRTRSE                   : 1
+# RAMS                             : 3
+#      RAMB16_S9_S9                : 3
+# Shift Registers                  : 1
+#      SRL16                       : 1
+# Clock Buffers                    : 4
+#      BUFG                        : 4
+# IO Buffers                       : 36
+#      IBUF                        : 6
+#      IBUFG                       : 1
+#      OBUF                        : 29
+# DCMs                             : 1
+#      DCM                         : 1
+# MULTs                            : 2
+#      MULT18X18                   : 2
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 2vp30ff896-6 
+
+ Number of Slices:                     635  out of  13696     4%  
+ Number of Slice Flip Flops:           176  out of  27392     0%  
+ Number of 4 input LUTs:              1216  out of  27392     4%  
+    Number used as logic:             1215
+    Number used as Shift registers:      1
+ Number of IOs:                         38
+ Number of bonded IOBs:                 37  out of    556     6%  
+    IOB Flip Flops:                      1
+ Number of BRAMs:                        3  out of    136     2%  
+ Number of MULT18X18s:                   2  out of    136     1%  
+ Number of GCLKs:                        4  out of     16    25%  
+ Number of DCMs:                         1  out of      8    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+------------------------------------+-------------------------------------------+-------+
+Clock Signal                        | Clock buffer(FF name)                     | Load  |
+------------------------------------+-------------------------------------------+-------+
+SYSTEM_CLOCK                        | XLXI_22/CLOCK_GEN/SYSTEM_DCM:CLKFX        | 113   |
+XLXI_14/cr<1>(XLXI_14/cd1/clkout1:O)| NONE(*)(XLXI_14/cd2/counter1/counterout_1)| 4     |
+XLXI_14/cr<2>(XLXI_14/cd2/clkout1:O)| NONE(*)(XLXI_14/cd3/counter1/counterout_2)| 4     |
+XLXI_14/cr<3>(XLXI_14/cd3/clkout1:O)| NONE(*)(XLXI_14/cd4/counter1/counterout_0)| 4     |
+XLXI_14/cr<4>(XLXI_14/cd4/clkout1:O)| NONE(*)(XLXI_14/cd5/counter1/counterout_2)| 4     |
+XLXI_14/cr<5>(XLXI_14/cd5/clkout1:O)| NONE(*)(XLXI_14/cd6/counter1/counterout_2)| 4     |
+XLXI_14/cr<6>(XLXI_14/cd6/clkout1:O)| NONE(*)(XLXI_14/cd7/counter1/counterout_3)| 4     |
+SYSTEM_CLOCK                        | IBUFG                                     | 1     |
+XLXI_4/ad1(XLXI_4/ad1:O)            | BUFG(*)(XLXI_4/b0/ballx1_1)               | 24    |
+XLXI_4/clkslow21                    | BUFG                                      | 20    |
+------------------------------------+-------------------------------------------+-------+
+(*) These 7 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------------------------------------------------------------+----------------------------------------+-------+
+Control Signal                                                                           | Buffer(FF name)                        | Load  |
+-----------------------------------------------------------------------------------------+----------------------------------------+-------+
+XLXI_14/cd1/counter1/counterout_3__and0000(XLXI_14/cd1/counter1/counterout_3__and00001:O)| NONE(XLXI_14/cd1/counter1/counterout_3)| 1     |
+XLXI_14/cd1/counter1/counterout_3__and0001(XLXI_14/cd1/counter1/counterout_3__and00011:O)| NONE(XLXI_14/cd1/counter1/counterout_3)| 1     |
+XLXI_14/cd1/counter1/counterout_0__and0000(XLXI_14/cd1/counter1/counterout_0__and00001:O)| NONE(XLXI_14/cd1/counter1/counterout_0)| 1     |
+XLXI_14/cd1/counter1/counterout_0__and0001(XLXI_14/cd1/counter1/counterout_0__and00011:O)| NONE(XLXI_14/cd1/counter1/counterout_0)| 1     |
+XLXI_14/cd1/counter1/counterout_2__and0000(XLXI_14/cd1/counter1/counterout_2__and00001:O)| NONE(XLXI_14/cd1/counter1/counterout_2)| 1     |
+XLXI_14/cd1/counter1/counterout_2__and0001(XLXI_14/cd1/counter1/counterout_2__and00011:O)| NONE(XLXI_14/cd1/counter1/counterout_2)| 1     |
+N2912(XST_GND:G)                                                                         | NONE(XLXI_22/VIDEO_OUT/PIXEL_CLOCK_OUT)| 2     |
+XLXI_14/cd1/counter1/counterout_1__and0000(XLXI_14/cd1/counter1/counterout_1__and00001:O)| NONE(XLXI_14/cd1/counter1/counterout_1)| 1     |
+XLXI_14/cd1/counter1/counterout_1__and0001(XLXI_14/cd1/counter1/counterout_1__and00011:O)| NONE(XLXI_14/cd1/counter1/counterout_1)| 1     |
+XLXI_14/cd2/counter1/counterout_1__and0000(XLXI_14/cd2/counter1/counterout_1__and00001:O)| NONE(XLXI_14/cd2/counter1/counterout_1)| 1     |
+XLXI_14/cd2/counter1/counterout_1__and0001(XLXI_14/cd2/counter1/counterout_1__and00011:O)| NONE(XLXI_14/cd2/counter1/counterout_1)| 1     |
+XLXI_14/cd2/counter1/counterout_2__and0000(XLXI_14/cd2/counter1/counterout_2__and00001:O)| NONE(XLXI_14/cd2/counter1/counterout_2)| 1     |
+XLXI_14/cd2/counter1/counterout_2__and0001(XLXI_14/cd2/counter1/counterout_2__and00011:O)| NONE(XLXI_14/cd2/counter1/counterout_2)| 1     |
+XLXI_14/cd2/counter1/counterout_0__and0000(XLXI_14/cd2/counter1/counterout_0__and00001:O)| NONE(XLXI_14/cd2/counter1/counterout_0)| 1     |
+XLXI_14/cd2/counter1/counterout_0__and0001(XLXI_14/cd2/counter1/counterout_0__and00011:O)| NONE(XLXI_14/cd2/counter1/counterout_0)| 1     |
+XLXI_14/cd2/counter1/counterout_3__and0000(XLXI_14/cd2/counter1/counterout_3__and00001:O)| NONE(XLXI_14/cd2/counter1/counterout_3)| 1     |
+XLXI_14/cd2/counter1/counterout_3__and0001(XLXI_14/cd2/counter1/counterout_3__and00011:O)| NONE(XLXI_14/cd2/counter1/counterout_3)| 1     |
+XLXI_14/cd3/counter1/counterout_2__and0000(XLXI_14/cd3/counter1/counterout_2__and00001:O)| NONE(XLXI_14/cd3/counter1/counterout_2)| 1     |
+XLXI_14/cd3/counter1/counterout_2__and0001(XLXI_14/cd3/counter1/counterout_2__and00011:O)| NONE(XLXI_14/cd3/counter1/counterout_2)| 1     |
+XLXI_14/cd3/counter1/counterout_1__and0000(XLXI_14/cd3/counter1/counterout_1__and00001:O)| NONE(XLXI_14/cd3/counter1/counterout_1)| 1     |
+XLXI_14/cd3/counter1/counterout_1__and0001(XLXI_14/cd3/counter1/counterout_1__and00011:O)| NONE(XLXI_14/cd3/counter1/counterout_1)| 1     |
+XLXI_14/cd3/counter1/counterout_3__and0000(XLXI_14/cd3/counter1/counterout_3__and00001:O)| NONE(XLXI_14/cd3/counter1/counterout_3)| 1     |
+XLXI_14/cd3/counter1/counterout_3__and0001(XLXI_14/cd3/counter1/counterout_3__and00011:O)| NONE(XLXI_14/cd3/counter1/counterout_3)| 1     |
+XLXI_14/cd3/counter1/counterout_0__and0000(XLXI_14/cd3/counter1/counterout_0__and00001:O)| NONE(XLXI_14/cd3/counter1/counterout_0)| 1     |
+XLXI_14/cd3/counter1/counterout_0__and0001(XLXI_14/cd3/counter1/counterout_0__and00011:O)| NONE(XLXI_14/cd3/counter1/counterout_0)| 1     |
+XLXI_14/cd4/counter1/counterout_0__and0000(XLXI_14/cd4/counter1/counterout_0__and00001:O)| NONE(XLXI_14/cd4/counter1/counterout_0)| 1     |
+XLXI_14/cd4/counter1/counterout_0__and0001(XLXI_14/cd4/counter1/counterout_0__and00011:O)| NONE(XLXI_14/cd4/counter1/counterout_0)| 1     |
+XLXI_14/cd4/counter1/counterout_3__and0000(XLXI_14/cd4/counter1/counterout_3__and00001:O)| NONE(XLXI_14/cd4/counter1/counterout_3)| 1     |
+XLXI_14/cd4/counter1/counterout_3__and0001(XLXI_14/cd4/counter1/counterout_3__and00011:O)| NONE(XLXI_14/cd4/counter1/counterout_3)| 1     |
+XLXI_14/cd4/counter1/counterout_1__and0000(XLXI_14/cd4/counter1/counterout_1__and00001:O)| NONE(XLXI_14/cd4/counter1/counterout_1)| 1     |
+XLXI_14/cd4/counter1/counterout_1__and0001(XLXI_14/cd4/counter1/counterout_1__and00011:O)| NONE(XLXI_14/cd4/counter1/counterout_1)| 1     |
+XLXI_14/cd4/counter1/counterout_2__and0000(XLXI_14/cd4/counter1/counterout_2__and00001:O)| NONE(XLXI_14/cd4/counter1/counterout_2)| 1     |
+XLXI_14/cd4/counter1/counterout_2__and0001(XLXI_14/cd4/counter1/counterout_2__and00011:O)| NONE(XLXI_14/cd4/counter1/counterout_2)| 1     |
+XLXI_14/cd5/counter1/counterout_2__and0000(XLXI_14/cd5/counter1/counterout_2__and00001:O)| NONE(XLXI_14/cd5/counter1/counterout_2)| 1     |
+XLXI_14/cd5/counter1/counterout_2__and0001(XLXI_14/cd5/counter1/counterout_2__and00011:O)| NONE(XLXI_14/cd5/counter1/counterout_2)| 1     |
+XLXI_14/cd5/counter1/counterout_0__and0000(XLXI_14/cd5/counter1/counterout_0__and00001:O)| NONE(XLXI_14/cd5/counter1/counterout_0)| 1     |
+XLXI_14/cd5/counter1/counterout_0__and0001(XLXI_14/cd5/counter1/counterout_0__and00011:O)| NONE(XLXI_14/cd5/counter1/counterout_0)| 1     |
+XLXI_14/cd5/counter1/counterout_1__and0000(XLXI_14/cd5/counter1/counterout_1__and00001:O)| NONE(XLXI_14/cd5/counter1/counterout_1)| 1     |
+XLXI_14/cd5/counter1/counterout_1__and0001(XLXI_14/cd5/counter1/counterout_1__and00011:O)| NONE(XLXI_14/cd5/counter1/counterout_1)| 1     |
+XLXI_14/cd5/counter1/counterout_3__and0000(XLXI_14/cd5/counter1/counterout_3__and00001:O)| NONE(XLXI_14/cd5/counter1/counterout_3)| 1     |
+XLXI_14/cd5/counter1/counterout_3__and0001(XLXI_14/cd5/counter1/counterout_3__and00011:O)| NONE(XLXI_14/cd5/counter1/counterout_3)| 1     |
+XLXI_14/cd6/counter1/counterout_2__and0000(XLXI_14/cd6/counter1/counterout_2__and00001:O)| NONE(XLXI_14/cd6/counter1/counterout_2)| 1     |
+XLXI_14/cd6/counter1/counterout_2__and0001(XLXI_14/cd6/counter1/counterout_2__and00011:O)| NONE(XLXI_14/cd6/counter1/counterout_2)| 1     |
+XLXI_14/cd6/counter1/counterout_0__and0000(XLXI_14/cd6/counter1/counterout_0__and00001:O)| NONE(XLXI_14/cd6/counter1/counterout_0)| 1     |
+XLXI_14/cd6/counter1/counterout_0__and0001(XLXI_14/cd6/counter1/counterout_0__and00011:O)| NONE(XLXI_14/cd6/counter1/counterout_0)| 1     |
+XLXI_14/cd6/counter1/counterout_1__and0000(XLXI_14/cd6/counter1/counterout_1__and00001:O)| NONE(XLXI_14/cd6/counter1/counterout_1)| 1     |
+XLXI_14/cd6/counter1/counterout_1__and0001(XLXI_14/cd6/counter1/counterout_1__and00011:O)| NONE(XLXI_14/cd6/counter1/counterout_1)| 1     |
+XLXI_14/cd6/counter1/counterout_3__and0000(XLXI_14/cd6/counter1/counterout_3__and00001:O)| NONE(XLXI_14/cd6/counter1/counterout_3)| 1     |
+XLXI_14/cd6/counter1/counterout_3__and0001(XLXI_14/cd6/counter1/counterout_3__and00011:O)| NONE(XLXI_14/cd6/counter1/counterout_3)| 1     |
+XLXI_14/cd7/counter1/counterout_3__and0000(XLXI_14/cd7/counter1/counterout_3__and00001:O)| NONE(XLXI_14/cd7/counter1/counterout_3)| 1     |
+XLXI_14/cd7/counter1/counterout_3__and0001(XLXI_14/cd7/counter1/counterout_3__and00011:O)| NONE(XLXI_14/cd7/counter1/counterout_3)| 1     |
+XLXI_14/cd7/counter1/counterout_0__and0000(XLXI_14/cd7/counter1/counterout_0__and00001:O)| NONE(XLXI_14/cd7/counter1/counterout_0)| 1     |
+XLXI_14/cd7/counter1/counterout_0__and0001(XLXI_14/cd7/counter1/counterout_0__and00011:O)| NONE(XLXI_14/cd7/counter1/counterout_0)| 1     |
+XLXI_14/cd7/counter1/counterout_1__and0000(XLXI_14/cd7/counter1/counterout_1__and00001:O)| NONE(XLXI_14/cd7/counter1/counterout_1)| 1     |
+XLXI_14/cd7/counter1/counterout_1__and0001(XLXI_14/cd7/counter1/counterout_1__and00011:O)| NONE(XLXI_14/cd7/counter1/counterout_1)| 1     |
+XLXI_14/cd7/counter1/counterout_2__and0000(XLXI_14/cd7/counter1/counterout_2__and00001:O)| NONE(XLXI_14/cd7/counter1/counterout_2)| 1     |
+XLXI_14/cd7/counter1/counterout_2__and0001(XLXI_14/cd7/counter1/counterout_2__and00011:O)| NONE(XLXI_14/cd7/counter1/counterout_2)| 1     |
+XLXI_22/reset(XLXI_22/CLOCK_GEN/reset1_INV_0:O)                                          | NONE(XLXI_22/VIDEO_OUT/VGA_HSYNCH)     | 58    |
+-----------------------------------------------------------------------------------------+----------------------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -6
+
+   Minimum period: 20.939ns (Maximum Frequency: 47.759MHz)
+   Minimum input arrival time before clock: 7.313ns
+   Maximum output required time after clock: 4.800ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'SYSTEM_CLOCK'
+  Clock period: 4.051ns (frequency: 246.880MHz)
+  Total number of paths / destination ports: 3900028 / 261
+-------------------------------------------------------------------------
+Delay:               16.202ns (Levels of Logic = 17)
+  Source:            XLXI_22/COLOR_BARS/line_count_1 (FF)
+  Destination:       XLXI_22/COLOR_BARS/blue_factor_4 (FF)
+  Source Clock:      SYSTEM_CLOCK rising 0.3X
+  Destination Clock: SYSTEM_CLOCK rising 0.3X
+
+  Data Path: XLXI_22/COLOR_BARS/line_count_1 to XLXI_22/COLOR_BARS/blue_factor_4
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             7   0.374   0.690  XLXI_22/COLOR_BARS/line_count_1 (XLXI_22/COLOR_BARS/line_count_1)
+     LUT2:I0->O            1   0.313   0.000  XLXI_22/COLOR_BARS/Madd_add0000_addsub0000_lut<1> (XLXI_22/COLOR_BARS/N16)
+     MUXCY:S->O            1   0.377   0.000  XLXI_22/COLOR_BARS/Madd_add0000_addsub0000_cy<1> (XLXI_22/COLOR_BARS/Madd_add0000_addsub0000_cy<1>)
+     XORCY:CI->O           4   0.868   0.629  XLXI_22/COLOR_BARS/Madd_add0000_addsub0000_xor<2> (XLXI_22/COLOR_BARS/Msub_mult0000_addsub00002)
+     LUT4:I0->O            4   0.313   0.602  XLXI_22/COLOR_BARS/Msub_mult0000_addsub0000_xor<10>121 (XLXI_22/COLOR_BARS/N10)
+     LUT2:I1->O            3   0.313   0.610  XLXI_22/COLOR_BARS/Msub_mult0000_addsub0000_xor<10>111 (XLXI_22/COLOR_BARS/N3)
+     LUT4:I0->O            3   0.313   0.495  XLXI_22/COLOR_BARS/Msub_mult0000_addsub0000_xor<10>131 (XLXI_22/COLOR_BARS/N153)
+     LUT3:I2->O           14   0.313   0.649  XLXI_22/COLOR_BARS/Msub_mult0000_addsub0000_xor<11>11 (XLXI_22/COLOR_BARS/mult0000_addsub0000<11>)
+     MULT18X18:A11->P23    4   3.517   0.602  XLXI_22/COLOR_BARS/Mmult__mult0000 (XLXI_22/COLOR_BARS/_mult0000<23>)
+     LUT2:I1->O            1   0.313   0.000  XLXI_22/COLOR_BARS/Madd__add0001_lut<23> (XLXI_22/COLOR_BARS/N58)
+     MUXCY:S->O            1   0.377   0.000  XLXI_22/COLOR_BARS/Madd__add0001_cy<23> (XLXI_22/COLOR_BARS/Madd__add0001_cy<23>)
+     MUXCY:CI->O           1   0.042   0.000  XLXI_22/COLOR_BARS/Madd__add0001_cy<24> (XLXI_22/COLOR_BARS/Madd__add0001_cy<24>)
+     MUXCY:CI->O           0   0.042   0.000  XLXI_22/COLOR_BARS/Madd__add0001_cy<25> (XLXI_22/COLOR_BARS/Madd__add0001_cy<25>)
+     XORCY:CI->O           2   0.868   0.495  XLXI_22/COLOR_BARS/Madd__add0001_xor<26> (XLXI_22/COLOR_BARS/_add0001<26>)
+     LUT4:I3->O            1   0.313   0.000  XLXI_22/COLOR_BARS/Mcompar_red_factor_cmp_lt0000_lut<7> (XLXI_22/COLOR_BARS/N91)
+     MUXCY:S->O            1   0.377   0.000  XLXI_22/COLOR_BARS/Mcompar_red_factor_cmp_lt0000_cy<7> (XLXI_22/COLOR_BARS/Mcompar_red_factor_cmp_lt0000_cy<7>)
+     MUXCY:CI->O           2   0.524   0.588  XLXI_22/COLOR_BARS/Mcompar_red_factor_cmp_lt0000_cy<8> (XLXI_22/COLOR_BARS/Mcompar_red_factor_cmp_lt0000_cy<8>)
+     LUT4:I0->O            1   0.313   0.390  XLXI_22/COLOR_BARS/blue_factor_or0000 (XLXI_22/COLOR_BARS/blue_factor_or0000)
+     FDRS:R                    0.583          XLXI_22/COLOR_BARS/blue_factor_4
+    ----------------------------------------
+    Total                     16.202ns (10.452ns logic, 5.750ns route)
+                                       (64.5% logic, 35.5% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXI_14/cr<1>'
+  Clock period: 3.685ns (frequency: 271.370MHz)
+  Total number of paths / destination ports: 34 / 8
+-------------------------------------------------------------------------
+Delay:               3.685ns (Levels of Logic = 3)
+  Source:            XLXI_14/cd2/counter1/counterout_0 (LATCH)
+  Destination:       XLXI_14/cd2/counter1/counterout_3 (LATCH)
+  Source Clock:      XLXI_14/cr<1> falling
+  Destination Clock: XLXI_14/cr<1> falling
+
+  Data Path: XLXI_14/cd2/counter1/counterout_0 to XLXI_14/cd2/counter1/counterout_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDCPE:G->Q            8   0.568   0.678  XLXI_14/cd2/counter1/counterout_0 (XLXI_14/cd2/counter1/counterout_0)
+     LUT4:I1->O            8   0.313   0.678  XLXI_14/cd2/counter1/counterout_cmp_eq00001 (XLXI_14/cd2/counter1/counterout_cmp_eq0000)
+     LUT2:I1->O            2   0.313   0.588  XLXI_14/cd2/counter1/counterout_and00001 (XLXI_14/cd2/counter1/counterout_and0000)
+     LUT4:I0->O            2   0.313   0.000  XLXI_14/cd2/counter1/counterout_3__and00011 (XLXI_14/cd2/counter1/counterout_3__and0001)
+     LDCPE:D                   0.234          XLXI_14/cd2/counter1/counterout_3
+    ----------------------------------------
+    Total                      3.685ns (1.741ns logic, 1.944ns route)
+                                       (47.2% logic, 52.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXI_14/cr<2>'
+  Clock period: 3.685ns (frequency: 271.370MHz)
+  Total number of paths / destination ports: 34 / 8
+-------------------------------------------------------------------------
+Delay:               3.685ns (Levels of Logic = 3)
+  Source:            XLXI_14/cd3/counter1/counterout_0 (LATCH)
+  Destination:       XLXI_14/cd3/counter1/counterout_3 (LATCH)
+  Source Clock:      XLXI_14/cr<2> falling
+  Destination Clock: XLXI_14/cr<2> falling
+
+  Data Path: XLXI_14/cd3/counter1/counterout_0 to XLXI_14/cd3/counter1/counterout_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDCPE:G->Q            8   0.568   0.678  XLXI_14/cd3/counter1/counterout_0 (XLXI_14/cd3/counter1/counterout_0)
+     LUT4:I1->O            8   0.313   0.678  XLXI_14/cd3/counter1/counterout_cmp_eq00001 (XLXI_14/cd3/counter1/counterout_cmp_eq0000)
+     LUT2:I1->O            2   0.313   0.588  XLXI_14/cd3/counter1/counterout_and00001 (XLXI_14/cd3/counter1/counterout_and0000)
+     LUT4:I0->O            2   0.313   0.000  XLXI_14/cd3/counter1/counterout_3__and00011 (XLXI_14/cd3/counter1/counterout_3__and0001)
+     LDCPE:D                   0.234          XLXI_14/cd3/counter1/counterout_3
+    ----------------------------------------
+    Total                      3.685ns (1.741ns logic, 1.944ns route)
+                                       (47.2% logic, 52.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXI_14/cr<3>'
+  Clock period: 3.685ns (frequency: 271.370MHz)
+  Total number of paths / destination ports: 34 / 8
+-------------------------------------------------------------------------
+Delay:               3.685ns (Levels of Logic = 3)
+  Source:            XLXI_14/cd4/counter1/counterout_0 (LATCH)
+  Destination:       XLXI_14/cd4/counter1/counterout_3 (LATCH)
+  Source Clock:      XLXI_14/cr<3> falling
+  Destination Clock: XLXI_14/cr<3> falling
+
+  Data Path: XLXI_14/cd4/counter1/counterout_0 to XLXI_14/cd4/counter1/counterout_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDCPE:G->Q            8   0.568   0.678  XLXI_14/cd4/counter1/counterout_0 (XLXI_14/cd4/counter1/counterout_0)
+     LUT4:I1->O            8   0.313   0.678  XLXI_14/cd4/counter1/counterout_cmp_eq00001 (XLXI_14/cd4/counter1/counterout_cmp_eq0000)
+     LUT2:I1->O            2   0.313   0.588  XLXI_14/cd4/counter1/counterout_and00001 (XLXI_14/cd4/counter1/counterout_and0000)
+     LUT4:I0->O            2   0.313   0.000  XLXI_14/cd4/counter1/counterout_3__and00011 (XLXI_14/cd4/counter1/counterout_3__and0001)
+     LDCPE:D                   0.234          XLXI_14/cd4/counter1/counterout_3
+    ----------------------------------------
+    Total                      3.685ns (1.741ns logic, 1.944ns route)
+                                       (47.2% logic, 52.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXI_14/cr<4>'
+  Clock period: 3.685ns (frequency: 271.370MHz)
+  Total number of paths / destination ports: 34 / 8
+-------------------------------------------------------------------------
+Delay:               3.685ns (Levels of Logic = 3)
+  Source:            XLXI_14/cd5/counter1/counterout_0 (LATCH)
+  Destination:       XLXI_14/cd5/counter1/counterout_3 (LATCH)
+  Source Clock:      XLXI_14/cr<4> falling
+  Destination Clock: XLXI_14/cr<4> falling
+
+  Data Path: XLXI_14/cd5/counter1/counterout_0 to XLXI_14/cd5/counter1/counterout_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDCPE:G->Q            8   0.568   0.678  XLXI_14/cd5/counter1/counterout_0 (XLXI_14/cd5/counter1/counterout_0)
+     LUT4:I1->O            8   0.313   0.678  XLXI_14/cd5/counter1/counterout_cmp_eq00001 (XLXI_14/cd5/counter1/counterout_cmp_eq0000)
+     LUT2:I1->O            2   0.313   0.588  XLXI_14/cd5/counter1/counterout_and00001 (XLXI_14/cd5/counter1/counterout_and0000)
+     LUT4:I0->O            2   0.313   0.000  XLXI_14/cd5/counter1/counterout_3__and00011 (XLXI_14/cd5/counter1/counterout_3__and0001)
+     LDCPE:D                   0.234          XLXI_14/cd5/counter1/counterout_3
+    ----------------------------------------
+    Total                      3.685ns (1.741ns logic, 1.944ns route)
+                                       (47.2% logic, 52.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXI_14/cr<5>'
+  Clock period: 3.685ns (frequency: 271.370MHz)
+  Total number of paths / destination ports: 34 / 8
+-------------------------------------------------------------------------
+Delay:               3.685ns (Levels of Logic = 3)
+  Source:            XLXI_14/cd6/counter1/counterout_0 (LATCH)
+  Destination:       XLXI_14/cd6/counter1/counterout_3 (LATCH)
+  Source Clock:      XLXI_14/cr<5> falling
+  Destination Clock: XLXI_14/cr<5> falling
+
+  Data Path: XLXI_14/cd6/counter1/counterout_0 to XLXI_14/cd6/counter1/counterout_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDCPE:G->Q            8   0.568   0.678  XLXI_14/cd6/counter1/counterout_0 (XLXI_14/cd6/counter1/counterout_0)
+     LUT4:I1->O            8   0.313   0.678  XLXI_14/cd6/counter1/counterout_cmp_eq00001 (XLXI_14/cd6/counter1/counterout_cmp_eq0000)
+     LUT2:I1->O            2   0.313   0.588  XLXI_14/cd6/counter1/counterout_and00001 (XLXI_14/cd6/counter1/counterout_and0000)
+     LUT4:I0->O            2   0.313   0.000  XLXI_14/cd6/counter1/counterout_3__and00011 (XLXI_14/cd6/counter1/counterout_3__and0001)
+     LDCPE:D                   0.234          XLXI_14/cd6/counter1/counterout_3
+    ----------------------------------------
+    Total                      3.685ns (1.741ns logic, 1.944ns route)
+                                       (47.2% logic, 52.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXI_14/cr<6>'
+  Clock period: 3.685ns (frequency: 271.370MHz)
+  Total number of paths / destination ports: 34 / 8
+-------------------------------------------------------------------------
+Delay:               3.685ns (Levels of Logic = 3)
+  Source:            XLXI_14/cd7/counter1/counterout_0 (LATCH)
+  Destination:       XLXI_14/cd7/counter1/counterout_3 (LATCH)
+  Source Clock:      XLXI_14/cr<6> falling
+  Destination Clock: XLXI_14/cr<6> falling
+
+  Data Path: XLXI_14/cd7/counter1/counterout_0 to XLXI_14/cd7/counter1/counterout_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDCPE:G->Q            8   0.568   0.678  XLXI_14/cd7/counter1/counterout_0 (XLXI_14/cd7/counter1/counterout_0)
+     LUT4:I1->O            8   0.313   0.678  XLXI_14/cd7/counter1/counterout_cmp_eq00001 (XLXI_14/cd7/counter1/counterout_cmp_eq0000)
+     LUT2:I1->O            2   0.313   0.588  XLXI_14/cd7/counter1/counterout_and00001 (XLXI_14/cd7/counter1/counterout_and0000)
+     LUT4:I0->O            2   0.313   0.000  XLXI_14/cd7/counter1/counterout_3__and00011 (XLXI_14/cd7/counter1/counterout_3__and0001)
+     LDCPE:D                   0.234          XLXI_14/cd7/counter1/counterout_3
+    ----------------------------------------
+    Total                      3.685ns (1.741ns logic, 1.944ns route)
+                                       (47.2% logic, 52.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXI_4/ad1'
+  Clock period: 20.939ns (frequency: 47.759MHz)
+  Total number of paths / destination ports: 12038386697 / 40
+-------------------------------------------------------------------------
+Delay:               20.939ns (Levels of Logic = 34)
+  Source:            XLXI_4/b0/ballx1_7 (FF)
+  Destination:       XLXI_4/b0/bally1_4 (FF)
+  Source Clock:      XLXI_4/ad1 rising
+  Destination Clock: XLXI_4/ad1 rising
+
+  Data Path: XLXI_4/b0/ballx1_7 to XLXI_4/b0/bally1_4
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDS:C->Q             18   0.374   0.748  XLXI_4/b0/ballx1_7 (XLXI_4/b0/ballx1_7)
+     LUT4_D:I3->O          5   0.313   0.531  XLXI_4/b0/bally_sub0004<10>21 (XLXI_4/b0/bally_sub0004<10>_bdd0)
+     LUT3:I2->O            0   0.313   0.000  XLXI_4/b0/bally_sub0004<9>1 (XLXI_4/b0/bally_sub0004<9>)
+     MUXCY:DI->O           1   0.595   0.000  XLXI_4/b0/Mcompar_bally_cmp_gt0000_cy<9> (XLXI_4/b0/Mcompar_bally_cmp_gt0000_cy<9>)
+     MUXCY:CI->O           1   0.042   0.000  XLXI_4/b0/Mcompar_bally_cmp_gt0000_cy<10> (XLXI_4/b0/Mcompar_bally_cmp_gt0000_cy<10>)
+     MUXCY:CI->O          28   0.524   0.811  XLXI_4/b0/Mcompar_bally_cmp_gt0000_cy<11> (XLXI_4/b0/Mcompar_bally_cmp_gt0000_cy<11>)
+     LUT4:I2->O            1   0.313   0.000  XLXI_4/b0/ballx_mux0002<6>60_F (N3474)
+     MUXF5:I0->O           4   0.340   0.536  XLXI_4/b0/ballx_mux0002<6>60 (XLXI_4/b0/ballx_mux0002<6>)
+     LUT4_D:I3->O         12   0.313   0.663  XLXI_4/b0/ballx_mux0003<6>1 (XLXI_4/b0/ballx_mux0003<6>)
+     LUT4:I3->O            6   0.313   0.640  XLXI_4/b0/Msub_bally_sub0006_cy<7>11 (XLXI_4/b0/Msub_bally_sub0006_cy<7>)
+     LUT2:I1->O            0   0.313   0.000  XLXI_4/b0/Msub_bally_sub0006_xor<8>11 (XLXI_4/b0/bally_sub0006<8>)
+     MUXCY:DI->O           1   0.595   0.000  XLXI_4/b0/Mcompar_bally_cmp_gt0002_cy<8> (XLXI_4/b0/Mcompar_bally_cmp_gt0002_cy<8>)
+     MUXCY:CI->O           1   0.042   0.000  XLXI_4/b0/Mcompar_bally_cmp_gt0002_cy<9> (XLXI_4/b0/Mcompar_bally_cmp_gt0002_cy<9>)
+     MUXCY:CI->O           1   0.042   0.000  XLXI_4/b0/Mcompar_bally_cmp_gt0002_cy<10> (XLXI_4/b0/Mcompar_bally_cmp_gt0002_cy<10>)
+     MUXCY:CI->O          22   0.524   0.758  XLXI_4/b0/Mcompar_bally_cmp_gt0002_cy<11> (XLXI_4/b0/Mcompar_bally_cmp_gt0002_cy<11>)
+     LUT4_D:I2->O          4   0.313   0.536  XLXI_4/b0/ballx_mux0008<1>210_1 (XLXI_4/b0/ballx_mux0008<1>210)
+     LUT4:I3->O           11   0.313   0.663  XLXI_4/b0/ballx_mux0008<10> (XLXI_4/b0/ballx_mux0008<10>)
+     LUT4:I3->O           12   0.313   0.663  XLXI_4/b0/bally_cmp_eq000250_SW0 (N2814)
+     LUT4:I3->O            9   0.313   0.703  XLXI_4/b0/bally_cmp_eq000250_1 (XLXI_4/b0/bally_cmp_eq000250)
+     LUT2:I1->O            1   0.313   0.000  XLXI_4/b0/Maddsub_ballx_share0000_lut<0> (XLXI_4/b0/N37)
+     MUXCY:S->O            1   0.377   0.000  XLXI_4/b0/Maddsub_ballx_share0000_cy<0> (XLXI_4/b0/Maddsub_ballx_share0000_cy<0>)
+     MUXCY:CI->O           1   0.042   0.000  XLXI_4/b0/Maddsub_ballx_share0000_cy<1> (XLXI_4/b0/Maddsub_ballx_share0000_cy<1>)
+     MUXCY:CI->O           1   0.042   0.000  XLXI_4/b0/Maddsub_ballx_share0000_cy<2> (XLXI_4/b0/Maddsub_ballx_share0000_cy<2>)
+     MUXCY:CI->O           1   0.042   0.000  XLXI_4/b0/Maddsub_ballx_share0000_cy<3> (XLXI_4/b0/Maddsub_ballx_share0000_cy<3>)
+     MUXCY:CI->O           1   0.042   0.000  XLXI_4/b0/Maddsub_ballx_share0000_cy<4> (XLXI_4/b0/Maddsub_ballx_share0000_cy<4>)
+     XORCY:CI->O           9   0.868   0.703  XLXI_4/b0/Maddsub_ballx_share0000_xor<5> (XLXI_4/b0/ballx_share0000<5>)
+     LUT4:I1->O            1   0.313   0.000  XLXI_4/b0/Msub_bally_sub0007_cy<7>11_SW1_G (N3483)
+     MUXF5:I1->O           1   0.340   0.440  XLXI_4/b0/Msub_bally_sub0007_cy<7>11_SW1 (N3051)
+     LUT4:I3->O            0   0.313   0.000  XLXI_4/b0/Msub_bally_sub0007_xor<9>11 (XLXI_4/b0/bally_sub0007<9>)
+     MUXCY:DI->O           1   0.595   0.000  XLXI_4/b0/Mcompar_bally_cmp_gt0003_cy<9> (XLXI_4/b0/Mcompar_bally_cmp_gt0003_cy<9>)
+     MUXCY:CI->O           1   0.042   0.000  XLXI_4/b0/Mcompar_bally_cmp_gt0003_cy<10> (XLXI_4/b0/Mcompar_bally_cmp_gt0003_cy<10>)
+     MUXCY:CI->O          21   0.525   0.744  XLXI_4/b0/Mcompar_bally_cmp_gt0003_cy<11> (XLXI_4/b0/Mcompar_bally_cmp_gt0003_cy<11>)
+     LUT4:I2->O            1   0.313   0.418  XLXI_4/b0/bally_mux0017<4>_SW1_SW0 (N2915)
+     LUT4_L:I2->LO         1   0.313   0.150  XLXI_4/b0/bally_mux0017<4>_SW1 (N1748)
+     LUT4:I3->O            1   0.313   0.000  XLXI_4/b0/bally_mux0017<4> (XLXI_4/b0/bally_mux0017<4>)
+     FD:D                      0.234          XLXI_4/b0/bally1_4
+    ----------------------------------------
+    Total                     20.939ns (11.231ns logic, 9.707ns route)
+                                       (53.6% logic, 46.4% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXI_4/clkslow21'
+  Clock period: 6.051ns (frequency: 165.262MHz)
+  Total number of paths / destination ports: 1820 / 40
+-------------------------------------------------------------------------
+Delay:               6.051ns (Levels of Logic = 14)
+  Source:            XLXI_4/padwn_2 (FF)
+  Destination:       XLXI_4/padwn_9 (FF)
+  Source Clock:      XLXI_4/clkslow21 rising
+  Destination Clock: XLXI_4/clkslow21 rising
+
+  Data Path: XLXI_4/padwn_2 to XLXI_4/padwn_9
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q             16   0.374   0.857  XLXI_4/padwn_2 (XLXI_4/padwn_2)
+     LUT4:I1->O            1   0.313   0.533  XLXI_4/padwn_not0003141 (XLXI_4/padwn_not00031_map2)
+     LUT3:I0->O            2   0.313   0.495  XLXI_4/padwn_not0003130_SW0 (N3502)
+     LUT4:I3->O           11   0.313   0.729  XLXI_4/padwn_not0003130 (XLXI_4/padwn_and0001)
+     LUT2:I1->O            1   0.313   0.000  XLXI_4/Mcount_padwn_lut<0> (XLXI_4/N20)
+     MUXCY:S->O            1   0.377   0.000  XLXI_4/Mcount_padwn_cy<0> (XLXI_4/Mcount_padwn_cy<0>)
+     MUXCY:CI->O           1   0.041   0.000  XLXI_4/Mcount_padwn_cy<1> (XLXI_4/Mcount_padwn_cy<1>)
+     MUXCY:CI->O           1   0.041   0.000  XLXI_4/Mcount_padwn_cy<2> (XLXI_4/Mcount_padwn_cy<2>)
+     MUXCY:CI->O           1   0.041   0.000  XLXI_4/Mcount_padwn_cy<3> (XLXI_4/Mcount_padwn_cy<3>)
+     MUXCY:CI->O           1   0.041   0.000  XLXI_4/Mcount_padwn_cy<4> (XLXI_4/Mcount_padwn_cy<4>)
+     MUXCY:CI->O           1   0.041   0.000  XLXI_4/Mcount_padwn_cy<5> (XLXI_4/Mcount_padwn_cy<5>)
+     MUXCY:CI->O           1   0.041   0.000  XLXI_4/Mcount_padwn_cy<6> (XLXI_4/Mcount_padwn_cy<6>)
+     MUXCY:CI->O           1   0.041   0.000  XLXI_4/Mcount_padwn_cy<7> (XLXI_4/Mcount_padwn_cy<7>)
+     MUXCY:CI->O           0   0.041   0.000  XLXI_4/Mcount_padwn_cy<8> (XLXI_4/Mcount_padwn_cy<8>)
+     XORCY:CI->O           1   0.868   0.000  XLXI_4/Mcount_padwn_xor<9> (XLXI_4/Result<9>2)
+     FDE:D                     0.234          XLXI_4/padwn_9
+    ----------------------------------------
+    Total                      6.051ns (3.437ns logic, 2.614ns route)
+                                       (56.8% logic, 43.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'XLXI_4/ad1'
+  Total number of paths / destination ports: 104 / 35
+-------------------------------------------------------------------------
+Offset:              7.313ns (Levels of Logic = 8)
+  Source:            reset (PAD)
+  Destination:       XLXI_4/b0/bally1_5 (FF)
+  Destination Clock: XLXI_4/ad1 rising
+
+  Data Path: reset to XLXI_4/b0/bally1_5
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            29   0.919   0.813  reset_IBUF (reset_IBUF)
+     LUT3:I2->O           15   0.313   0.783  XLXI_4/b0/bally_mux0017<1>31 (XLXI_4/b0/N18)
+     LUT4:I3->O            1   0.313   0.418  XLXI_4/b0/bally_cmp_eq000790_SW0_SW0 (N3452)
+     LUT4:I2->O            2   0.313   0.495  XLXI_4/b0/bally_cmp_eq000790_SW0 (N3350)
+     LUT4_D:I3->O          4   0.313   0.602  XLXI_4/b0/bally_mux0017<1>51_SW1_SW0 (N3280)
+     LUT4:I1->O            1   0.313   0.440  XLXI_4/b0/bally_mux0017<1>51_SW4 (N3334)
+     LUT4:I3->O            1   0.313   0.418  XLXI_4/b0/bally_mux0017<5>_SW0 (N1744)
+     LUT4:I2->O            1   0.313   0.000  XLXI_4/b0/bally_mux0017<5> (XLXI_4/b0/bally_mux0017<5>)
+     FD:D                      0.234          XLXI_4/b0/bally1_5
+    ----------------------------------------
+    Total                      7.313ns (3.344ns logic, 3.969ns route)
+                                       (45.7% logic, 54.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'XLXI_4/clkslow21'
+  Total number of paths / destination ports: 320 / 40
+-------------------------------------------------------------------------
+Offset:              4.646ns (Levels of Logic = 13)
+  Source:            led (PAD)
+  Destination:       XLXI_4/padwn_9 (FF)
+  Destination Clock: XLXI_4/clkslow21 rising
+
+  Data Path: led to XLXI_4/padwn_9
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   0.919   0.561  led_IBUF (led_IBUF)
+     LUT4:I1->O           11   0.313   0.729  XLXI_4/padwn_not0003130 (XLXI_4/padwn_and0001)
+     LUT2:I1->O            1   0.313   0.000  XLXI_4/Mcount_padwn_lut<0> (XLXI_4/N20)
+     MUXCY:S->O            1   0.377   0.000  XLXI_4/Mcount_padwn_cy<0> (XLXI_4/Mcount_padwn_cy<0>)
+     MUXCY:CI->O           1   0.041   0.000  XLXI_4/Mcount_padwn_cy<1> (XLXI_4/Mcount_padwn_cy<1>)
+     MUXCY:CI->O           1   0.041   0.000  XLXI_4/Mcount_padwn_cy<2> (XLXI_4/Mcount_padwn_cy<2>)
+     MUXCY:CI->O           1   0.041   0.000  XLXI_4/Mcount_padwn_cy<3> (XLXI_4/Mcount_padwn_cy<3>)
+     MUXCY:CI->O           1   0.041   0.000  XLXI_4/Mcount_padwn_cy<4> (XLXI_4/Mcount_padwn_cy<4>)
+     MUXCY:CI->O           1   0.041   0.000  XLXI_4/Mcount_padwn_cy<5> (XLXI_4/Mcount_padwn_cy<5>)
+     MUXCY:CI->O           1   0.041   0.000  XLXI_4/Mcount_padwn_cy<6> (XLXI_4/Mcount_padwn_cy<6>)
+     MUXCY:CI->O           1   0.041   0.000  XLXI_4/Mcount_padwn_cy<7> (XLXI_4/Mcount_padwn_cy<7>)
+     MUXCY:CI->O           0   0.041   0.000  XLXI_4/Mcount_padwn_cy<8> (XLXI_4/Mcount_padwn_cy<8>)
+     XORCY:CI->O           1   0.868   0.000  XLXI_4/Mcount_padwn_xor<9> (XLXI_4/Result<9>2)
+     FDE:D                     0.234          XLXI_4/padwn_9
+    ----------------------------------------
+    Total                      4.646ns (3.356ns logic, 1.290ns route)
+                                       (72.2% logic, 27.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXI_14/cr<6>'
+  Total number of paths / destination ports: 4 / 1
+-------------------------------------------------------------------------
+Offset:              4.800ns (Levels of Logic = 2)
+  Source:            XLXI_14/cd7/counter1/counterout_0 (LATCH)
+  Destination:       clk10 (PAD)
+  Source Clock:      XLXI_14/cr<6> falling
+
+  Data Path: XLXI_14/cd7/counter1/counterout_0 to clk10
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDCPE:G->Q            8   0.568   0.678  XLXI_14/cd7/counter1/counterout_0 (XLXI_14/cd7/counter1/counterout_0)
+     LUT4:I1->O            1   0.313   0.390  XLXI_14/cd7/clkout1 (clk10_OBUF)
+     OBUF:I->O                 2.851          clk10_OBUF (clk10)
+    ----------------------------------------
+    Total                      4.800ns (3.732ns logic, 1.068ns route)
+                                       (77.7% logic, 22.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'SYSTEM_CLOCK'
+  Total number of paths / destination ports: 29 / 29
+-------------------------------------------------------------------------
+Offset:              3.615ns (Levels of Logic = 1)
+  Source:            XLXI_22/VIDEO_OUT/VGA_VSYNCH (FF)
+  Destination:       VGA_VSYNCH (PAD)
+  Source Clock:      SYSTEM_CLOCK rising 0.3X
+
+  Data Path: XLXI_22/VIDEO_OUT/VGA_VSYNCH to VGA_VSYNCH
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDP:C->Q              1   0.374   0.390  XLXI_22/VIDEO_OUT/VGA_VSYNCH (XLXI_22/VIDEO_OUT/VGA_VSYNCH)
+     OBUF:I->O                 2.851          VGA_VSYNCH_OBUF (VGA_VSYNCH)
+    ----------------------------------------
+    Total                      3.615ns (3.225ns logic, 0.390ns route)
+                                       (89.2% logic, 10.8% route)
+
+=========================================================================
+CPU : 51.90 / 52.13 s | Elapsed : 52.00 / 52.00 s
+ 
+--> 
+
+Total memory usage is 301548 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  278 (   0 filtered)
+Number of infos    :    5 (   0 filtered)
+

@@ -1,0 +1,4 @@
+vhdl work "mod10.vhd"
+vhdl work "clkdivide.vhd"
+vhdl work "clk10hz.vhd"
+vhdl work "debounce.vhd"

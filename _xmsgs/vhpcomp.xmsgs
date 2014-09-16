@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="HDLParsers" num="3384" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/pingnew/maintb.vhw</arg>&quot; Line <arg fmt="%d" index="2">58</arg>. Size mismatch.  String literal &quot;<arg fmt="%s" index="3"></arg>&quot; is of size <arg fmt="%u" index="4">0</arg> but is expected to be of size <arg fmt="%u" index="5">10</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="3384" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/pingnew/maintb.vhw</arg>&quot; Line <arg fmt="%d" index="2">59</arg>. Size mismatch.  String literal &quot;<arg fmt="%s" index="3"></arg>&quot; is of size <arg fmt="%u" index="4">0</arg> but is expected to be of size <arg fmt="%u" index="5">9</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="3384" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/pingnew/maintb.vhw</arg>&quot; Line <arg fmt="%d" index="2">60</arg>. Size mismatch.  String literal &quot;<arg fmt="%s" index="3"></arg>&quot; is of size <arg fmt="%u" index="4">0</arg> but is expected to be of size <arg fmt="%u" index="5">10</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="3384" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/pingnew/maintb.vhw</arg>&quot; Line <arg fmt="%d" index="2">61</arg>. Size mismatch.  String literal &quot;<arg fmt="%s" index="3"></arg>&quot; is of size <arg fmt="%u" index="4">0</arg> but is expected to be of size <arg fmt="%u" index="5">10</arg>.
+</msg>
+
+</messages>
+

@@ -1,0 +1,36 @@
+Release 9.2i - xst J.36
+Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to ./xst/projnav.tmp
+CPU : 0.00 / 0.22 s | Elapsed : 0.00 / 0.00 s
+ 
+--> 
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "VIDEO_RAM.v" in library work
+Compiling verilog file "VIDEO_OUT.v" in library work
+Module <VIDEO_RAM> compiled
+Compiling verilog file "SVGA_TIMING_GENERATION.v" in library work
+Compiling verilog include file "SVGA_DEFINES.v"
+Module <VIDEO_OUT> compiled
+Compiling verilog file "COLOR_BARS.v" in library work
+Module <SVGA_TIMING_GENERATION> compiled
+Compiling verilog file "CLOCK_GEN.v" in library work
+Compiling verilog include file "SVGA_DEFINES.v"
+Module <COLOR_BARS> compiled
+Compiling verilog file "MAIN.v" in library work
+Module <CLOCK_GEN> compiled
+Module <MAIN> compiled
+No errors in compilation
+Analysis of file <"MAIN.prj"> succeeded.
+ 
+CPU : 0.08 / 0.30 s | Elapsed : 0.00 / 0.00 s
+ 
+--> 
+
+Total memory usage is 149088 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

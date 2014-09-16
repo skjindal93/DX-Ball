@@ -1,0 +1,48 @@
+ command line:
+   ./ballt_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  49276
+
+Sun Apr 24 11:15:43 2011
+
+Total Line Count : 172
+
+ Elaboration time : 0.015625 sec.
+
+ Estimate current memory usage : 136.176 Meg. 
+
+ Total Signals          : 20
+ Total Nets             : 64
+ Total Signal Drivers   : 12
+ Total Blocks           : 7
+ Total Primitive Blocks : 1
+ Total Processes        : 4
+ Total Traceable Variables  : 0
+ Total Scalar Nets and Variables : 64
+ntrace select -o on -n /ballt/x 
+ntrace select -o on -n /ballt/y 
+ntrace select -o on -n /ballt/ad 
+ntrace select -o on -n /ballt/padup 
+ntrace select -o on -n /ballt/padwn 
+ntrace select -o on -n /ballt/nthitup 
+ntrace select -o on -n /ballt/nthitdwn 
+ntrace select -o on -n /ballt/breset 
+ntrace start 
+isimrun 1000 ns 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+WARNING:Simulator:29 - at 200.000 ns(1): Warning: There is an
+   'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+WARNING:Simulator:29 - at 200.000 ns(1): Warning: CONV_INTEGER: There is an
+   'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+WARNING:Simulator:29 - at 200.000 ns(1): Warning: CONV_INTEGER: There is an
+   'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+isimrun 7000 ns 
+
+ Simulation time 0.078125 sec.
+
+ Estimate current memory usage : 144.564 Meg. 
+
+Sun Apr 24 11:19:01 2011
+

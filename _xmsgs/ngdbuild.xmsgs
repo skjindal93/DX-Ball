@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="XdmHelpers" num="851" delta="unknown" >TNM &quot;<arg fmt="%s" index="1">SYSTEM_CLOCK</arg>&quot;, used in period specification &quot;<arg fmt="%s" index="2">TS_SYSTEM_CLOCK</arg>&quot;, was traced into <arg fmt="%s" index="3">DCM</arg> instance &quot;<arg fmt="%s" index="4">XLXI_22/CLOCK_GEN/SYSTEM_DCM</arg>&quot;. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="5">DCM</arg> output(s):
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="unknown" >Attribute &quot;<arg fmt="%s" index="1">DRIVE</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">kb_clk</arg>&quot; of type &quot;<arg fmt="%s" index="3">IPAD</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="unknown" >Attribute &quot;<arg fmt="%s" index="1">SLEW</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">kb_clk</arg>&quot; of type &quot;<arg fmt="%s" index="3">IPAD</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="unknown" >Attribute &quot;<arg fmt="%s" index="1">DRIVE</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">kb_data</arg>&quot; of type &quot;<arg fmt="%s" index="3">IPAD</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="unknown" >Attribute &quot;<arg fmt="%s" index="1">SLEW</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">kb_data</arg>&quot; of type &quot;<arg fmt="%s" index="3">IPAD</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+</messages>
+

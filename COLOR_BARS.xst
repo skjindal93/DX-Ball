@@ -1,0 +1,4 @@
+set -tmpdir "./xst/projnav.tmp"
+elaborate
+-ifn COLOR_BARS.prj
+-ifmt mixed

@@ -1,0 +1,8 @@
+vhdl work "mod10.vhd"
+vhdl work "divide.vhd"
+vhdl work "clkdivide.vhd"
+vhdl work "clk10hz.vhd"
+vhdl work "ball1.vhd"
+vhdl work "debounce.vhd"
+vhdl work "maincc.vhd"
+vhdl work "main1.vhw"

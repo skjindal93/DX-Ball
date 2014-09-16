@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="MapLib" num="562" delta="unknown" >No environment variables are currently set.
+</msg>
+
+<msg type="info" file="MapLib" num="863" delta="unknown" >The following Virtex BUFG(s) is/are being retargeted to Virtex2 BUFGMUX(s) with input tied to I0 and Select pin tied to constant 0:
+<arg fmt="%s" index="1">BUFG symbol &quot;XLXI_22/CLOCK_GEN/PIXEL_CLOCK_BUF&quot; (output signal=XLXN_79),
+BUFG symbol &quot;XLXI_22/CLOCK_GEN/SYS_CLOCK_BUF&quot; (output signal=XLXI_22/CLOCK_GEN/system_clock_buffered),
+BUFG symbol &quot;XLXI_23/ad_BUFG&quot; (output signal=XLXI_23/ad),
+BUFGP symbol &quot;kb_clk_BUFGP&quot; (output signal=kb_clk_BUFGP)</arg>
+</msg>
+
+<msg type="info" file="LIT" num="244" delta="unknown" >All of the single ended outputs in this design are using slew rate limited output drivers. The delay on speed critical single ended outputs can be dramatically reduced by designating them as fast outputs in the schematic.
+</msg>
+
+<msg type="warning" file="LIT" num="175" delta="unknown" >Clock buffer is designated to drive clock loads. <arg fmt="%s" index="1">BUFGMUX symbol &quot;physical_group_XLXN_79/XLXI_22/CLOCK_GEN/PIXEL_CLOCK_BUF&quot; (output signal=XLXN_79)</arg> has a mix of clock and non-clock loads. Some of the non-clock loads are (maximum of 5 listed):
+<arg fmt="%s" index="2">Pin I0 of XLXI_14/cd1/counter1/counterout_and00001
+Pin I0 of XLXI_14/cd1/counter1/counterout_1__and00011
+Pin I0 of XLXI_14/cd1/counter1/counterout_0__and00001
+Pin I0 of XLXI_14/cd1/counter1/counterout_2__and00001
+Pin I0 of XLXI_14/cd1/counter1/counterout_2__and00011</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="unknown" >The function generator <arg fmt="%s" index="1">XLXI_23/b0/ballx_mux0022&lt;0&gt;121_SW12</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">XLXI_23/b0/N821_SW0_SW1</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="unknown" >The function generator <arg fmt="%s" index="1">XLXI_23/b0/ballx_mux0022&lt;0&gt;121_SW13</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">XLXI_23/b0/N821_SW0_SW3</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="unknown" >The function generator <arg fmt="%s" index="1">XLXI_23/b0/ballx_mux0022&lt;0&gt;121_SW14</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">XLXI_23/b0/N821_SW0_SW5</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="unknown" >The function generator <arg fmt="%s" index="1">XLXI_23/b0/ballx_mux0022&lt;0&gt;121_SW15</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">XLXI_23/b0/N821_SW0_SW7</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="unknown" >The function generator <arg fmt="%s" index="1">XLXI_23/b0/ballx_mux0022&lt;0&gt;121_SW16</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">XLXI_23/b0/N821_SW0_SW9</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="unknown" >The function generator <arg fmt="%s" index="1">XLXI_23/b0/ballx_mux0022&lt;0&gt;121_SW17</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">XLXI_23/b0/N821_SW0_SW11</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="unknown" >The function generator <arg fmt="%s" index="1">XLXI_23/b0/ballx_mux0022&lt;0&gt;121_SW6</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">XLXI_23/b0/N821_SW0_SW21</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="unknown" >The function generator <arg fmt="%s" index="1">XLXI_23/b0/ballx_mux0022&lt;0&gt;121_SW18</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">XLXI_23/b0/N821_SW0_SW13</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="unknown" >The function generator <arg fmt="%s" index="1">XLXI_23/b0/ballx_mux0022&lt;0&gt;121_SW11</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">XLXI_23/b0/N821_SW0_SW31</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="unknown" >The function generator <arg fmt="%s" index="1">XLXI_23/b0/ballx_mux0022&lt;0&gt;121_SW7</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">XLXI_23/b0/N821_SW0_SW23</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="unknown" >The function generator <arg fmt="%s" index="1">XLXI_23/b0/ballx_mux0022&lt;0&gt;121_SW19</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">XLXI_23/b0/N821_SW0_SW15</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="unknown" >The function generator <arg fmt="%s" index="1">XLXI_23/b0/ballx_mux0022&lt;0&gt;121_SW8</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">XLXI_23/b0/N821_SW0_SW25</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="unknown" >The function generator <arg fmt="%s" index="1">XLXI_23/b0/ballx_mux0022&lt;0&gt;121_SW4</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">XLXI_23/b0/N821_SW0_SW17</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="unknown" >The function generator <arg fmt="%s" index="1">XLXI_23/b0/ballx_mux0022&lt;0&gt;121_SW9</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">XLXI_23/b0/N821_SW0_SW27</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="unknown" >The function generator <arg fmt="%s" index="1">XLXI_23/b0/ballx_mux0022&lt;0&gt;121_SW5</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">XLXI_23/b0/N821_SW0_SW19</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="unknown" >The function generator <arg fmt="%s" index="1">XLXI_23/b0/ballx_mux0022&lt;0&gt;121_SW10</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">XLXI_23/b0/N821_SW0_SW29</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="unknown" >The function generator <arg fmt="%s" index="1">XLXI_23/b0/Msub_p14_sub0008_xor&lt;3&gt;11</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">XLXI_23/b0/Msub_p14_sub0008_xor&lt;10&gt;11_SW6</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="unknown" >Gated clock. Clock net <arg fmt="%s" index="1">XLXI_14/cr&lt;6&gt;</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="unknown" >Gated clock. Clock net <arg fmt="%s" index="1">XLXI_14/cr&lt;5&gt;</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="unknown" >Gated clock. Clock net <arg fmt="%s" index="1">XLXI_14/cr&lt;1&gt;</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="unknown" >Gated clock. Clock net <arg fmt="%s" index="1">XLXI_14/cr&lt;2&gt;</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="unknown" >Gated clock. Clock net <arg fmt="%s" index="1">XLXI_14/cr&lt;3&gt;</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="unknown" >Gated clock. Clock net <arg fmt="%s" index="1">XLXI_14/cr&lt;4&gt;</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="info" file="PhysDesignRules" num="772" delta="unknown" >To achieve optimal frequency synthesis performance with the CLKFX and CLKFX180 outputs of the DCM comp <arg fmt="%s" index="1">XLXI_22/CLOCK_GEN/SYSTEM_DCM/XLXI_22/CLOCK_GEN/SYSTEM_DCM</arg>, consult the device Interactive Data Sheet.
+</msg>
+
+</messages>
+

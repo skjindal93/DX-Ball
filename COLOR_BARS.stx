@@ -1,0 +1,22 @@
+Release 9.2i - xst J.36
+Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to ./xst/projnav.tmp
+CPU : 0.00 / 0.20 s | Elapsed : 0.00 / 0.00 s
+ 
+--> 
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "VIDEO_RAM.v" in library work
+Compiling verilog file "COLOR_BARS.v" in library work
+Module <VIDEO_RAM> compiled
+ERROR:HDLCompilers:26 - "COLOR_BARS.v" line 89 Macro reference `V_TOTAL is not defined
+Analysis of file <"COLOR_BARS.prj"> failed.
+--> 
+
+Total memory usage is 111004 kilobytes
+
+Number of errors   :    1 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

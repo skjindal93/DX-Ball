@@ -1,0 +1,8 @@
+vhdl work "C:\pingnew\mod10.vhd"
+vhdl work "C:\pingnew\divide.vhd"
+vhdl work "C:\pingnew\clkdivide.vhd"
+vhdl work "C:\pingnew\clk10hz.vhd"
+vhdl work "C:\pingnew\ball1.vhd"
+vhdl work "C:\pingnew\keyboard.vhd"
+vhdl work "C:\pingnew\debounce.vhd"
+vhdl work "C:\pingnew\maincc.vhd"

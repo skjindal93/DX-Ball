@@ -1,0 +1,17 @@
+[Inputs]
+start
+clk
+reset
+leftdd
+rightdd
+leftuu
+rightuu
+speed
+[Outputs]
+=bally[8:0]=
+=ballx[9:0]=
+=padupo[9:0]=
+=padwno[9:0]=
+=score[7:0]=
+=togscore[1:0]=
+[BiDir]

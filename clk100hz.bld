@@ -1,0 +1,269 @@
+Release 9.2i ngdbuild J.36
+Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx92i\bin\nt\ngdbuild.exe -ise Z:/Desktop/pingnew/ping.ise
+-intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc2vp30-ff896-6 clk100hz.ngc
+clk100hz.ngd
+
+Reading NGO file "Z:/Desktop/pingnew/clk100hz.ngc" ...
+
+Applying constraints in "top.ucf" to the design...
+ERROR:NgdBuild:755 - "top.ucf" Line 2: Could not find net(s) 'SYSTEM_CLOCK' in
+   the design.  To suppress this error specify the correct net name or remove
+   the constraint.  The 'Allow Unmatched LOC Constraints' ISE property can also
+   be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - "top.ucf" Line 3: Could not find net(s) 'SYSTEM_CLOCK' in
+   the design.  To suppress this error specify the correct net name or remove
+   the constraint.  The 'Allow Unmatched LOC Constraints' ISE property can also
+   be set ( -aul switch for command line users).
+ERROR:NgdBuild:756 - "top.ucf" Line 4: Could not find net(s) 'SYSTEM_CLOCK' in
+   the design.  To suppress this error specify the correct net name or remove
+   the constraint.
+ERROR:NgdBuild:755 - "top.ucf" Line 15: Could not find net(s) 'VGA_VSYNCH' in
+   the design.  To suppress this error specify the correct net name or remove
+   the constraint.  The 'Allow Unmatched LOC Constraints' ISE property can also
+   be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - "top.ucf" Line 16: Could not find net(s) 'VGA_HSYNCH' in
+   the design.  To suppress this error specify the correct net name or remove
+   the constraint.  The 'Allow Unmatched LOC Constraints' ISE property can also
+   be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - "top.ucf" Line 17: Could not find net(s) 'VGA_OUT_BLANK_Z'
+   in the design.  To suppress this error specify the correct net name or remove
+   the constraint.  The 'Allow Unmatched LOC Constraints' ISE property can also
+   be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - "top.ucf" Line 18: Could not find net(s) 'VGA_COMP_SYNCH'
+   in the design.  To suppress this error specify the correct net name or remove
+   the constraint.  The 'Allow Unmatched LOC Constraints' ISE property can also
+   be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - "top.ucf" Line 19: Could not find net(s)
+   'VGA_OUT_PIXEL_CLOCK' in the design.  To suppress this error specify the
+   correct net name or remove the constraint.  The 'Allow Unmatched LOC
+   Constraints' ISE property can also be set ( -aul switch for command line
+   users).
+ERROR:NgdBuild:755 - "top.ucf" Line 21: Could not find net(s) 'VGA_OUT_RED[7]'
+   in the design.  To suppress this error specify the correct net name or remove
+   the constraint.  The 'Allow Unmatched LOC Constraints' ISE property can also
+   be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - "top.ucf" Line 22: Could not find net(s) 'VGA_OUT_RED[6]'
+   in the design.  To suppress this error specify the correct net name or remove
+   the constraint.  The 'Allow Unmatched LOC Constraints' ISE property can also
+   be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - "top.ucf" Line 23: Could not find net(s) 'VGA_OUT_RED[5]'
+   in the design.  To suppress this error specify the correct net name or remove
+   the constraint.  The 'Allow Unmatched LOC Constraints' ISE property can also
+   be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - "top.ucf" Line 24: Could not find net(s) 'VGA_OUT_RED[4]'
+   in the design.  To suppress this error specify the correct net name or remove
+   the constraint.  The 'Allow Unmatched LOC Constraints' ISE property can also
+   be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - "top.ucf" Line 25: Could not find net(s) 'VGA_OUT_RED[3]'
+   in the design.  To suppress this error specify the correct net name or remove
+   the constraint.  The 'Allow Unmatched LOC Constraints' ISE property can also
+   be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - "top.ucf" Line 26: Could not find net(s) 'VGA_OUT_RED[2]'
+   in the design.  To suppress this error specify the correct net name or remove
+   the constraint.  The 'Allow Unmatched LOC Constraints' ISE property can also
+   be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - "top.ucf" Line 27: Could not find net(s) 'VGA_OUT_RED[1]'
+   in the design.  To suppress this error specify the correct net name or remove
+   the constraint.  The 'Allow Unmatched LOC Constraints' ISE property can also
+   be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - "top.ucf" Line 28: Could not find net(s) 'VGA_OUT_RED[0]'
+   in the design.  To suppress this error specify the correct net name or remove
+   the constraint.  The 'Allow Unmatched LOC Constraints' ISE property can also
+   be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - "top.ucf" Line 30: Could not find net(s) 'VGA_OUT_GREEN[7]'
+   in the design.  To suppress this error specify the correct net name or remove
+   the constraint.  The 'Allow Unmatched LOC Constraints' ISE property can also
+   be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - "top.ucf" Line 31: Could not find net(s) 'VGA_OUT_GREEN[6]'
+   in the design.  To suppress this error specify the correct net name or remove
+   the constraint.  The 'Allow Unmatched LOC Constraints' ISE property can also
+   be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - "top.ucf" Line 32: Could not find net(s) 'VGA_OUT_GREEN[5]'
+   in the design.  To suppress this error specify the correct net name or remove
+   the constraint.  The 'Allow Unmatched LOC Constraints' ISE property can also
+   be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - "top.ucf" Line 33: Could not find net(s) 'VGA_OUT_GREEN[4]'
+   in the design.  To suppress this error specify the correct net name or remove
+   the constraint.  The 'Allow Unmatched LOC Constraints' ISE property can also
+   be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - "top.ucf" Line 34: Could not find net(s) 'VGA_OUT_GREEN[3]'
+   in the design.  To suppress this error specify the correct net name or remove
+   the constraint.  The 'Allow Unmatched LOC Constraints' ISE property can also
+   be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - "top.ucf" Line 35: Could not find net(s) 'VGA_OUT_GREEN[2]'
+   in the design.  To suppress this error specify the correct net name or remove
+   the constraint.  The 'Allow Unmatched LOC Constraints' ISE property can also
+   be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - "top.ucf" Line 36: Could not find net(s) 'VGA_OUT_GREEN[1]'
+   in the design.  To suppress this error specify the correct net name or remove
+   the constraint.  The 'Allow Unmatched LOC Constraints' ISE property can also
+   be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - "top.ucf" Line 37: Could not find net(s) 'VGA_OUT_GREEN[0]'
+   in the design.  To suppress this error specify the correct net name or remove
+   the constraint.  The 'Allow Unmatched LOC Constraints' ISE property can also
+   be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - "top.ucf" Line 39: Could not find net(s) 'VGA_OUT_BLUE[7]'
+   in the design.  To suppress this error specify the correct net name or remove
+   the constraint.  The 'Allow Unmatched LOC Constraints' ISE property can also
+   be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - "top.ucf" Line 40: Could not find net(s) 'VGA_OUT_BLUE[6]'
+   in the design.  To suppress this error specify the correct net name or remove
+   the constraint.  The 'Allow Unmatched LOC Constraints' ISE property can also
+   be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - "top.ucf" Line 41: Could not find net(s) 'VGA_OUT_BLUE[5]'
+   in the design.  To suppress this error specify the correct net name or remove
+   the constraint.  The 'Allow Unmatched LOC Constraints' ISE property can also
+   be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - "top.ucf" Line 42: Could not find net(s) 'VGA_OUT_BLUE[4]'
+   in the design.  To suppress this error specify the correct net name or remove
+   the constraint.  The 'Allow Unmatched LOC Constraints' ISE property can also
+   be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - "top.ucf" Line 43: Could not find net(s) 'VGA_OUT_BLUE[3]'
+   in the design.  To suppress this error specify the correct net name or remove
+   the constraint.  The 'Allow Unmatched LOC Constraints' ISE property can also
+   be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - "top.ucf" Line 44: Could not find net(s) 'VGA_OUT_BLUE[2]'
+   in the design.  To suppress this error specify the correct net name or remove
+   the constraint.  The 'Allow Unmatched LOC Constraints' ISE property can also
+   be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - "top.ucf" Line 45: Could not find net(s) 'VGA_OUT_BLUE[1]'
+   in the design.  To suppress this error specify the correct net name or remove
+   the constraint.  The 'Allow Unmatched LOC Constraints' ISE property can also
+   be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - "top.ucf" Line 46: Could not find net(s) 'VGA_OUT_BLUE[0]'
+   in the design.  To suppress this error specify the correct net name or remove
+   the constraint.  The 'Allow Unmatched LOC Constraints' ISE property can also
+   be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - "top.ucf" Line 48: Could not find net(s) 'VGA_OUT_BLUE[*]'
+   in the design.  To suppress this error specify the correct net name or remove
+   the constraint.  The 'Allow Unmatched LOC Constraints' ISE property can also
+   be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - "top.ucf" Line 49: Could not find net(s) 'VGA_OUT_GREEN[*]'
+   in the design.  To suppress this error specify the correct net name or remove
+   the constraint.  The 'Allow Unmatched LOC Constraints' ISE property can also
+   be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - "top.ucf" Line 50: Could not find net(s) 'VGA_OUT_RED[*]'
+   in the design.  To suppress this error specify the correct net name or remove
+   the constraint.  The 'Allow Unmatched LOC Constraints' ISE property can also
+   be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - "top.ucf" Line 52: Could not find net(s) 'VGA_OUT_BLUE[*]'
+   in the design.  To suppress this error specify the correct net name or remove
+   the constraint.  The 'Allow Unmatched LOC Constraints' ISE property can also
+   be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - "top.ucf" Line 53: Could not find net(s) 'VGA_OUT_GREEN[*]'
+   in the design.  To suppress this error specify the correct net name or remove
+   the constraint.  The 'Allow Unmatched LOC Constraints' ISE property can also
+   be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - "top.ucf" Line 54: Could not find net(s) 'VGA_OUT_RED[*]'
+   in the design.  To suppress this error specify the correct net name or remove
+   the constraint.  The 'Allow Unmatched LOC Constraints' ISE property can also
+   be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - "top.ucf" Line 56: Could not find net(s) 'VGA_OUT_BLUE[*]'
+   in the design.  To suppress this error specify the correct net name or remove
+   the constraint.  The 'Allow Unmatched LOC Constraints' ISE property can also
+   be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - "top.ucf" Line 57: Could not find net(s) 'VGA_OUT_GREEN[*]'
+   in the design.  To suppress this error specify the correct net name or remove
+   the constraint.  The 'Allow Unmatched LOC Constraints' ISE property can also
+   be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - "top.ucf" Line 58: Could not find net(s) 'VGA_OUT_RED[*]'
+   in the design.  To suppress this error specify the correct net name or remove
+   the constraint.  The 'Allow Unmatched LOC Constraints' ISE property can also
+   be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - "top.ucf" Line 60: Could not find net(s) 'VGA_VSYNCH' in
+   the design.  To suppress this error specify the correct net name or remove
+   the constraint.  The 'Allow Unmatched LOC Constraints' ISE property can also
+   be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - "top.ucf" Line 61: Could not find net(s)
+   'VGA_OUT_PIXEL_CLOCK' in the design.  To suppress this error specify the
+   correct net name or remove the constraint.  The 'Allow Unmatched LOC
+   Constraints' ISE property can also be set ( -aul switch for command line
+   users).
+ERROR:NgdBuild:755 - "top.ucf" Line 62: Could not find net(s) 'VGA_HSYNCH' in
+   the design.  To suppress this error specify the correct net name or remove
+   the constraint.  The 'Allow Unmatched LOC Constraints' ISE property can also
+   be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - "top.ucf" Line 63: Could not find net(s) 'VGA_OUT_BLANK_Z'
+   in the design.  To suppress this error specify the correct net name or remove
+   the constraint.  The 'Allow Unmatched LOC Constraints' ISE property can also
+   be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - "top.ucf" Line 64: Could not find net(s) 'VGA_COMP_SYNCH'
+   in the design.  To suppress this error specify the correct net name or remove
+   the constraint.  The 'Allow Unmatched LOC Constraints' ISE property can also
+   be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - "top.ucf" Line 65: Could not find net(s) 'VGA_VSYNCH' in
+   the design.  To suppress this error specify the correct net name or remove
+   the constraint.  The 'Allow Unmatched LOC Constraints' ISE property can also
+   be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - "top.ucf" Line 66: Could not find net(s)
+   'VGA_OUT_PIXEL_CLOCK' in the design.  To suppress this error specify the
+   correct net name or remove the constraint.  The 'Allow Unmatched LOC
+   Constraints' ISE property can also be set ( -aul switch for command line
+   users).
+ERROR:NgdBuild:755 - "top.ucf" Line 67: Could not find net(s) 'VGA_HSYNCH' in
+   the design.  To suppress this error specify the correct net name or remove
+   the constraint.  The 'Allow Unmatched LOC Constraints' ISE property can also
+   be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - "top.ucf" Line 68: Could not find net(s) 'VGA_OUT_BLANK_Z'
+   in the design.  To suppress this error specify the correct net name or remove
+   the constraint.  The 'Allow Unmatched LOC Constraints' ISE property can also
+   be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - "top.ucf" Line 69: Could not find net(s) 'VGA_COMP_SYNCH'
+   in the design.  To suppress this error specify the correct net name or remove
+   the constraint.  The 'Allow Unmatched LOC Constraints' ISE property can also
+   be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - "top.ucf" Line 71: Could not find net(s) 'VGA_VSYNCH' in
+   the design.  To suppress this error specify the correct net name or remove
+   the constraint.  The 'Allow Unmatched LOC Constraints' ISE property can also
+   be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - "top.ucf" Line 72: Could not find net(s)
+   'VGA_OUT_PIXEL_CLOCK' in the design.  To suppress this error specify the
+   correct net name or remove the constraint.  The 'Allow Unmatched LOC
+   Constraints' ISE property can also be set ( -aul switch for command line
+   users).
+ERROR:NgdBuild:755 - "top.ucf" Line 73: Could not find net(s) 'VGA_HSYNCH' in
+   the design.  To suppress this error specify the correct net name or remove
+   the constraint.  The 'Allow Unmatched LOC Constraints' ISE property can also
+   be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - "top.ucf" Line 74: Could not find net(s) 'VGA_OUT_BLANK_Z'
+   in the design.  To suppress this error specify the correct net name or remove
+   the constraint.  The 'Allow Unmatched LOC Constraints' ISE property can also
+   be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - "top.ucf" Line 75: Could not find net(s) 'VGA_COMP_SYNCH'
+   in the design.  To suppress this error specify the correct net name or remove
+   the constraint.  The 'Allow Unmatched LOC Constraints' ISE property can also
+   be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - "top.ucf" Line 77: Could not find net(s) 'start' in the
+   design.  To suppress this error specify the correct net name or remove the
+   constraint.  The 'Allow Unmatched LOC Constraints' ISE property can also be
+   set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - "top.ucf" Line 78: Could not find net(s) 'reset' in the
+   design.  To suppress this error specify the correct net name or remove the
+   constraint.  The 'Allow Unmatched LOC Constraints' ISE property can also be
+   set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - "top.ucf" Line 80: Could not find net(s) 'led' in the
+   design.  To suppress this error specify the correct net name or remove the
+   constraint.  The 'Allow Unmatched LOC Constraints' ISE property can also be
+   set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - "top.ucf" Line 81: Could not find net(s) 'leu' in the
+   design.  To suppress this error specify the correct net name or remove the
+   constraint.  The 'Allow Unmatched LOC Constraints' ISE property can also be
+   set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - "top.ucf" Line 82: Could not find net(s) 'rid' in the
+   design.  To suppress this error specify the correct net name or remove the
+   constraint.  The 'Allow Unmatched LOC Constraints' ISE property can also be
+   set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - "top.ucf" Line 83: Could not find net(s) 'riu' in the
+   design.  To suppress this error specify the correct net name or remove the
+   constraint.  The 'Allow Unmatched LOC Constraints' ISE property can also be
+   set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - "top.ucf" Line 85: Could not find net(s) 'clk10' in the
+   design.  To suppress this error specify the correct net name or remove the
+   constraint.  The 'Allow Unmatched LOC Constraints' ISE property can also be
+   set ( -aul switch for command line users).
+ERROR:Parsers:11 - Encountered unrecognized constraint while parsing.
+ERROR:NgdBuild:19 - Errors found while parsing constraint file "top.ucf".
+
+Writing NGDBUILD log file "clk100hz.bld"...

@@ -1,0 +1,241 @@
+--------------------------------------------------------------------------------
+-- Copyright (c) 1995-2007 Xilinx, Inc.
+-- All Right Reserved.
+--------------------------------------------------------------------------------
+--   ____  ____ 
+--  /   /\/   / 
+-- /___/  \  /    Vendor: Xilinx 
+-- \   \   \/     Version : 9.2i
+--  \   \         Application : ISE
+--  /   /         Filename : main1.ant
+-- /___/   /\     Timestamp : Tue Apr 16 00:30:43 2013
+-- \   \  /  \ 
+--  \___\/\___\ 
+--
+--Command: 
+--Design Name: main1
+--Device: Xilinx
+--
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+USE IEEE.STD_LOGIC_TEXTIO.ALL;
+USE STD.TEXTIO.ALL;
+
+ENTITY main1 IS
+END main1;
+
+ARCHITECTURE testbench_arch OF main1 IS
+    FILE RESULTS: TEXT OPEN WRITE_MODE IS "C:\pingnew\main1.ano";
+
+    COMPONENT mainc
+        PORT (
+            start : In std_logic;
+            clk : In std_logic;
+            reset : In std_logic;
+            leftdd : In std_logic;
+            rightdd : In std_logic;
+            leftuu : In std_logic;
+            rightuu : In std_logic;
+            speed : In std_logic;
+            ballx : Out std_logic_vector (9 DownTo 0);
+            bally : Out std_logic_vector (8 DownTo 0);
+            padup : Out std_logic_vector (9 DownTo 0);
+            padwn : Out std_logic_vector (9 DownTo 0);
+            score : Out std_logic_vector (7 DownTo 0);
+            togscore : Out std_logic_vector (1 DownTo 0)
+        );
+    END COMPONENT;
+
+    SIGNAL start : std_logic := '0';
+    SIGNAL clk : std_logic := '0';
+    SIGNAL reset : std_logic := '0';
+    SIGNAL leftdd : std_logic := '0';
+    SIGNAL rightdd : std_logic := '0';
+    SIGNAL leftuu : std_logic := '0';
+    SIGNAL rightuu : std_logic := '0';
+    SIGNAL speed : std_logic := '0';
+    SIGNAL ballx : std_logic_vector (9 DownTo 0) := "";
+    SIGNAL bally : std_logic_vector (8 DownTo 0) := "";
+    SIGNAL padup : std_logic_vector (9 DownTo 0) := "";
+    SIGNAL padwn : std_logic_vector (9 DownTo 0) := "";
+    SIGNAL score : std_logic_vector (7 DownTo 0) := "00000000";
+    SIGNAL togscore : std_logic_vector (1 DownTo 0) := "00";
+
+    SHARED VARIABLE TX_ERROR : INTEGER := 0;
+    SHARED VARIABLE TX_OUT : LINE;
+
+    BEGIN
+        UUT : mainc
+        PORT MAP (
+            start => start,
+            clk => clk,
+            reset => reset,
+            leftdd => leftdd,
+            rightdd => rightdd,
+            leftuu => leftuu,
+            rightuu => rightuu,
+            speed => speed,
+            ballx => ballx,
+            bally => bally,
+            padup => padup,
+            padwn => padwn,
+            score => score,
+            togscore => togscore
+        );
+
+        PROCESS    -- Annotation process
+            VARIABLE TX_TIME : INTEGER := 0;
+
+            PROCEDURE ANNOTATE_ballx(
+                TX_TIME : INTEGER
+            ) IS
+                VARIABLE TX_STR : String(1 to 4096);
+                VARIABLE TX_LOC : LINE;
+            BEGIN
+                STD.TEXTIO.write(TX_LOC, string'("Annotate["));
+                STD.TEXTIO.write(TX_LOC, TX_TIME);
+                STD.TEXTIO.write(TX_LOC, string'(", ballx, "));
+                IEEE.STD_LOGIC_TEXTIO.write(TX_LOC, ballx);
+                STD.TEXTIO.write(TX_LOC, string'("]"));
+                TX_STR(TX_LOC.all'range) := TX_LOC.all;
+                STD.TEXTIO.writeline(RESULTS, TX_LOC);
+                STD.TEXTIO.Deallocate(TX_LOC);
+            END;
+            PROCEDURE ANNOTATE_bally(
+                TX_TIME : INTEGER
+            ) IS
+                VARIABLE TX_STR : String(1 to 4096);
+                VARIABLE TX_LOC : LINE;
+            BEGIN
+                STD.TEXTIO.write(TX_LOC, string'("Annotate["));
+                STD.TEXTIO.write(TX_LOC, TX_TIME);
+                STD.TEXTIO.write(TX_LOC, string'(", bally, "));
+                IEEE.STD_LOGIC_TEXTIO.write(TX_LOC, bally);
+                STD.TEXTIO.write(TX_LOC, string'("]"));
+                TX_STR(TX_LOC.all'range) := TX_LOC.all;
+                STD.TEXTIO.writeline(RESULTS, TX_LOC);
+                STD.TEXTIO.Deallocate(TX_LOC);
+            END;
+            PROCEDURE ANNOTATE_padup(
+                TX_TIME : INTEGER
+            ) IS
+                VARIABLE TX_STR : String(1 to 4096);
+                VARIABLE TX_LOC : LINE;
+            BEGIN
+                STD.TEXTIO.write(TX_LOC, string'("Annotate["));
+                STD.TEXTIO.write(TX_LOC, TX_TIME);
+                STD.TEXTIO.write(TX_LOC, string'(", padup, "));
+                IEEE.STD_LOGIC_TEXTIO.write(TX_LOC, padup);
+                STD.TEXTIO.write(TX_LOC, string'("]"));
+                TX_STR(TX_LOC.all'range) := TX_LOC.all;
+                STD.TEXTIO.writeline(RESULTS, TX_LOC);
+                STD.TEXTIO.Deallocate(TX_LOC);
+            END;
+            PROCEDURE ANNOTATE_padwn(
+                TX_TIME : INTEGER
+            ) IS
+                VARIABLE TX_STR : String(1 to 4096);
+                VARIABLE TX_LOC : LINE;
+            BEGIN
+                STD.TEXTIO.write(TX_LOC, string'("Annotate["));
+                STD.TEXTIO.write(TX_LOC, TX_TIME);
+                STD.TEXTIO.write(TX_LOC, string'(", padwn, "));
+                IEEE.STD_LOGIC_TEXTIO.write(TX_LOC, padwn);
+                STD.TEXTIO.write(TX_LOC, string'("]"));
+                TX_STR(TX_LOC.all'range) := TX_LOC.all;
+                STD.TEXTIO.writeline(RESULTS, TX_LOC);
+                STD.TEXTIO.Deallocate(TX_LOC);
+            END;
+            PROCEDURE ANNOTATE_score(
+                TX_TIME : INTEGER
+            ) IS
+                VARIABLE TX_STR : String(1 to 4096);
+                VARIABLE TX_LOC : LINE;
+            BEGIN
+                STD.TEXTIO.write(TX_LOC, string'("Annotate["));
+                STD.TEXTIO.write(TX_LOC, TX_TIME);
+                STD.TEXTIO.write(TX_LOC, string'(", score, "));
+                IEEE.STD_LOGIC_TEXTIO.write(TX_LOC, score);
+                STD.TEXTIO.write(TX_LOC, string'("]"));
+                TX_STR(TX_LOC.all'range) := TX_LOC.all;
+                STD.TEXTIO.writeline(RESULTS, TX_LOC);
+                STD.TEXTIO.Deallocate(TX_LOC);
+            END;
+            PROCEDURE ANNOTATE_togscore(
+                TX_TIME : INTEGER
+            ) IS
+                VARIABLE TX_STR : String(1 to 4096);
+                VARIABLE TX_LOC : LINE;
+            BEGIN
+                STD.TEXTIO.write(TX_LOC, string'("Annotate["));
+                STD.TEXTIO.write(TX_LOC, TX_TIME);
+                STD.TEXTIO.write(TX_LOC, string'(", togscore, "));
+                IEEE.STD_LOGIC_TEXTIO.write(TX_LOC, togscore);
+                STD.TEXTIO.write(TX_LOC, string'("]"));
+                TX_STR(TX_LOC.all'range) := TX_LOC.all;
+                STD.TEXTIO.writeline(RESULTS, TX_LOC);
+                STD.TEXTIO.Deallocate(TX_LOC);
+            END;
+        BEGIN
+            WAIT for 1 fs;
+            ANNOTATE_ballx(0);
+            ANNOTATE_bally(0);
+            ANNOTATE_padup(0);
+            ANNOTATE_padwn(0);
+            ANNOTATE_score(0);
+            ANNOTATE_togscore(0);
+            ANNO_LOOP : LOOP
+                WAIT for 50 ns;
+                TX_TIME := TX_TIME + 50;
+                ANNOTATE_ballx(TX_TIME);
+                ANNOTATE_bally(TX_TIME);
+                ANNOTATE_padup(TX_TIME);
+                ANNOTATE_padwn(TX_TIME);
+                ANNOTATE_score(TX_TIME);
+                ANNOTATE_togscore(TX_TIME);
+                WAIT for 50 ns;
+                TX_TIME := TX_TIME + 50;
+            END LOOP ANNO_LOOP;
+        END PROCESS;
+
+        PROCESS
+            BEGIN
+                -- -------------  Current Time:  100ns
+                WAIT FOR 100 ns;
+                start <= '1';
+                clk <= '1';
+                -- -------------------------------------
+                -- -------------  Current Time:  200ns
+                WAIT FOR 100 ns;
+                clk <= '0';
+                -- -------------------------------------
+                -- -------------  Current Time:  300ns
+                WAIT FOR 100 ns;
+                clk <= '1';
+                -- -------------------------------------
+                -- -------------  Current Time:  400ns
+                WAIT FOR 100 ns;
+                clk <= '0';
+                -- -------------------------------------
+                -- -------------  Current Time:  500ns
+                WAIT FOR 100 ns;
+                clk <= '1';
+                -- -------------------------------------
+                -- -------------  Current Time:  600ns
+                WAIT FOR 100 ns;
+                clk <= '0';
+                -- -------------------------------------
+                WAIT FOR 400 ns;
+
+                STD.TEXTIO.write(TX_OUT, string'("Total[]"));
+                STD.TEXTIO.writeline(RESULTS, TX_OUT);
+                ASSERT (FALSE) REPORT
+                    "Success! Simulation for annotation completed"
+                    SEVERITY FAILURE;
+            END PROCESS;
+
+    END testbench_arch;
+

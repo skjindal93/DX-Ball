@@ -1,0 +1,2249 @@
+iMPACT Version: 
+iMPACT log file Started on Sun Apr 24 10:37:32 2011
+
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+GUI --- Auto connect to cable...
+// *** BATCH CMD : setCable -port auto
+AutoDetecting cable. Please wait.
+PROGRESS_START - Starting Operation.
+Connecting to cable (Parallel Port - LPT1).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ LPT base address = 0378h.
+ ECP base address = FFFFFFFFh.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT2).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT3).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT4).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ File C:\Windows\system32\drivers\xusbdfwu.sys not found.
+Driver file not found. Inf file version = 0.
+ OS major version = 6.
+ Checking xusb_xlp version
+Driver file not found. Inf file version = 0.
+ Driver version: 1029 (0).
+Updating firmware file: version: src=1029, dest=0.
+Update completed.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+PROGRESS_END - End Operation.
+Elapsed time =      5 sec.
+Cable autodetection failed.
+WARNING:iMPACT:923 - Can not find cable, check cable setup !// *** BATCH CMD : setMode -bs
+ Count ReleaseSemaphore rc = 298.
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+GUI --- Auto connect to cable...
+// *** BATCH CMD : setCable -port auto
+AutoDetecting cable. Please wait.
+PROGRESS_START - Starting Operation.
+Connecting to cable (Parallel Port - LPT1).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ LPT base address = 0378h.
+ ECP base address = FFFFFFFFh.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT2).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT3).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT4).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ File C:\Windows\system32\drivers\xusbdfwu.sys not found.
+Driver file not found. Inf file version = 0.
+ OS major version = 6.
+ Checking xusb_xlp version
+Driver file not found. Inf file version = 0.
+ Driver version: 1029 (0).
+Updating firmware file: version: src=1029, dest=0.
+Update completed.
+Connecting to cable (Usb Port - USB21).
+ Cable PID = 0008.
+ Max current requested during enumeration is 150 mA.
+Type = 0x0605.
+Cable is being reenumerated. Sending auto-disconnect command. Please wait.
+write cmdbuffer failed C0000004.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ Cable PID = 0008.
+ Max current requested during enumeration is 150 mA.
+Type = 0x0605.
+ Cable Type = 3, Revision = 0.
+ Setting cable speed to 6 MHz.
+Cable connection established.
+Firmware version = 1027.
+File version of C:/Xilinx92i/data/xusbdfwu.hex = 1027.
+Firmware hex file version = 1027.
+CPLD file version = 0012h.
+CPLD version = 0012h.
+PROGRESS_END - End Operation.
+Elapsed time =     25 sec.
+Attempting to identify devices in the boundary-scan chain configuration...// *** BATCH CMD : Identify 
+PROGRESS_START - Starting Operation.
+Identifying chain contents ....'1': : Manufacturer's ID =Xilinx xc2vp30, Version : 1
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx92i/virtex2p/data/xc2vp30.bsd...
+INFO:iMPACT:501 - '1': Added Device xc2vp30 successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+'2': : Manufacturer's ID =Xilinx xccace, Version : 0
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx92i/acecf/data/xccace.bsd...
+INFO:iMPACT:501 - '1': Added Device xccace successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+'3': : Manufacturer's ID =Xilinx xcf32p, Version : 15
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx92i/xcfp/data/xcf32p.bsd...
+INFO:iMPACT:501 - '1': Added Device xcf32p successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+done.
+PROGRESS_END - End Operation.
+Elapsed time =      0 sec.
+// *** BATCH CMD : identifyMPM 
+Cable is not connected.
+// *** BATCH CMD : setMode -bs
+1. Initializing V2Pro File...
+2. Initializing V2Pro File...
+// *** BATCH CMD : addDevice -p 3 -file "C:/Users/pallav/Desktop/ping/top.bit"
+'3': Loading file 'C:/Users/pallav/Desktop/ping/top.bit' ...
+done.
+WARNING:iMPACT:2257 - Startup Clock has been changed to 'JtagClk' in the   bitstream stored in memory,
+   but the original bitstream file remains unchanged.
+INFO:iMPACT:501 - '3': Added Device xc2vp30 successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+// *** BATCH CMD : deleteDevice -position 4
+----------------------------------------------------------------------
+GUI --- Auto connect to cable...
+// *** BATCH CMD : setCable -port auto
+AutoDetecting cable. Please wait.
+PROGRESS_START - Starting Operation.
+Connecting to cable (Parallel Port - LPT1).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ LPT base address = 0378h.
+ ECP base address = FFFFFFFFh.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT2).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT3).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT4).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ File C:\Windows\system32\drivers\xusbdfwu.sys not found.
+Driver file not found. Inf file version = 0.
+ OS major version = 6.
+ Checking xusb_xlp version
+Driver file not found. Inf file version = 0.
+ Driver version: 1029 (0).
+Updating firmware file: version: src=1029, dest=0.
+Update completed.
+Connecting to cable (Usb Port - USB21).
+ Cable PID = 0008.
+ Max current requested during enumeration is 150 mA.
+Type = 0x0605.
+Cable is being reenumerated. Sending auto-disconnect command. Please wait.
+write cmdbuffer failed C0000004.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ Cable PID = 0008.
+ Max current requested during enumeration is 150 mA.
+Type = 0x0605.
+ Cable Type = 3, Revision = 0.
+ Setting cable speed to 6 MHz.
+Cable connection established.
+Firmware version = 1027.
+File version of C:/Xilinx92i/data/xusbdfwu.hex = 1027.
+Firmware hex file version = 1027.
+CPLD file version = 0012h.
+CPLD version = 0012h.
+PROGRESS_END - End Operation.
+Elapsed time =     20 sec.
+// *** BATCH CMD : Program -p 3 -defaultVersion 0 
+Maximum TCK operating frequency for this device chain: 15000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+PROGRESS_START - Starting Operation.
+'3': Programming device...
+done.
+'3': Reading status register contents...
+CRC error                                         :         0
+Decryptor security set                            :         0
+DCM locked                                        :         1
+DCI matched                                       :         1
+legacy input error                                :         0
+status of GTS_CFG_B                               :         1
+status of GWE                                     :         1
+status of GHIGH                                   :         1
+value of MODE pin M0                              :         1
+value of MODE pin M1                              :         1
+value of MODE pin M2                              :         0
+value of CFG_RDY (INIT_B)                         :         1
+DONEIN input from DONE pin                        :         1
+IDCODE not validated while trying to write FDRI   :         0
+write FDRI issued before or after decrypt operation:         0
+Decryptor keys not used in proper sequence        :         0
+INFO:iMPACT:2219 - Status register values:
+INFO:iMPACT - 0011 0111 1101 1000 0000 0000 0000 0000 
+INFO:iMPACT:579 - '3': Completed downloading bit file to device.
+INFO:iMPACT - '3': Checking done pin....done.
+'3': Programmed successfully.
+PROGRESS_END - End Operation.
+Elapsed time =      9 sec.
+Cable is not connected.
+WARNING:ProjectMgmt - "C:/Users/pallav/Desktop/ping/top.ngc" line 0 duplicate   design unit: 'Module|top'
+WARNING:ProjectMgmt - "C:/Users/pallav/Desktop/ping/top_map.ncd" line 0   duplicate design unit: 'Module|top'
+// *** BATCH CMD : setMode -bs
+1. Initializing V2Pro File...
+2. Initializing V2Pro File...
+// *** BATCH CMD : addDevice -p 3 -file "C:/Users/pallav/Desktop/ping/top.bit"
+Updating config file C:/Users/pallav/Desktop/ping/top.bit...
+'3': Loading file 'C:/Users/pallav/Desktop/ping/top.bit' ...
+done.
+WARNING:iMPACT:2257 - Startup Clock has been changed to 'JtagClk' in the   bitstream stored in memory,
+   but the original bitstream file remains unchanged.
+INFO:iMPACT:501 - '3': Added Device xc2vp30 successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+// *** BATCH CMD : deleteDevice -position 4
+----------------------------------------------------------------------
+GUI --- Auto connect to cable...
+// *** BATCH CMD : setCable -port auto
+AutoDetecting cable. Please wait.
+PROGRESS_START - Starting Operation.
+Connecting to cable (Parallel Port - LPT1).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ LPT base address = 0378h.
+ ECP base address = FFFFFFFFh.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT2).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT3).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT4).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ File C:\Windows\system32\drivers\xusbdfwu.sys not found.
+Driver file not found. Inf file version = 0.
+ OS major version = 6.
+ Checking xusb_xlp version
+Driver file not found. Inf file version = 0.
+ Driver version: 1029 (0).
+Updating firmware file: version: src=1029, dest=0.
+Update completed.
+Connecting to cable (Usb Port - USB21).
+ Cable PID = 0008.
+ Max current requested during enumeration is 150 mA.
+Type = 0x0605.
+write cmdbuffer failed C0000004.
+Loopback test failed. Sent character = BC, Received character = BB.
+Error opening cable in update mode.
+WARNING:iMPACT:2344 - The Platform Cable USB firmware has been updated. Please   disconnect, then reconnect 
+   	 the cable to the USB port, and press OK to complete the update procedure.
+Cable is being reenumerated. Please wait.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ Cable PID = 0008.
+ Max current requested during enumeration is 150 mA.
+Type = 0x0605.
+ Cable Type = 3, Revision = 0.
+ Setting cable speed to 6 MHz.
+Cable connection established.
+Firmware version = 1027.
+File version of C:/Xilinx92i/data/xusbdfwu.hex = 1027.
+Firmware hex file version = 1027.
+CPLD file version = 0012h.
+CPLD version = 0012h.
+PROGRESS_END - End Operation.
+Elapsed time =     11 sec.
+// *** BATCH CMD : Program -p 3 -defaultVersion 0 
+Maximum TCK operating frequency for this device chain: 15000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+'3': Programming device...
+PROGRESS_START - Starting Operation.
+write count != nBytes(180224), rc = C0000004.
+write cmd failed C0000004.
+write cmdbuffer failed C0000004.
+write cmdbuffer failed C0000004.
+write cmdbuffer failed C0000004.
+write cmdbuffer failed C0000004.
+write cmdbuffer failed C0000004.
+write cmdbuffer failed C0000004.
+write cmdbuffer failed C0000004.
+write cmdbuffer failed C0000004.
+write cmdbuffer failed C0000004.
+write cmdbuffer failed C0000005.
+done.
+'3': Reading status register contents...
+write cmdbuffer failed C0000005.
+CRC error                                         :         0
+Decryptor security set                            :         0
+DCM locked                                        :         0
+DCI matched                                       :         1
+legacy input error                                :         0
+status of GTS_CFG_B                               :         0
+status of GWE                                     :         0
+status of GHIGH                                   :         1
+value of MODE pin M0                              :         0
+value of MODE pin M1                              :         0
+value of MODE pin M2                              :         1
+value of CFG_RDY (INIT_B)                         :         0
+DONEIN input from DONE pin                        :         0
+IDCODE not validated while trying to write FDRI   :         1
+write FDRI issued before or after decrypt operation:         1
+Decryptor keys not used in proper sequence        :         1
+INFO:iMPACT:2219 - Status register values:
+INFO:iMPACT - 0001 0001 0010 0111 1110 0000 1001 0011 
+INFO:iMPACT:579 - '3': Completed downloading bit file to device.
+write cmdbuffer failed C0000005.
+INFO:iMPACT - '3': Checking done pin....done.
+'3': Programming terminated. DONE did not go high.
+write cmdbuffer failed C0000005.
+write cmdbuffer failed C0007000.
+write cmdbuffer failed C0007000.
+Error reading reference voltage level.
+VREF was lost during the current operation. It is recommended that theoperation be repeated.
+write cmdbuffer failed C0007000.
+PROGRESS_END - End Operation.
+Elapsed time =      1 sec.
+Cable is not connected.
+// *** BATCH CMD : setMode -bs
+1. Initializing V2Pro File...
+2. Initializing V2Pro File...
+// *** BATCH CMD : addDevice -p 3 -file "C:/Users/pallav/Desktop/ping/top.bit"
+'3': Loading file 'C:/Users/pallav/Desktop/ping/top.bit' ...
+done.
+INFO:iMPACT:501 - '3': Added Device xc2vp30 successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+// *** BATCH CMD : deleteDevice -position 4
+----------------------------------------------------------------------
+GUI --- Auto connect to cable...
+// *** BATCH CMD : setCable -port auto
+AutoDetecting cable. Please wait.
+PROGRESS_START - Starting Operation.
+Connecting to cable (Parallel Port - LPT1).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ LPT base address = 0378h.
+ ECP base address = FFFFFFFFh.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT2).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT3).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT4).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ File C:\Windows\system32\drivers\xusbdfwu.sys not found.
+Driver file not found. Inf file version = 0.
+ OS major version = 6.
+ Checking xusb_xlp version
+Driver file not found. Inf file version = 0.
+ Driver version: 1029 (0).
+Updating firmware file: version: src=1029, dest=0.
+Update completed.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+PROGRESS_END - End Operation.
+Elapsed time =      5 sec.
+Cable autodetection failed.
+WARNING:iMPACT:923 - Can not find cable, check cable setup ! Count ReleaseSemaphore rc = 298.
+GUI --- Auto connect to cable...
+// *** BATCH CMD : setCable -port auto
+AutoDetecting cable. Please wait.
+PROGRESS_START - Starting Operation.
+Connecting to cable (Parallel Port - LPT1).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ LPT base address = 0378h.
+ ECP base address = FFFFFFFFh.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT2).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT3).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT4).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ File C:\Windows\system32\drivers\xusbdfwu.sys not found.
+Driver file not found. Inf file version = 0.
+ OS major version = 6.
+ Checking xusb_xlp version
+Driver file not found. Inf file version = 0.
+ Driver version: 1029 (0).
+Updating firmware file: version: src=1029, dest=0.
+Update completed.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+PROGRESS_END - End Operation.
+Elapsed time =      5 sec.
+Cable autodetection failed.
+WARNING:iMPACT:923 - Can not find cable, check cable setup ! Count ReleaseSemaphore rc = 298.
+GUI --- Auto connect to cable...
+// *** BATCH CMD : setCable -port auto
+AutoDetecting cable. Please wait.
+PROGRESS_START - Starting Operation.
+Connecting to cable (Parallel Port - LPT1).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ LPT base address = 0378h.
+ ECP base address = FFFFFFFFh.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT2).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT3).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT4).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ File C:\Windows\system32\drivers\xusbdfwu.sys not found.
+Driver file not found. Inf file version = 0.
+ OS major version = 6.
+ Checking xusb_xlp version
+Driver file not found. Inf file version = 0.
+ Driver version: 1029 (0).
+Updating firmware file: version: src=1029, dest=0.
+Update completed.
+Connecting to cable (Usb Port - USB21).
+ Cable PID = 0008.
+ Max current requested during enumeration is 150 mA.
+Type = 0x0605.
+Cable is being reenumerated. Sending auto-disconnect command. Please wait.
+write cmdbuffer failed C0000004.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ Cable PID = 0008.
+ Max current requested during enumeration is 150 mA.
+Type = 0x0605.
+ Cable Type = 3, Revision = 0.
+ Setting cable speed to 6 MHz.
+Cable connection established.
+Firmware version = 1027.
+File version of C:/Xilinx92i/data/xusbdfwu.hex = 1027.
+Firmware hex file version = 1027.
+CPLD file version = 0012h.
+CPLD version = 0012h.
+PROGRESS_END - End Operation.
+Elapsed time =     18 sec.
+// *** BATCH CMD : Program -p 3 -defaultVersion 0 
+Maximum TCK operating frequency for this device chain: 15000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+'3': Programming device...
+PROGRESS_START - Starting Operation.
+done.
+'3': Reading status register contents...
+CRC error                                         :         0
+Decryptor security set                            :         0
+DCM locked                                        :         1
+DCI matched                                       :         1
+legacy input error                                :         0
+status of GTS_CFG_B                               :         1
+status of GWE                                     :         1
+status of GHIGH                                   :         1
+value of MODE pin M0                              :         1
+value of MODE pin M1                              :         1
+value of MODE pin M2                              :         0
+value of CFG_RDY (INIT_B)                         :         1
+DONEIN input from DONE pin                        :         1
+IDCODE not validated while trying to write FDRI   :         0
+write FDRI issued before or after decrypt operation:         0
+Decryptor keys not used in proper sequence        :         0
+INFO:iMPACT:2219 - Status register values:
+INFO:iMPACT - 0011 0111 1101 1000 0000 0000 0000 0000 
+INFO:iMPACT:579 - '3': Completed downloading bit file to device.
+INFO:iMPACT - '3': Checking done pin....done.
+'3': Programmed successfully.
+PROGRESS_END - End Operation.
+Elapsed time =      9 sec.
+Cable is not connected.
+// *** BATCH CMD : setMode -bs
+1. Initializing V2Pro File...
+2. Initializing V2Pro File...
+// *** BATCH CMD : addDevice -p 3 -file "C:/Users/pallav/Desktop/ping/top.bit"
+Updating config file C:/Users/pallav/Desktop/ping/top.bit...
+'3': Loading file 'C:/Users/pallav/Desktop/ping/top.bit' ...
+done.
+WARNING:iMPACT:2257 - Startup Clock has been changed to 'JtagClk' in the   bitstream stored in memory,
+   but the original bitstream file remains unchanged.
+INFO:iMPACT:501 - '3': Added Device xc2vp30 successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+// *** BATCH CMD : deleteDevice -position 4
+----------------------------------------------------------------------
+GUI --- Auto connect to cable...
+// *** BATCH CMD : setCable -port auto
+AutoDetecting cable. Please wait.
+PROGRESS_START - Starting Operation.
+Connecting to cable (Parallel Port - LPT1).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ LPT base address = 0378h.
+ ECP base address = FFFFFFFFh.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT2).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT3).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT4).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ File C:\Windows\system32\drivers\xusbdfwu.sys not found.
+Driver file not found. Inf file version = 0.
+ OS major version = 6.
+ Checking xusb_xlp version
+Driver file not found. Inf file version = 0.
+ Driver version: 1029 (0).
+Updating firmware file: version: src=1029, dest=0.
+Update completed.
+Connecting to cable (Usb Port - USB21).
+ Cable PID = 0008.
+ Max current requested during enumeration is 150 mA.
+Type = 0x0605.
+Cable is being reenumerated. Sending auto-disconnect command. Please wait.
+write cmdbuffer failed C0000004.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ Cable PID = 0008.
+ Max current requested during enumeration is 150 mA.
+Type = 0x0605.
+ Cable Type = 3, Revision = 0.
+ Setting cable speed to 6 MHz.
+Cable connection established.
+Firmware version = 1027.
+File version of C:/Xilinx92i/data/xusbdfwu.hex = 1027.
+Firmware hex file version = 1027.
+CPLD file version = 0012h.
+CPLD version = 0012h.
+PROGRESS_END - End Operation.
+Elapsed time =     18 sec.
+// *** BATCH CMD : Program -p 3 -defaultVersion 0 
+Maximum TCK operating frequency for this device chain: 15000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+'3': Programming device...
+PROGRESS_START - Starting Operation.
+done.
+'3': Reading status register contents...
+CRC error                                         :         0
+Decryptor security set                            :         0
+DCM locked                                        :         1
+DCI matched                                       :         1
+legacy input error                                :         0
+status of GTS_CFG_B                               :         1
+status of GWE                                     :         1
+status of GHIGH                                   :         1
+value of MODE pin M0                              :         1
+value of MODE pin M1                              :         1
+value of MODE pin M2                              :         0
+value of CFG_RDY (INIT_B)                         :         1
+DONEIN input from DONE pin                        :         1
+IDCODE not validated while trying to write FDRI   :         0
+write FDRI issued before or after decrypt operation:         0
+Decryptor keys not used in proper sequence        :         0
+INFO:iMPACT:2219 - Status register values:
+INFO:iMPACT - 0011 0111 1101 1000 0000 0000 0000 0000 
+INFO:iMPACT:579 - '3': Completed downloading bit file to device.
+INFO:iMPACT - '3': Checking done pin....done.
+'3': Programmed successfully.
+PROGRESS_END - End Operation.
+Elapsed time =      9 sec.
+// *** BATCH CMD : setMode -bs
+1. Initializing V2Pro File...
+2. Initializing V2Pro File...
+// *** BATCH CMD : addDevice -p 3 -file "C:/Users/pallav/Desktop/ping/top.bit"
+Updating config file C:/Users/pallav/Desktop/ping/top.bit...
+'3': Loading file 'C:/Users/pallav/Desktop/ping/top.bit' ...
+done.
+WARNING:iMPACT:2257 - Startup Clock has been changed to 'JtagClk' in the   bitstream stored in memory,
+   but the original bitstream file remains unchanged.
+INFO:iMPACT:501 - '3': Added Device xc2vp30 successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+// *** BATCH CMD : deleteDevice -position 4
+----------------------------------------------------------------------
+// *** BATCH CMD : Program -p 3 -defaultVersion 0 
+Maximum TCK operating frequency for this device chain: 15000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+'3': Programming device...
+PROGRESS_START - Starting Operation.
+done.
+'3': Reading status register contents...
+CRC error                                         :         0
+Decryptor security set                            :         0
+DCM locked                                        :         1
+DCI matched                                       :         1
+legacy input error                                :         0
+status of GTS_CFG_B                               :         1
+status of GWE                                     :         1
+status of GHIGH                                   :         1
+value of MODE pin M0                              :         1
+value of MODE pin M1                              :         1
+value of MODE pin M2                              :         0
+value of CFG_RDY (INIT_B)                         :         1
+DONEIN input from DONE pin                        :         1
+IDCODE not validated while trying to write FDRI   :         0
+write FDRI issued before or after decrypt operation:         0
+Decryptor keys not used in proper sequence        :         0
+INFO:iMPACT:2219 - Status register values:
+INFO:iMPACT - 0011 0111 1101 1000 0000 0000 0000 0000 
+INFO:iMPACT:579 - '3': Completed downloading bit file to device.
+INFO:iMPACT - '3': Checking done pin....done.
+'3': Programmed successfully.
+PROGRESS_END - End Operation.
+Elapsed time =      9 sec.
+// *** BATCH CMD : setMode -bs
+1. Initializing V2Pro File...
+2. Initializing V2Pro File...
+// *** BATCH CMD : addDevice -p 3 -file "C:/Users/pallav/Desktop/ping/top.bit"
+Updating config file C:/Users/pallav/Desktop/ping/top.bit...
+'3': Loading file 'C:/Users/pallav/Desktop/ping/top.bit' ...
+done.
+WARNING:iMPACT:2257 - Startup Clock has been changed to 'JtagClk' in the   bitstream stored in memory,
+   but the original bitstream file remains unchanged.
+INFO:iMPACT:501 - '3': Added Device xc2vp30 successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+// *** BATCH CMD : deleteDevice -position 4
+----------------------------------------------------------------------
+// *** BATCH CMD : Program -p 3 -defaultVersion 0 
+Maximum TCK operating frequency for this device chain: 15000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+'3': Programming device...
+PROGRESS_START - Starting Operation.
+done.
+'3': Reading status register contents...
+CRC error                                         :         0
+Decryptor security set                            :         0
+DCM locked                                        :         1
+DCI matched                                       :         1
+legacy input error                                :         0
+status of GTS_CFG_B                               :         1
+status of GWE                                     :         1
+status of GHIGH                                   :         1
+value of MODE pin M0                              :         1
+value of MODE pin M1                              :         1
+value of MODE pin M2                              :         0
+value of CFG_RDY (INIT_B)                         :         1
+DONEIN input from DONE pin                        :         1
+IDCODE not validated while trying to write FDRI   :         0
+write FDRI issued before or after decrypt operation:         0
+Decryptor keys not used in proper sequence        :         0
+INFO:iMPACT:2219 - Status register values:
+INFO:iMPACT - 0011 0111 1101 1000 0000 0000 0000 0000 
+INFO:iMPACT:579 - '3': Completed downloading bit file to device.
+INFO:iMPACT - '3': Checking done pin....done.
+'3': Programmed successfully.
+PROGRESS_END - End Operation.
+Elapsed time =      9 sec.
+Compiling vhdl file "C:/Users/pallav/Desktop/ping/ball1.vhd" in Library work.
+Entity <ball1> compiled.
+Entity <ball1> (Architecture <behavioral>) compiled.
+// *** BATCH CMD : setMode -bs
+1. Initializing V2Pro File...
+2. Initializing V2Pro File...
+// *** BATCH CMD : addDevice -p 3 -file "C:/Users/pallav/Desktop/ping/top.bit"
+Updating config file C:/Users/pallav/Desktop/ping/top.bit...
+'3': Loading file 'C:/Users/pallav/Desktop/ping/top.bit' ...
+done.
+WARNING:iMPACT:2257 - Startup Clock has been changed to 'JtagClk' in the   bitstream stored in memory,
+   but the original bitstream file remains unchanged.
+INFO:iMPACT:501 - '3': Added Device xc2vp30 successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+// *** BATCH CMD : deleteDevice -position 4
+----------------------------------------------------------------------
+// *** BATCH CMD : Program -p 3 -defaultVersion 0 
+Maximum TCK operating frequency for this device chain: 15000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+'3': Programming device...
+PROGRESS_START - Starting Operation.
+done.
+'3': Reading status register contents...
+CRC error                                         :         0
+Decryptor security set                            :         0
+DCM locked                                        :         1
+DCI matched                                       :         1
+legacy input error                                :         0
+status of GTS_CFG_B                               :         1
+status of GWE                                     :         1
+status of GHIGH                                   :         1
+value of MODE pin M0                              :         1
+value of MODE pin M1                              :         1
+value of MODE pin M2                              :         0
+value of CFG_RDY (INIT_B)                         :         1
+DONEIN input from DONE pin                        :         1
+IDCODE not validated while trying to write FDRI   :         0
+write FDRI issued before or after decrypt operation:         0
+Decryptor keys not used in proper sequence        :         0
+INFO:iMPACT:2219 - Status register values:
+INFO:iMPACT - 0011 0111 1101 1000 0000 0000 0000 0000 
+INFO:iMPACT:579 - '3': Completed downloading bit file to device.
+INFO:iMPACT - '3': Checking done pin....done.
+'3': Programmed successfully.
+PROGRESS_END - End Operation.
+Elapsed time =      9 sec.
+Cable is not connected.
+// *** BATCH CMD : setMode -bs
+1. Initializing V2Pro File...
+2. Initializing V2Pro File...
+// *** BATCH CMD : addDevice -p 3 -file "C:/Users/pallav/Desktop/ping/top.bit"
+Updating config file C:/Users/pallav/Desktop/ping/top.bit...
+'3': Loading file 'C:/Users/pallav/Desktop/ping/top.bit' ...
+done.
+WARNING:iMPACT:2257 - Startup Clock has been changed to 'JtagClk' in the   bitstream stored in memory,
+   but the original bitstream file remains unchanged.
+INFO:iMPACT:501 - '3': Added Device xc2vp30 successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+// *** BATCH CMD : deleteDevice -position 4
+----------------------------------------------------------------------
+GUI --- Auto connect to cable...
+// *** BATCH CMD : setCable -port auto
+AutoDetecting cable. Please wait.
+PROGRESS_START - Starting Operation.
+Connecting to cable (Parallel Port - LPT1).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ LPT base address = 0378h.
+ ECP base address = FFFFFFFFh.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT2).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT3).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT4).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ File C:\Windows\system32\drivers\xusbdfwu.sys not found.
+Driver file not found. Inf file version = 0.
+ OS major version = 6.
+ Checking xusb_xlp version
+Driver file not found. Inf file version = 0.
+ Driver version: 1029 (0).
+Updating firmware file: version: src=1029, dest=0.
+Update completed.
+Connecting to cable (Usb Port - USB21).
+ Cable PID = 0008.
+ Max current requested during enumeration is 150 mA.
+Type = 0x0605.
+Cable is being reenumerated. Sending auto-disconnect command. Please wait.
+write cmdbuffer failed C0000004.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ Cable PID = 0008.
+ Max current requested during enumeration is 150 mA.
+Type = 0x0605.
+ Cable Type = 3, Revision = 0.
+ Setting cable speed to 6 MHz.
+Cable connection established.
+Firmware version = 1027.
+File version of C:/Xilinx92i/data/xusbdfwu.hex = 1027.
+Firmware hex file version = 1027.
+CPLD file version = 0012h.
+CPLD version = 0012h.
+PROGRESS_END - End Operation.
+Elapsed time =     22 sec.
+// *** BATCH CMD : Program -p 3 -defaultVersion 0 
+Maximum TCK operating frequency for this device chain: 15000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+'3': Programming device...
+PROGRESS_START - Starting Operation.
+done.
+'3': Reading status register contents...
+CRC error                                         :         0
+Decryptor security set                            :         0
+DCM locked                                        :         1
+DCI matched                                       :         1
+legacy input error                                :         0
+status of GTS_CFG_B                               :         1
+status of GWE                                     :         1
+status of GHIGH                                   :         1
+value of MODE pin M0                              :         1
+value of MODE pin M1                              :         1
+value of MODE pin M2                              :         0
+value of CFG_RDY (INIT_B)                         :         1
+DONEIN input from DONE pin                        :         1
+IDCODE not validated while trying to write FDRI   :         0
+write FDRI issued before or after decrypt operation:         0
+Decryptor keys not used in proper sequence        :         0
+INFO:iMPACT:2219 - Status register values:
+INFO:iMPACT - 0011 0111 1101 1000 0000 0000 0000 0000 
+INFO:iMPACT:579 - '3': Completed downloading bit file to device.
+INFO:iMPACT - '3': Checking done pin....done.
+'3': Programmed successfully.
+PROGRESS_END - End Operation.
+Elapsed time =      9 sec.
+Cable is not connected.
+// *** BATCH CMD : setMode -bs
+1. Initializing V2Pro File...
+2. Initializing V2Pro File...
+// *** BATCH CMD : addDevice -p 3 -file "C:/Users/pallav/Desktop/ping/top.bit"
+Updating config file C:/Users/pallav/Desktop/ping/top.bit...
+'3': Loading file 'C:/Users/pallav/Desktop/ping/top.bit' ...
+done.
+WARNING:iMPACT:2257 - Startup Clock has been changed to 'JtagClk' in the   bitstream stored in memory,
+   but the original bitstream file remains unchanged.
+INFO:iMPACT:501 - '3': Added Device xc2vp30 successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+// *** BATCH CMD : deleteDevice -position 4
+----------------------------------------------------------------------
+GUI --- Auto connect to cable...
+// *** BATCH CMD : setCable -port auto
+AutoDetecting cable. Please wait.
+PROGRESS_START - Starting Operation.
+Connecting to cable (Parallel Port - LPT1).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ LPT base address = 0378h.
+ ECP base address = FFFFFFFFh.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT2).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT3).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT4).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ File C:\Windows\system32\drivers\xusbdfwu.sys not found.
+Driver file not found. Inf file version = 0.
+ OS major version = 6.
+ Checking xusb_xlp version
+Driver file not found. Inf file version = 0.
+ Driver version: 1029 (0).
+Updating firmware file: version: src=1029, dest=0.
+Update completed.
+Connecting to cable (Usb Port - USB21).
+ Cable PID = 0008.
+ Max current requested during enumeration is 150 mA.
+Type = 0x0605.
+Cable is being reenumerated. Sending auto-disconnect command. Please wait.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ Cable PID = 0008.
+ Max current requested during enumeration is 150 mA.
+Type = 0x0605.
+ Cable Type = 3, Revision = 0.
+ Setting cable speed to 6 MHz.
+Cable connection established.
+Firmware version = 1027.
+File version of C:/Xilinx92i/data/xusbdfwu.hex = 1027.
+Firmware hex file version = 1027.
+CPLD file version = 0012h.
+CPLD version = 0012h.
+PROGRESS_END - End Operation.
+Elapsed time =     17 sec.
+// *** BATCH CMD : Program -p 3 -defaultVersion 0 
+Maximum TCK operating frequency for this device chain: 15000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+PROGRESS_START - Starting Operation.
+'3': Programming device...
+done.
+'3': Reading status register contents...
+CRC error                                         :         0
+Decryptor security set                            :         0
+DCM locked                                        :         1
+DCI matched                                       :         1
+legacy input error                                :         0
+status of GTS_CFG_B                               :         1
+status of GWE                                     :         1
+status of GHIGH                                   :         1
+value of MODE pin M0                              :         1
+value of MODE pin M1                              :         1
+value of MODE pin M2                              :         0
+value of CFG_RDY (INIT_B)                         :         1
+DONEIN input from DONE pin                        :         1
+IDCODE not validated while trying to write FDRI   :         0
+write FDRI issued before or after decrypt operation:         0
+Decryptor keys not used in proper sequence        :         0
+INFO:iMPACT:2219 - Status register values:
+INFO:iMPACT - 0011 0111 1101 1000 0000 0000 0000 0000 
+INFO:iMPACT:579 - '3': Completed downloading bit file to device.
+INFO:iMPACT - '3': Checking done pin....done.
+'3': Programmed successfully.
+write count != nBytes(0), rc = C0000004.
+write cmd failed C0000004.
+write cmdbuffer failed C0000004.
+write cmdbuffer failed C0000004.
+Error reading reference voltage level.
+VREF was lost during the current operation. It is recommended that theoperation be repeated.
+write cmdbuffer failed C0000004.
+PROGRESS_END - End Operation.
+Elapsed time =      9 sec.
+Cable is not connected.
+// *** BATCH CMD : setMode -bs
+1. Initializing V2Pro File...
+2. Initializing V2Pro File...
+// *** BATCH CMD : addDevice -p 3 -file "C:/Users/pallav/Desktop/ping/top.bit"
+Updating config file C:/Users/pallav/Desktop/ping/top.bit...
+'3': Loading file 'C:/Users/pallav/Desktop/ping/top.bit' ...
+done.
+WARNING:iMPACT:2257 - Startup Clock has been changed to 'JtagClk' in the   bitstream stored in memory,
+   but the original bitstream file remains unchanged.
+INFO:iMPACT:501 - '3': Added Device xc2vp30 successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+// *** BATCH CMD : deleteDevice -position 4
+----------------------------------------------------------------------
+GUI --- Auto connect to cable...
+// *** BATCH CMD : setCable -port auto
+AutoDetecting cable. Please wait.
+PROGRESS_START - Starting Operation.
+Connecting to cable (Parallel Port - LPT1).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ LPT base address = 0378h.
+ ECP base address = FFFFFFFFh.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT2).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT3).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT4).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ File C:\Windows\system32\drivers\xusbdfwu.sys not found.
+Driver file not found. Inf file version = 0.
+ OS major version = 6.
+ Checking xusb_xlp version
+Driver file not found. Inf file version = 0.
+ Driver version: 1029 (0).
+Updating firmware file: version: src=1029, dest=0.
+Update completed.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+PROGRESS_END - End Operation.
+Elapsed time =      6 sec.
+Cable autodetection failed.
+WARNING:iMPACT:923 - Can not find cable, check cable setup ! Count ReleaseSemaphore rc = 298.
+GUI --- Auto connect to cable...
+// *** BATCH CMD : setCable -port auto
+AutoDetecting cable. Please wait.
+PROGRESS_START - Starting Operation.
+Connecting to cable (Parallel Port - LPT1).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ LPT base address = 0378h.
+ ECP base address = FFFFFFFFh.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT2).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT3).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT4).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ File C:\Windows\system32\drivers\xusbdfwu.sys not found.
+Driver file not found. Inf file version = 0.
+ OS major version = 6.
+ Checking xusb_xlp version
+Driver file not found. Inf file version = 0.
+ Driver version: 1029 (0).
+Updating firmware file: version: src=1029, dest=0.
+Update completed.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+PROGRESS_END - End Operation.
+Elapsed time =      5 sec.
+Cable autodetection failed.
+WARNING:iMPACT:923 - Can not find cable, check cable setup ! Count ReleaseSemaphore rc = 298.
+GUI --- Auto connect to cable...
+// *** BATCH CMD : setCable -port auto
+AutoDetecting cable. Please wait.
+PROGRESS_START - Starting Operation.
+Connecting to cable (Parallel Port - LPT1).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ LPT base address = 0378h.
+ ECP base address = FFFFFFFFh.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT2).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT3).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT4).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ File C:\Windows\system32\drivers\xusbdfwu.sys not found.
+Driver file not found. Inf file version = 0.
+ OS major version = 6.
+ Checking xusb_xlp version
+Driver file not found. Inf file version = 0.
+ Driver version: 1029 (0).
+Updating firmware file: version: src=1029, dest=0.
+Update completed.
+Connecting to cable (Usb Port - USB21).
+ Cable PID = 0008.
+ Max current requested during enumeration is 150 mA.
+Type = 0x0605.
+Cable is being reenumerated. Sending auto-disconnect command. Please wait.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ Cable PID = 0008.
+ Max current requested during enumeration is 150 mA.
+Type = 0x0605.
+ Cable Type = 3, Revision = 0.
+ Setting cable speed to 6 MHz.
+Cable connection established.
+Firmware version = 1027.
+File version of C:/Xilinx92i/data/xusbdfwu.hex = 1027.
+Firmware hex file version = 1027.
+CPLD file version = 0012h.
+CPLD version = 0012h.
+PROGRESS_END - End Operation.
+Elapsed time =     18 sec.
+// *** BATCH CMD : Program -p 3 -defaultVersion 0 
+Maximum TCK operating frequency for this device chain: 15000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+'3': Programming device...
+PROGRESS_START - Starting Operation.
+done.
+'3': Reading status register contents...
+CRC error                                         :         0
+Decryptor security set                            :         0
+DCM locked                                        :         1
+DCI matched                                       :         1
+legacy input error                                :         0
+status of GTS_CFG_B                               :         1
+status of GWE                                     :         1
+status of GHIGH                                   :         1
+value of MODE pin M0                              :         1
+value of MODE pin M1                              :         1
+value of MODE pin M2                              :         0
+value of CFG_RDY (INIT_B)                         :         1
+DONEIN input from DONE pin                        :         1
+IDCODE not validated while trying to write FDRI   :         0
+write FDRI issued before or after decrypt operation:         0
+Decryptor keys not used in proper sequence        :         0
+INFO:iMPACT:2219 - Status register values:
+INFO:iMPACT - 0011 0111 1101 1000 0000 0000 0000 0000 
+INFO:iMPACT:579 - '3': Completed downloading bit file to device.
+INFO:iMPACT - '3': Checking done pin....done.
+'3': Programmed successfully.
+PROGRESS_END - End Operation.
+Elapsed time =      9 sec.
+Cable is not connected.
+GUI --- Auto connect to cable...
+// *** BATCH CMD : setCable -port auto
+AutoDetecting cable. Please wait.
+PROGRESS_START - Starting Operation.
+Connecting to cable (Parallel Port - LPT1).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ LPT base address = 0378h.
+ ECP base address = FFFFFFFFh.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT2).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT3).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT4).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ File C:\Windows\system32\drivers\xusbdfwu.sys not found.
+Driver file not found. Inf file version = 0.
+ OS major version = 6.
+ Checking xusb_xlp version
+Driver file not found. Inf file version = 0.
+ Driver version: 1029 (0).
+Updating firmware file: version: src=1029, dest=0.
+Update completed.
+Connecting to cable (Usb Port - USB21).
+ Cable PID = 0008.
+ Max current requested during enumeration is 150 mA.
+Type = 0x0605.
+Cable is being reenumerated. Sending auto-disconnect command. Please wait.
+write cmdbuffer failed C0000004.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ Cable PID = 0008.
+ Max current requested during enumeration is 150 mA.
+Type = 0x0605.
+ Cable Type = 3, Revision = 0.
+ Setting cable speed to 6 MHz.
+Cable connection established.
+Firmware version = 1027.
+File version of C:/Xilinx92i/data/xusbdfwu.hex = 1027.
+Firmware hex file version = 1027.
+CPLD file version = 0012h.
+CPLD version = 0012h.
+PROGRESS_END - End Operation.
+Elapsed time =     17 sec.
+Updating config file C:/Users/pallav/Desktop/ping/top.bit...
+WARNING:iMPACT:2257 - Startup Clock has been changed to 'JtagClk' in the   bitstream stored in memory,
+   but the original bitstream file remains unchanged.
+// *** BATCH CMD : Program -p 3 -defaultVersion 0 
+Maximum TCK operating frequency for this device chain: 15000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+'3': Programming device...
+PROGRESS_START - Starting Operation.
+write cmdbuffer failed C0000004.
+write cmdbuffer failed C0000004.
+write cmdbuffer failed C0000004.
+write cmdbuffer failed C0000005.
+write cmdbuffer failed C0000005.
+write cmdbuffer failed C0000005.
+write cmdbuffer failed C0007000.
+write cmdbuffer failed C0007000.
+write cmdbuffer failed C0007000.
+write cmdbuffer failed C0007000.
+done.
+'3': Reading status register contents...
+write cmdbuffer failed C0007000.
+CRC error                                         :         0
+Decryptor security set                            :         0
+DCM locked                                        :         0
+DCI matched                                       :         1
+legacy input error                                :         0
+status of GTS_CFG_B                               :         0
+status of GWE                                     :         0
+status of GHIGH                                   :         1
+value of MODE pin M0                              :         0
+value of MODE pin M1                              :         0
+value of MODE pin M2                              :         1
+value of CFG_RDY (INIT_B)                         :         0
+DONEIN input from DONE pin                        :         0
+IDCODE not validated while trying to write FDRI   :         1
+write FDRI issued before or after decrypt operation:         1
+Decryptor keys not used in proper sequence        :         1
+INFO:iMPACT:2219 - Status register values:
+INFO:iMPACT - 0001 0001 0010 0111 1110 0000 1001 0011 
+INFO:iMPACT:579 - '3': Completed downloading bit file to device.
+write cmdbuffer failed C0007000.
+INFO:iMPACT - '3': Checking done pin....done.
+'3': Programming terminated. DONE did not go high.
+write cmdbuffer failed C0007000.
+write cmdbuffer failed C0007000.
+write cmdbuffer failed C0007000.
+Error reading reference voltage level.
+VREF was lost during the current operation. It is recommended that theoperation be repeated.
+write cmdbuffer failed C0007000.
+PROGRESS_END - End Operation.
+Elapsed time =      2 sec.
+Cable is not connected.
+GUI --- Auto connect to cable...
+// *** BATCH CMD : setCable -port auto
+AutoDetecting cable. Please wait.
+PROGRESS_START - Starting Operation.
+Connecting to cable (Parallel Port - LPT1).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ LPT base address = 0378h.
+ ECP base address = FFFFFFFFh.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT2).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT3).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT4).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ File C:\Windows\system32\drivers\xusbdfwu.sys not found.
+Driver file not found. Inf file version = 0.
+ OS major version = 6.
+ Checking xusb_xlp version
+Driver file not found. Inf file version = 0.
+ Driver version: 1029 (0).
+Updating firmware file: version: src=1029, dest=0.
+Update completed.
+Connecting to cable (Usb Port - USB21).
+ Cable PID = 0008.
+ Max current requested during enumeration is 150 mA.
+Type = 0x0605.
+Cable is being reenumerated. Sending auto-disconnect command. Please wait.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ Cable PID = 0008.
+ Max current requested during enumeration is 150 mA.
+write cmdbuffer failed C0000005.
+write cmdbuffer failed C0000005.
+Loopback test failed. Sent character = 00, Received character = 00.
+Cable connection failed.
+PROGRESS_END - End Operation.
+Elapsed time =     17 sec.
+Cable autodetection failed.
+WARNING:iMPACT:923 - Can not find cable, check cable setup ! Count ReleaseSemaphore rc = 298.
+GUI --- Auto connect to cable...
+// *** BATCH CMD : setCable -port auto
+AutoDetecting cable. Please wait.
+PROGRESS_START - Starting Operation.
+Connecting to cable (Parallel Port - LPT1).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ LPT base address = 0378h.
+ ECP base address = FFFFFFFFh.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT2).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT3).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT4).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ File C:\Windows\system32\drivers\xusbdfwu.sys not found.
+Driver file not found. Inf file version = 0.
+ OS major version = 6.
+ Checking xusb_xlp version
+Driver file not found. Inf file version = 0.
+ Driver version: 1029 (0).
+Updating firmware file: version: src=1029, dest=0.
+Update completed.
+Connecting to cable (Usb Port - USB21).
+ Cable PID = 0008.
+ Max current requested during enumeration is 150 mA.
+Type = 0x0605.
+Cable is being reenumerated. Sending auto-disconnect command. Please wait.
+write cmdbuffer failed C0000004.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ Cable PID = 0008.
+ Max current requested during enumeration is 150 mA.
+Type = 0x0605.
+ Cable Type = 3, Revision = 0.
+ Setting cable speed to 6 MHz.
+Cable connection established.
+Firmware version = 1027.
+File version of C:/Xilinx92i/data/xusbdfwu.hex = 1027.
+Firmware hex file version = 1027.
+CPLD file version = 0012h.
+CPLD version = 0012h.
+PROGRESS_END - End Operation.
+Elapsed time =     18 sec.
+// *** BATCH CMD : Program -p 3 -defaultVersion 0 
+Maximum TCK operating frequency for this device chain: 15000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+'3': Programming device...
+PROGRESS_START - Starting Operation.
+PROGRESS_END - End Operation.
+Elapsed time =      1 sec.
+// *** BATCH CMD : setMode -bs
+1. Initializing V2Pro File...
+2. Initializing V2Pro File...
+// *** BATCH CMD : addDevice -p 3 -file "C:/Users/pallav/Desktop/ping/top.bit"
+'3': Loading file 'C:/Users/pallav/Desktop/ping/top.bit' ...
+done.
+INFO:iMPACT:501 - '3': Added Device xc2vp30 successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+// *** BATCH CMD : deleteDevice -position 4
+----------------------------------------------------------------------
+Cable is not connected.
+GUI --- Auto connect to cable...
+// *** BATCH CMD : setCable -port auto
+AutoDetecting cable. Please wait.
+PROGRESS_START - Starting Operation.
+Connecting to cable (Parallel Port - LPT1).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ LPT base address = 0378h.
+ ECP base address = FFFFFFFFh.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT2).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT3).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT4).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ File C:\Windows\system32\drivers\xusbdfwu.sys not found.
+Driver file not found. Inf file version = 0.
+ OS major version = 6.
+ Checking xusb_xlp version
+Driver file not found. Inf file version = 0.
+ Driver version: 1029 (0).
+Updating firmware file: version: src=1029, dest=0.
+Update completed.
+Connecting to cable (Usb Port - USB21).
+ Cable PID = 0008.
+ Max current requested during enumeration is 150 mA.
+Type = 0x0605.
+Cable is being reenumerated. Sending auto-disconnect command. Please wait.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ Cable PID = 0008.
+ Max current requested during enumeration is 150 mA.
+Type = 0x0605.
+ Cable Type = 3, Revision = 0.
+ Setting cable speed to 6 MHz.
+Cable connection established.
+Firmware version = 1027.
+File version of C:/Xilinx92i/data/xusbdfwu.hex = 1027.
+Firmware hex file version = 1027.
+CPLD file version = 0012h.
+CPLD version = 0012h.
+PROGRESS_END - End Operation.
+Elapsed time =     20 sec.
+// *** BATCH CMD : Program -p 3 -defaultVersion 0 
+Maximum TCK operating frequency for this device chain: 15000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+'3': Programming device...
+PROGRESS_START - Starting Operation.
+done.
+'3': Reading status register contents...
+CRC error                                         :         0
+Decryptor security set                            :         0
+DCM locked                                        :         1
+DCI matched                                       :         1
+legacy input error                                :         0
+status of GTS_CFG_B                               :         1
+status of GWE                                     :         1
+status of GHIGH                                   :         1
+value of MODE pin M0                              :         1
+value of MODE pin M1                              :         1
+value of MODE pin M2                              :         0
+value of CFG_RDY (INIT_B)                         :         1
+DONEIN input from DONE pin                        :         1
+IDCODE not validated while trying to write FDRI   :         0
+write FDRI issued before or after decrypt operation:         0
+Decryptor keys not used in proper sequence        :         0
+INFO:iMPACT:2219 - Status register values:
+INFO:iMPACT - 0011 0111 1101 1000 0000 0000 0000 0000 
+INFO:iMPACT:579 - '3': Completed downloading bit file to device.
+INFO:iMPACT - '3': Checking done pin....done.
+'3': Programmed successfully.
+PROGRESS_END - End Operation.
+Elapsed time =      9 sec.
+Cable is not connected.
+GUI --- Auto connect to cable...
+// *** BATCH CMD : setCable -port auto
+AutoDetecting cable. Please wait.
+PROGRESS_START - Starting Operation.
+Connecting to cable (Parallel Port - LPT1).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ LPT base address = 0378h.
+ ECP base address = FFFFFFFFh.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT2).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT3).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT4).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ File C:\Windows\system32\drivers\xusbdfwu.sys not found.
+Driver file not found. Inf file version = 0.
+ OS major version = 6.
+ Checking xusb_xlp version
+Driver file not found. Inf file version = 0.
+ Driver version: 1029 (0).
+Updating firmware file: version: src=1029, dest=0.
+Update completed.
+Connecting to cable (Usb Port - USB21).
+ Cable PID = 0008.
+ Max current requested during enumeration is 150 mA.
+write cmdbuffer failed C0000005.
+write cmdbuffer failed C0000005.
+Loopback test failed. Sent character = 00, Received character = 00.
+Error opening cable in update mode.
+WARNING:iMPACT:2344 - The Platform Cable USB firmware has been updated. Please   disconnect, then reconnect 
+   	 the cable to the USB port, and press OK to complete the update procedure.
+Cable is being reenumerated. Please wait.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ Cable PID = 0008.
+ Max current requested during enumeration is 150 mA.
+Type = 0x0605.
+ Cable Type = 3, Revision = 0.
+ Setting cable speed to 6 MHz.
+Cable connection established.
+Firmware version = 1027.
+File version of C:/Xilinx92i/data/xusbdfwu.hex = 1027.
+Firmware hex file version = 1027.
+CPLD file version = 0012h.
+CPLD version = 0012h.
+PROGRESS_END - End Operation.
+Elapsed time =     11 sec.
+// *** BATCH CMD : Program -defaultVersion 0 
+Maximum TCK operating frequency for this device chain: 15000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+Cable is not connected.
+GUI --- Auto connect to cable...
+// *** BATCH CMD : setCable -port auto
+AutoDetecting cable. Please wait.
+PROGRESS_START - Starting Operation.
+Connecting to cable (Parallel Port - LPT1).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ LPT base address = 0378h.
+ ECP base address = FFFFFFFFh.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT2).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT3).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT4).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ File C:\Windows\system32\drivers\xusbdfwu.sys not found.
+Driver file not found. Inf file version = 0.
+ OS major version = 6.
+ Checking xusb_xlp version
+Driver file not found. Inf file version = 0.
+ Driver version: 1029 (0).
+Updating firmware file: version: src=1029, dest=0.
+Update completed.
+Connecting to cable (Usb Port - USB21).
+ Cable PID = 0008.
+ Max current requested during enumeration is 150 mA.
+Type = 0x0605.
+Cable is being reenumerated. Sending auto-disconnect command. Please wait.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ Cable PID = 0008.
+ Max current requested during enumeration is 150 mA.
+Type = 0x0605.
+ Cable Type = 3, Revision = 0.
+ Setting cable speed to 6 MHz.
+Cable connection established.
+Firmware version = 1027.
+File version of C:/Xilinx92i/data/xusbdfwu.hex = 1027.
+Firmware hex file version = 1027.
+CPLD file version = 0012h.
+CPLD version = 0012h.
+PROGRESS_END - End Operation.
+Elapsed time =     18 sec.
+Updating config file C:/Users/pallav/Desktop/ping/top.bit...
+WARNING:iMPACT:2257 - Startup Clock has been changed to 'JtagClk' in the   bitstream stored in memory,
+   but the original bitstream file remains unchanged.
+// *** BATCH CMD : Program -p 3 -defaultVersion 0 
+Maximum TCK operating frequency for this device chain: 15000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+'3': Programming device...
+PROGRESS_START - Starting Operation.
+done.
+'3': Reading status register contents...
+CRC error                                         :         0
+Decryptor security set                            :         0
+DCM locked                                        :         1
+DCI matched                                       :         1
+legacy input error                                :         0
+status of GTS_CFG_B                               :         1
+status of GWE                                     :         1
+status of GHIGH                                   :         1
+value of MODE pin M0                              :         1
+value of MODE pin M1                              :         1
+value of MODE pin M2                              :         0
+value of CFG_RDY (INIT_B)                         :         1
+DONEIN input from DONE pin                        :         1
+IDCODE not validated while trying to write FDRI   :         0
+write FDRI issued before or after decrypt operation:         0
+Decryptor keys not used in proper sequence        :         0
+INFO:iMPACT:2219 - Status register values:
+INFO:iMPACT - 0011 0111 1101 1000 0000 0000 0000 0000 
+INFO:iMPACT:579 - '3': Completed downloading bit file to device.
+INFO:iMPACT - '3': Checking done pin....done.
+'3': Programmed successfully.
+PROGRESS_END - End Operation.
+Elapsed time =      9 sec.
+Cable is not connected.
+GUI --- Auto connect to cable...
+// *** BATCH CMD : setCable -port auto
+AutoDetecting cable. Please wait.
+PROGRESS_START - Starting Operation.
+Connecting to cable (Parallel Port - LPT1).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ LPT base address = 0378h.
+ ECP base address = FFFFFFFFh.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT2).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT3).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT4).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ File C:\Windows\system32\drivers\xusbdfwu.sys not found.
+Driver file not found. Inf file version = 0.
+ OS major version = 6.
+ Checking xusb_xlp version
+Driver file not found. Inf file version = 0.
+ Driver version: 1029 (0).
+Updating firmware file: version: src=1029, dest=0.
+Update completed.
+Connecting to cable (Usb Port - USB21).
+ Cable PID = 0008.
+ Max current requested during enumeration is 150 mA.
+Type = 0x0605.
+Cable is being reenumerated. Sending auto-disconnect command. Please wait.
+write cmdbuffer failed C0000004.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ Cable PID = 0008.
+ Max current requested during enumeration is 150 mA.
+Type = 0x0605.
+ Cable Type = 3, Revision = 0.
+ Setting cable speed to 6 MHz.
+Cable connection established.
+Firmware version = 1027.
+File version of C:/Xilinx92i/data/xusbdfwu.hex = 1027.
+Firmware hex file version = 1027.
+CPLD file version = 0012h.
+CPLD version = 0012h.
+PROGRESS_END - End Operation.
+Elapsed time =     18 sec.
+Updating config file C:/Users/pallav/Desktop/ping/top.bit...
+WARNING:iMPACT:2257 - Startup Clock has been changed to 'JtagClk' in the   bitstream stored in memory,
+   but the original bitstream file remains unchanged.
+// *** BATCH CMD : Program -p 3 -defaultVersion 0 
+Cable is not connected.
+Cable is not connected.
+GUI --- Auto connect to cable...
+// *** BATCH CMD : setCable -port auto
+AutoDetecting cable. Please wait.
+PROGRESS_START - Starting Operation.
+Connecting to cable (Parallel Port - LPT1).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ LPT base address = 0378h.
+ ECP base address = FFFFFFFFh.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT2).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT3).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT4).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ File C:\Windows\system32\drivers\xusbdfwu.sys not found.
+Driver file not found. Inf file version = 0.
+ OS major version = 6.
+ Checking xusb_xlp version
+Driver file not found. Inf file version = 0.
+ Driver version: 1029 (0).
+Updating firmware file: version: src=1029, dest=0.
+Update completed.
+Connecting to cable (Usb Port - USB21).
+ Cable PID = 0008.
+ Max current requested during enumeration is 150 mA.
+Type = 0x0605.
+Cable is being reenumerated. Sending auto-disconnect command. Please wait.
+write cmdbuffer failed C0000004.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ Cable PID = 0008.
+ Max current requested during enumeration is 150 mA.
+Type = 0x0605.
+ Cable Type = 3, Revision = 0.
+ Setting cable speed to 6 MHz.
+Cable connection established.
+Firmware version = 1027.
+File version of C:/Xilinx92i/data/xusbdfwu.hex = 1027.
+Firmware hex file version = 1027.
+CPLD file version = 0012h.
+CPLD version = 0012h.
+PROGRESS_END - End Operation.
+Elapsed time =     17 sec.
+// *** BATCH CMD : Program -p 3 -defaultVersion 0 
+Maximum TCK operating frequency for this device chain: 15000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+'3': Programming device...
+PROGRESS_START - Starting Operation.
+write count != nBytes(8192), rc = C0000004.
+write cmd failed C0000004.
+write cmdbuffer failed C0000004.
+write cmdbuffer failed C0000004.
+write cmdbuffer failed C0000004.
+write cmdbuffer failed C0000004.
+write cmdbuffer failed C0000004.
+done.
+'3': Reading status register contents...
+write cmdbuffer failed C0000004.
+CRC error                                         :         0
+Decryptor security set                            :         0
+DCM locked                                        :         0
+DCI matched                                       :         1
+legacy input error                                :         0
+status of GTS_CFG_B                               :         0
+status of GWE                                     :         0
+status of GHIGH                                   :         1
+value of MODE pin M0                              :         0
+value of MODE pin M1                              :         0
+value of MODE pin M2                              :         1
+value of CFG_RDY (INIT_B)                         :         0
+DONEIN input from DONE pin                        :         0
+IDCODE not validated while trying to write FDRI   :         1
+write FDRI issued before or after decrypt operation:         1
+Decryptor keys not used in proper sequence        :         1
+INFO:iMPACT:2219 - Status register values:
+INFO:iMPACT - 0001 0001 0010 0111 1110 0000 1001 0011 
+INFO:iMPACT:579 - '3': Completed downloading bit file to device.
+write cmdbuffer failed C0000004.
+INFO:iMPACT - '3': Checking done pin....done.
+'3': Programming terminated. DONE did not go high.
+write cmdbuffer failed C0000004.
+write cmdbuffer failed C0000004.
+write cmdbuffer failed C0000004.
+Error reading reference voltage level.
+VREF was lost during the current operation. It is recommended that theoperation be repeated.
+write cmdbuffer failed C0000004.
+PROGRESS_END - End Operation.
+Elapsed time =      5 sec.
+Cable is not connected.
+GUI --- Auto connect to cable...
+// *** BATCH CMD : setCable -port auto
+AutoDetecting cable. Please wait.
+PROGRESS_START - Starting Operation.
+Connecting to cable (Parallel Port - LPT1).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ LPT base address = 0378h.
+ ECP base address = FFFFFFFFh.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT2).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT3).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT4).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ File C:\Windows\system32\drivers\xusbdfwu.sys not found.
+Driver file not found. Inf file version = 0.
+ OS major version = 6.
+ Checking xusb_xlp version
+Driver file not found. Inf file version = 0.
+ Driver version: 1029 (0).
+Updating firmware file: version: src=1029, dest=0.
+Update completed.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+PROGRESS_END - End Operation.
+Elapsed time =      5 sec.
+Cable autodetection failed.
+WARNING:iMPACT:923 - Can not find cable, check cable setup ! Count ReleaseSemaphore rc = 298.
+GUI --- Auto connect to cable...
+// *** BATCH CMD : setCable -port auto
+AutoDetecting cable. Please wait.
+PROGRESS_START - Starting Operation.
+Connecting to cable (Parallel Port - LPT1).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ LPT base address = 0378h.
+ ECP base address = FFFFFFFFh.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT2).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT3).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT4).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ File C:\Windows\system32\drivers\xusbdfwu.sys not found.
+Driver file not found. Inf file version = 0.
+ OS major version = 6.
+ Checking xusb_xlp version
+Driver file not found. Inf file version = 0.
+ Driver version: 1029 (0).
+Updating firmware file: version: src=1029, dest=0.
+Update completed.
+Connecting to cable (Usb Port - USB21).
+ Cable PID = 0008.
+ Max current requested during enumeration is 150 mA.
+Type = 0x0605.
+Cable is being reenumerated. Sending auto-disconnect command. Please wait.
+write cmdbuffer failed C0000004.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ Cable PID = 0008.
+ Max current requested during enumeration is 150 mA.
+Type = 0x0605.
+ Cable Type = 3, Revision = 0.
+ Setting cable speed to 6 MHz.
+Cable connection established.
+Firmware version = 1027.
+File version of C:/Xilinx92i/data/xusbdfwu.hex = 1027.
+Firmware hex file version = 1027.
+CPLD file version = 0012h.
+CPLD version = 0012h.
+PROGRESS_END - End Operation.
+Elapsed time =     16 sec.
+// *** BATCH CMD : Program -p 3 -defaultVersion 0 
+Maximum TCK operating frequency for this device chain: 15000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+'3': Programming device...
+PROGRESS_START - Starting Operation.
+write count != nBytes(12288), rc = C0000004.
+write cmd failed C0000004.
+write cmdbuffer failed C0000004.
+write cmdbuffer failed C0000004.
+write cmdbuffer failed C0000005.
+write cmdbuffer failed C0000005.
+write cmdbuffer failed C0000005.
+done.
+'3': Reading status register contents...
+write cmdbuffer failed C0000005.
+CRC error                                         :         0
+Decryptor security set                            :         0
+DCM locked                                        :         0
+DCI matched                                       :         1
+legacy input error                                :         0
+status of GTS_CFG_B                               :         0
+status of GWE                                     :         0
+status of GHIGH                                   :         1
+value of MODE pin M0                              :         0
+value of MODE pin M1                              :         0
+value of MODE pin M2                              :         1
+value of CFG_RDY (INIT_B)                         :         0
+DONEIN input from DONE pin                        :         0
+IDCODE not validated while trying to write FDRI   :         1
+write FDRI issued before or after decrypt operation:         1
+Decryptor keys not used in proper sequence        :         1
+INFO:iMPACT:2219 - Status register values:
+INFO:iMPACT - 0001 0001 0010 0111 1110 0000 1001 0011 
+INFO:iMPACT:579 - '3': Completed downloading bit file to device.
+write cmdbuffer failed C0000005.
+INFO:iMPACT - '3': Checking done pin....done.
+'3': Programming terminated. DONE did not go high.
+write cmdbuffer failed C0000005.
+write cmdbuffer failed C0000005.
+write cmdbuffer failed C0007000.
+Error reading reference voltage level.
+VREF was lost during the current operation. It is recommended that theoperation be repeated.
+write cmdbuffer failed C0007000.
+PROGRESS_END - End Operation.
+Elapsed time =      5 sec.
+Cable is not connected.
+GUI --- Auto connect to cable...
+// *** BATCH CMD : setCable -port auto
+AutoDetecting cable. Please wait.
+PROGRESS_START - Starting Operation.
+Connecting to cable (Parallel Port - LPT1).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ LPT base address = 0378h.
+ ECP base address = FFFFFFFFh.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT2).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT3).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT4).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ File C:\Windows\system32\drivers\xusbdfwu.sys not found.
+Driver file not found. Inf file version = 0.
+ OS major version = 6.
+ Checking xusb_xlp version
+Driver file not found. Inf file version = 0.
+ Driver version: 1029 (0).
+Updating firmware file: version: src=1029, dest=0.
+Update completed.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+PROGRESS_END - End Operation.
+Elapsed time =      5 sec.
+Cable autodetection failed.
+WARNING:iMPACT:923 - Can not find cable, check cable setup ! Count ReleaseSemaphore rc = 298.
+GUI --- Auto connect to cable...
+// *** BATCH CMD : setCable -port auto
+AutoDetecting cable. Please wait.
+PROGRESS_START - Starting Operation.
+Connecting to cable (Parallel Port - LPT1).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ LPT base address = 0378h.
+ ECP base address = FFFFFFFFh.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT2).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT3).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT4).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ File C:\Windows\system32\drivers\xusbdfwu.sys not found.
+Driver file not found. Inf file version = 0.
+ OS major version = 6.
+ Checking xusb_xlp version
+Driver file not found. Inf file version = 0.
+ Driver version: 1029 (0).
+Updating firmware file: version: src=1029, dest=0.
+Update completed.
+Connecting to cable (Usb Port - USB21).
+ Cable PID = 0008.
+ Max current requested during enumeration is 150 mA.
+Type = 0x0605.
+Cable is being reenumerated. Sending auto-disconnect command. Please wait.
+write cmdbuffer failed C0000004.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ Cable PID = 0008.
+ Max current requested during enumeration is 150 mA.
+Type = 0x0605.
+ Cable Type = 3, Revision = 0.
+ Setting cable speed to 6 MHz.
+Cable connection established.
+Firmware version = 1027.
+File version of C:/Xilinx92i/data/xusbdfwu.hex = 1027.
+Firmware hex file version = 1027.
+CPLD file version = 0012h.
+CPLD version = 0012h.
+PROGRESS_END - End Operation.
+Elapsed time =     18 sec.
+Updating config file C:/Users/pallav/Desktop/ping/top.bit...
+WARNING:iMPACT:2257 - Startup Clock has been changed to 'JtagClk' in the   bitstream stored in memory,
+   but the original bitstream file remains unchanged.
+// *** BATCH CMD : Program -p 3 -defaultVersion 0 
+Maximum TCK operating frequency for this device chain: 15000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+'3': Programming device...
+PROGRESS_START - Starting Operation.
+done.
+'3': Reading status register contents...
+CRC error                                         :         0
+Decryptor security set                            :         0
+DCM locked                                        :         1
+DCI matched                                       :         1
+legacy input error                                :         0
+status of GTS_CFG_B                               :         1
+status of GWE                                     :         1
+status of GHIGH                                   :         1
+value of MODE pin M0                              :         1
+value of MODE pin M1                              :         1
+value of MODE pin M2                              :         0
+value of CFG_RDY (INIT_B)                         :         1
+DONEIN input from DONE pin                        :         1
+IDCODE not validated while trying to write FDRI   :         0
+write FDRI issued before or after decrypt operation:         0
+Decryptor keys not used in proper sequence        :         0
+INFO:iMPACT:2219 - Status register values:
+INFO:iMPACT - 0011 0111 1101 1000 0000 0000 0000 0000 
+INFO:iMPACT:579 - '3': Completed downloading bit file to device.
+INFO:iMPACT - '3': Checking done pin....done.
+'3': Programmed successfully.
+PROGRESS_END - End Operation.
+Elapsed time =      9 sec.
+Cable is not connected.
+GUI --- Auto connect to cable...
+// *** BATCH CMD : setCable -port auto
+AutoDetecting cable. Please wait.
+PROGRESS_START - Starting Operation.
+Connecting to cable (Parallel Port - LPT1).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ LPT base address = 0378h.
+ ECP base address = FFFFFFFFh.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT2).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT3).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT4).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ File C:\Windows\system32\drivers\xusbdfwu.sys not found.
+Driver file not found. Inf file version = 0.
+ OS major version = 6.
+ Checking xusb_xlp version
+Driver file not found. Inf file version = 0.
+ Driver version: 1029 (0).
+Updating firmware file: version: src=1029, dest=0.
+Update completed.
+Connecting to cable (Usb Port - USB21).
+ Cable PID = 0008.
+ Max current requested during enumeration is 150 mA.
+Type = 0x0605.
+Cable is being reenumerated. Sending auto-disconnect command. Please wait.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ Cable PID = 0008.
+ Max current requested during enumeration is 150 mA.
+Type = 0x0605.
+ Cable Type = 3, Revision = 0.
+ Setting cable speed to 6 MHz.
+Cable connection established.
+Firmware version = 1027.
+File version of C:/Xilinx92i/data/xusbdfwu.hex = 1027.
+Firmware hex file version = 1027.
+CPLD file version = 0012h.
+CPLD version = 0012h.
+PROGRESS_END - End Operation.
+Elapsed time =     20 sec.
+Updating config file C:/Users/pallav/Desktop/ping/top.bit...
+WARNING:iMPACT:2257 - Startup Clock has been changed to 'JtagClk' in the   bitstream stored in memory,
+   but the original bitstream file remains unchanged.
+// *** BATCH CMD : Program -p 3 -defaultVersion 0 
+write cmdbuffer failed C0000005.
+Cable is not connected.
+GUI --- Auto connect to cable...
+// *** BATCH CMD : setCable -port auto
+AutoDetecting cable. Please wait.
+PROGRESS_START - Starting Operation.
+Connecting to cable (Parallel Port - LPT1).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ LPT base address = 0378h.
+ ECP base address = FFFFFFFFh.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT2).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT3).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT4).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ File C:\Windows\system32\drivers\xusbdfwu.sys not found.
+Driver file not found. Inf file version = 0.
+ OS major version = 6.
+ Checking xusb_xlp version
+Driver file not found. Inf file version = 0.
+ Driver version: 1029 (0).
+Updating firmware file: version: src=1029, dest=0.
+Update completed.
+Connecting to cable (Usb Port - USB21).
+ Cable PID = 0008.
+ Max current requested during enumeration is 150 mA.
+Type = 0x0605.
+Cable is being reenumerated. Sending auto-disconnect command. Please wait.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ Cable PID = 0008.
+ Max current requested during enumeration is 150 mA.
+Type = 0x0605.
+ Cable Type = 3, Revision = 0.
+ Setting cable speed to 6 MHz.
+Cable connection established.
+Firmware version = 1027.
+File version of C:/Xilinx92i/data/xusbdfwu.hex = 1027.
+Firmware hex file version = 1027.
+CPLD file version = 0012h.
+CPLD version = 0012h.
+PROGRESS_END - End Operation.
+Elapsed time =     22 sec.
+// *** BATCH CMD : Program -p 3 -defaultVersion 0 
+Maximum TCK operating frequency for this device chain: 15000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+'3': Programming device...
+PROGRESS_START - Starting Operation.
+write cmdbuffer failed C0000004.
+write cmdbuffer failed C0000004.
+write cmdbuffer failed C0000004.
+done.
+'3': Reading status register contents...
+write cmdbuffer failed C0000004.
+CRC error                                         :         0
+Decryptor security set                            :         0
+DCM locked                                        :         0
+DCI matched                                       :         1
+legacy input error                                :         0
+status of GTS_CFG_B                               :         0
+status of GWE                                     :         0
+status of GHIGH                                   :         1
+value of MODE pin M0                              :         0
+value of MODE pin M1                              :         0
+value of MODE pin M2                              :         1
+value of CFG_RDY (INIT_B)                         :         0
+DONEIN input from DONE pin                        :         0
+IDCODE not validated while trying to write FDRI   :         1
+write FDRI issued before or after decrypt operation:         1
+Decryptor keys not used in proper sequence        :         1
+INFO:iMPACT:2219 - Status register values:
+INFO:iMPACT - 0001 0001 0010 0111 1110 0000 1001 0011 
+INFO:iMPACT:579 - '3': Completed downloading bit file to device.
+write cmdbuffer failed C0000004.
+INFO:iMPACT - '3': Checking done pin....done.
+'3': Programming terminated. DONE did not go high.
+write cmdbuffer failed C0000004.
+write cmdbuffer failed C0000004.
+write cmdbuffer failed C0000004.
+Error reading reference voltage level.
+VREF was lost during the current operation. It is recommended that theoperation be repeated.
+write cmdbuffer failed C0000004.
+PROGRESS_END - End Operation.
+Elapsed time =      8 sec.
+Cable is not connected.
+GUI --- Auto connect to cable...
+// *** BATCH CMD : setCable -port auto
+AutoDetecting cable. Please wait.
+PROGRESS_START - Starting Operation.
+Connecting to cable (Parallel Port - LPT1).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ LPT base address = 0378h.
+ ECP base address = FFFFFFFFh.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT2).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT3).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT4).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ File C:\Windows\system32\drivers\xusbdfwu.sys not found.
+Driver file not found. Inf file version = 0.
+ OS major version = 6.
+ Checking xusb_xlp version
+Driver file not found. Inf file version = 0.
+ Driver version: 1029 (0).
+Updating firmware file: version: src=1029, dest=0.
+Update completed.
+Connecting to cable (Usb Port - USB21).
+ Cable PID = 0008.
+ Max current requested during enumeration is 150 mA.
+Type = 0x0605.
+Cable is being reenumerated. Sending auto-disconnect command. Please wait.
+write cmdbuffer failed C0000004.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ Cable PID = 0008.
+ Max current requested during enumeration is 150 mA.
+Type = 0x0605.
+ Cable Type = 3, Revision = 0.
+ Setting cable speed to 6 MHz.
+Cable connection established.
+Firmware version = 1027.
+File version of C:/Xilinx92i/data/xusbdfwu.hex = 1027.
+Firmware hex file version = 1027.
+CPLD file version = 0012h.
+CPLD version = 0012h.
+PROGRESS_END - End Operation.
+Elapsed time =     17 sec.
+// *** BATCH CMD : Program -p 3 -defaultVersion 0 
+Maximum TCK operating frequency for this device chain: 15000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+'3': Programming device...
+PROGRESS_START - Starting Operation.
+done.
+'3': Reading status register contents...
+CRC error                                         :         0
+Decryptor security set                            :         0
+DCM locked                                        :         1
+DCI matched                                       :         1
+legacy input error                                :         0
+status of GTS_CFG_B                               :         1
+status of GWE                                     :         1
+status of GHIGH                                   :         1
+value of MODE pin M0                              :         1
+value of MODE pin M1                              :         1
+value of MODE pin M2                              :         0
+value of CFG_RDY (INIT_B)                         :         1
+DONEIN input from DONE pin                        :         1
+IDCODE not validated while trying to write FDRI   :         0
+write FDRI issued before or after decrypt operation:         0
+Decryptor keys not used in proper sequence        :         0
+INFO:iMPACT:2219 - Status register values:
+INFO:iMPACT - 0011 0111 1101 1000 0000 0000 0000 0000 
+INFO:iMPACT:579 - '3': Completed downloading bit file to device.
+INFO:iMPACT - '3': Checking done pin....done.
+'3': Programmed successfully.
+PROGRESS_END - End Operation.
+Elapsed time =      9 sec.
+Cable is not connected.
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : deleteDevice -position 1
+----------------------------------------------------------------------
+// *** BATCH CMD : deleteDevice -position 1
+----------------------------------------------------------------------
+// *** BATCH CMD : deleteDevice -position 1
+// *** BATCH CMD : setMode -ss
+// *** BATCH CMD : setMode -sm
+// *** BATCH CMD : setMode -hw140
+// *** BATCH CMD : setMode -spi
+// *** BATCH CMD : setMode -acecf
+// *** BATCH CMD : setMode -acempm
+// *** BATCH CMD : setMode -pff
+// *** BATCH CMD : setMode -bs
